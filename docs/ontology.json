@@ -1,0 +1,2924 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterqualitydata.us/data/Activity/search?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterservices.usgs.gov/nwis/gwlevels/?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterservices.usgs.gov/nwis/iv/?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Geosphere"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Crust"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Mantle"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterqualitydata.us/data/ActivityMetric/search?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterqualitydata.us/data/Result/search?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterservices.usgs.gov/nwis/site/?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterqualitydata.us/data/Station/search?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterservices.usgs.gov/nwis/stat/?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_quality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterqualitydata.us/data/"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_quality_property"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality_Property"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_measurment"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/UO_0000196"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#catalytic_concentration"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#molality"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#molarity"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#normality"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.waterservices.usgs.gov/nwis/dv/?"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_url"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Activity-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#ActivityMetric-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Result-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Station-Service"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Daily-Values-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Groundwater-Levels-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Site-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Statistics-Service"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Earth"
+    }, {
+      "@id" : "_:genid6"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#area_density"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#linear_density"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#mass_density"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Cryosphere"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Hydrosphere"
+    }, {
+      "@id" : "http://ssei.herokuapp.com/water#Lithosphere"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UO_0000190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/UO_0000191"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UO_0000191",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#dimensionless"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/UO_0000196",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#concentration"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#dimensionless"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_unit"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#AK001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Agency" ],
+  "http://ssei.herokuapp.com/water#code" : [ {
+    "@value" : "AK001"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Alaska Department of Transportation and Public Facilities"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#AK002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Agency" ],
+  "http://ssei.herokuapp.com/water#code" : [ {
+    "@value" : "AK002"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Alaska Department of Environmental Conservation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#AK004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Agency" ],
+  "http://ssei.herokuapp.com/water#code" : [ {
+    "@value" : "AK004"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Activity-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#ActivityMetric-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Agency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Alabama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "01"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Alabama"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "AL"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Alaska",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "02"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Alaska"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "AK"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Country" ],
+  "http://ssei.herokuapp.com/water#code" : [ {
+    "@value" : "US"
+  } ],
+  "http://ssei.herokuapp.com/water#hasTotalCities" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "311"
+  } ],
+  "http://ssei.herokuapp.com/water#hasTotalCounties" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3283"
+  } ],
+  "http://ssei.herokuapp.com/water#hasTotalHydrologicalSites" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1653702"
+  } ],
+  "http://ssei.herokuapp.com/water#hasTotalStates" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "51"
+  } ],
+  "http://ssei.herokuapp.com/water#has_state" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Alabama"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Alaska"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Arizona"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Arkansas"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Autauga"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Baldwin"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#California"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Colorado"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Connecticut"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Delaware"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Florida"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Georgia"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Hawaii"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Idaho"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Illinois"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Indiana"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Iowa"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Kansas"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Kentucky"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Louisiana"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Maine"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Maryland"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Massachusetts"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Michigan"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Minnesota"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Mississippi"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Missouri"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Montana"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Nebraska"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Nevada"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#New_Hampshire"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#New_Jersey"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#New_Mexico"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#North_Carolina"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#North_Dakota"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Ohio"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Oklahoma"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Oregon"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Pennsylvania"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Rhode_Island"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#South_Carolina"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#South_Dakota"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Tennessee"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Texas"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Utah"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Vermont"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Virginia"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Washington"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#West_Virginia"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Wisconsin"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Wyoming"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "United States of America"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Animal_Saste_Lagoon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Aquaculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Aquaculture water use is water associated with raising creatures that live in water—such as finfish and shellfish—for food, restoration, conservation, or sport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Aquifer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Ground_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Arizona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "04"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Arizona"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "AZ"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Arkansas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "05"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Arkansas"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "AR"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Atmosphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The atmosphere of Earth is the layer of gases, commonly known as air, that surrounds the planet Earth and is retained by Earth's gravity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Geosphere"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Atomospheric_Condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Autauga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#County" ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Autauga County"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_county_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "001"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Baldwin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#County" ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Baldwin"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_county_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "003"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Balouchistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Surface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Brook",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#California",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "06"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "California"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "CA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Canal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Cave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Subsurface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Cistern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Clouds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Cloudy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Weather"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Coastal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Ocean"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Cold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Weather"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Colorado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "08"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Colorado"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "CO"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Combined_Sewer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Condensation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Condensation is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of vapourisation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Confined_Aquifer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Aquifer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Connecticut",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "09"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Connecticut"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "CT"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Continent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#County",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#District"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Creek",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Crust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Lithosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Cryosphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Geosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Daily-Values-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Dam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Delaware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "10"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Delaware"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "DE"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#District_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "Columbia"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "District_of"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "DC"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Ditch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Diversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Domestic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Domestic water use is water used for indoor and outdoor household purposes— all the things you do at home: drinking, preparing food, bathing, washing clothes and dishes, brushing your teeth, watering the yard and garden, and even washing the dog."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Drizzle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Drizzle is a light liquid precipitation consisting of liquid water drops smaller than those of rain – generally smaller than 0.5 mm (0.02 in) in diameter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Earth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "the substance of the land surface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Estuary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Evaporation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "the process of turning from liquid into vapour."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Excavation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Extensometer_well",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Well"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Facility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Field",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Florida",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "12"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Florida"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "FL"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Fog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fog is a visible aerosol consisting of minute water droplets or ice crystals suspended in the air at or near the Earth's surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Fresh_Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fresh water (or freshwater) is any naturally occurring water except seawater and brackish water. Fresh water includes water in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, streams, and even underground water called groundwater."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Fresh_Water_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Georgia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "13"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Georgia"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "GA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Geosphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The geosphere may be taken as the collective name for the lithosphere, the hydrosphere, the cryosphere, and the atmosphere."
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Gilgit_Baltistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Glacier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Golf_of_Course",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Ground_Water_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Groundwater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Groundwater is the water present beneath Earth's surface in soil pore spaces and in the fractures of rock formations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Surface_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Groundwater-Levels-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Groundwater_Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Groundwater_drain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Subsurface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Hail is a form of solid precipitation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hawaii",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "15"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Hawaii"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "HI"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Humidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hydroelectric_Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hydrologic_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hydrologic_Unit_Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hydrosphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Geosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Hyporheic-zone_well",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Well"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Icecap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Idaho",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "16"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Idaho"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "ID"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Illinois",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "17"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Illinois"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "IL"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Indiana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "18"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Indiana"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "IN"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Industrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Industrial water use includes water used for such purposes as fabricating, processing, washing, diluting, cooling, or transporting a product; incorporating water into a product; or for sanitation needs within the manufacturing facility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Infiltration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Infiltration is the process by which water on the ground surface enters the soil. Infiltration rate in soil science is a measure of the rate at which soil is able to absorb rainfall or irrigation. It is most often measured in millimetres per hour or inches per hour."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Instantaneous-Values-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Interconnected_wells",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Well"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Iowa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "19"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Iowa"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "IA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Irrigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Throughout the world, irrigation (water for agriculture, or growing crops) is probably the most important use of water (except for drinking and washing a smelly dog, perhaps). Estimates vary, but about 70 percent of all the world's freshwater withdrawals go towards irrigation uses (http://www.globalagriculture.org/report-topics/water.html)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Kansas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "20"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Kansas"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "KS"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Karachi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#City" ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Karachi"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Kentucky",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "21"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Kentucky"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "KY"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Laboratory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Lake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Reservoir"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Land",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Land_Mass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Surface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Landfill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Lithosphere",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Livestock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ivestock water use is water associated with livestock watering, feedlots, dairy operations, and other on-farm needs. Livestock includes dairy cows and heifers, beef cattle and calves, sheep and lambs, goats, hogs and pigs, horses, and poultry. Other livestock water uses include cooling of facilities for the animals and animal products such as milk, dairy sanitation and wash down of facilities, animal waste-disposal systems, and incidental water losses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Louisiana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "22"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Louisiana"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "LA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Maine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "23"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Maine"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "ME"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Mantle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Lithosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Maryland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "24"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Maryland"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MD"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Massachusetts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "25"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Massachusetts"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Measurment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Michigan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "26"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Michigan"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MI"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Mining",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mining corporations need water to make bare rock give up its valuable minerals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Minnesota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "27"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Minnesota"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MN"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Mississippi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "28"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Mississippi"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MS"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Missouri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "29"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Missouri"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MO"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Mist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mist is a phenomenon caused by small droplets of water suspended in air."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Moisture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Montana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "30"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Montana"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "MT"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Natural_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A process existing in or produced by nature (rather than by the intent of human beings)."
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Nebraska",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "31"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Nebraska"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NE"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Nevada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "32"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Nevada"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NV"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#New_Hampshire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "33"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "New_Hampshire"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NH"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#New_Jersey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "34"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "New_Jersey"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NJ"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#New_Mexico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "35"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "New_Mexico"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NM"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#North_Carolina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "37"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "North_Carolina"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "NC"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#North_Dakota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "38"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "North_Dakota"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "ND"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Ocean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Saline_Water_Body"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Ohio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "39"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Ohio"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "OH"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Oklahoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "40"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Oklahoma"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "OK"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Oregon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "41"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Oregon"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "OR"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Outcrop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Outfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pakhtoon_Khuwah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pakistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Country" ],
+  "http://ssei.herokuapp.com/water#code" : [ {
+    "@value" : "PK"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Islamic Repulic of Pakistan"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pavement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pennsylvania",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "42"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Pennsylvania"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "PA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Percipitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Precipitation is water released from clouds in the form of rain, freezing rain, sleet, snow, or hail."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pond",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Reservoir"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Pressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Public_supply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Public supply refers to water withdrawn by public and private water suppliers that provide water to at least 25 people or have a minimum of 15 connections. Public-supply water is delivered to users for domestic, commercial, and industrial purposes, and also is used for public services and system losses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Punjab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Rain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Rain is liquid water in the form of droplets that have condensed from atmospheric water vapor and then become heavy enough to fall under gravity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Rainy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Weather"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Hydrologic_Unit"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Reservoir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Surface_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Result-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Rhode_Island",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "44"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Rhode_Island"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "RI"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#River",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Runoff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Runoff, in hydrology, quantity of water discharged in surface streams. Runoff includes not only the waters that travel over the land surface and through channels to reach a stream but also interflow, the water that infiltrates the soil surface and travels by means of gravity toward a stream channel (always above the main groundwater level) and eventually empties into the channel. Runoff also includes groundwater that is discharged into a stream; streamflow that is composed entirely of groundwater is termed base flow, or fair-weather runoff, and it occurs where a stream channel intersects the water table."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sale_Lake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Saline_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Saline_Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Saline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Saline_Water_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#San_Francisco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#City" ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "San Francisco"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Saline_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Septic_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Shore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sindh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sinkhole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Ground_Water_Body"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Surface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Site-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sleet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sleet is a regionally variant term for two distinct forms of precipitation: Rain and snow mixed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Snow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Snow refers to forms of ice crystals that precipitate from the atmosphere (usually from clouds) and undergo changes on the Earth's surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Soil_hole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#South_Carolina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "45"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "South_Carolina"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "SC"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#South_Dakota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "46"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "South_Dakota"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "SD"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Spring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Station-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Statistics-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Storm_sewer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Stream",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Surface_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Streamflow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Streamflow, or channel runoff, is the flow of water in streams, rivers, and other channels, and is a major element of the water cycle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Runoff"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Subsurface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Sunny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Weather"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Surface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Crust"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Surface_Runoff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Surface runoff (also known as overland flow) is the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Runoff"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Surface_Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Surface water is water on the surface of the planet such as in a river, lake, wetland, or ocean. It can be contrasted with groundwater and atmospheric water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Surface_Water_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water_Body"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Surface_Water_Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Swamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Reservoir"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Tennessee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "47"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Tennessee"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "TN"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Territory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Test_Hole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Well"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Texas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "48"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Texas"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "TX"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Thermoelectric_Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Thermoelectric_power",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Water for thermoelectric power is used in generating electricity with steam-driven turbine generators."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Use"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Tidal_stream",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Transpiration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Transpiration is the process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Tributory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Stream"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Tunnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Subsurface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#USGS-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Unconfined_Aquifer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Aquifer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Unsaturated_zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Subsurface"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Utah",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "49"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Utah"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "UT"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Vermont",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "50"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Vermont"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "VT"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Virginia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "51"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Virginia"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "VA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Washington",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "53"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Washington"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "WA"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Waste_Injection_Well",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wastewater_Land_Application",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wastewater_Sewer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water-Quality-Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#WaterEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Cycle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Water cycle, also called hydrologic cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Natural_Process"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Distribution_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Water quality can be thought of as a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Quality_Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Physical, chemical and bilogical properites of water"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The water in the Nation's rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world's ecological systems, too."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Water_Use_Establishment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Facility"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Watershed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A watershed – the land area that drains to one stream, lake or river – affects the water quality in the water body that it surrounds. Like water bodies (e.g., lakes, rivers, and streams), individual watersheds share similarities but also differ in many ways. Every inch of the United States is part of a watershed – in other words, all land drains into a lake, river, stream or other water body and directly affects its quality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Weather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a physical phenomenon associated with the atmosphere"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atomospheric_Condition"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Well",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Ground_Water_Body"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#West_Virginia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "54"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "West_Virginia"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "WV"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wetland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Windy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Weather"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wisconsin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "55"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Wisconsin"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "WI"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#Wyoming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "56"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "Wyoming"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "WY"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#acceleration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#affects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Geosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#alpha_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "alphabetic code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#alpha_site_type_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#alpha_code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#alpha_state_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "alphabetic state code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#alpha_code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#area_density",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#density"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#catalytic_concentration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#concentration"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#concentration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#count",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#dimensionless"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#density",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#dimensionless",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#electric_current",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#electrical_conduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#energy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#force",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#hasTotalCities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#hasTotalCounties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#hasTotalHydrologicalSites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#hasTotalStates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_atmospheric_condition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atomospheric_Condition"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_atmospheric_condition_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_city",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_county",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_district",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_hydrologic_unit_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Hydrologic_Unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Hydrologic_Unit_Code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_measurment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality_Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_province",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Province"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_province_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_quality_property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Quality_Property"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_source_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_state",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_state_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_territory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Territory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#has_region"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#has_url",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#involves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water_Cycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_atmospheric_condition_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atomospheric_Condition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Atmosphere"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_city_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_country_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_county_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_district_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_located_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_province_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Province"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_recharged_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Aquifer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Infiltration"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#recharges"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_region_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_site_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#County"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_source_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Percipitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Fresh_Water"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_state_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#is_territory_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Territory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#is_region_of"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#length",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#linear_density",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#density"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#mass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#mass_density",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#density"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#molality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#concentration"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#molarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#concentration"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#WaterEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#normality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#concentration"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#numeric_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "numeric code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#numeric_county_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#numeric_code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#numeric_state_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Agency"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
+  }, {
+    "@id" : "http://ssei.herokuapp.com/water#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "numeric state code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#numeric_code"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#population",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#power",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#pressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#recharges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Infiltration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Aquifer"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#speed/velocity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#substance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#viscosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#volume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#volumetric_flow_rate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#Measurment"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ssei.herokuapp.com/water#USGS-Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+} ]

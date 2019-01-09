@@ -1,0 +1,1998 @@
+@prefix : <http://ssei.herokuapp.com/water#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ssei.herokuapp.com/water> .
+
+<http://ssei.herokuapp.com/water> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/uo#is_unit_of
+<http://purl.obolibrary.org/obo/uo#is_unit_of> rdf:type owl:ObjectProperty ;
+                                               owl:inverseOf :has_unit .
+
+
+###  http://ssei.herokuapp.com/water#affects
+:affects rdf:type owl:ObjectProperty ;
+         rdfs:domain :Atmosphere ;
+         rdfs:range :Geosphere .
+
+
+###  http://ssei.herokuapp.com/water#has_atmospheric_condition
+:has_atmospheric_condition rdf:type owl:ObjectProperty ;
+                           owl:inverseOf :is_atmospheric_condition_of ;
+                           rdf:type owl:FunctionalProperty ;
+                           rdfs:domain :Atmosphere ;
+                           rdfs:range :Atomospheric_Condition .
+
+
+###  http://ssei.herokuapp.com/water#has_city
+:has_city rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :has_region ;
+          rdfs:domain :County ;
+          rdfs:range :City .
+
+
+###  http://ssei.herokuapp.com/water#has_country
+:has_country rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :has_region ;
+             rdfs:domain :Continent ;
+             rdfs:range :Country .
+
+
+###  http://ssei.herokuapp.com/water#has_county
+:has_county rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :has_region ;
+            rdfs:domain :State ;
+            rdfs:range :County .
+
+
+###  http://ssei.herokuapp.com/water#has_district
+:has_district rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :has_region ;
+              rdfs:domain :State ;
+              rdfs:range :County .
+
+
+###  http://ssei.herokuapp.com/water#has_hydrologic_unit_code
+:has_hydrologic_unit_code rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Hydrologic_Unit ;
+                          rdfs:range :Hydrologic_Unit_Code .
+
+
+###  http://ssei.herokuapp.com/water#has_measurment
+:has_measurment rdf:type owl:ObjectProperty ;
+                rdfs:domain :Water_Quality_Property ;
+                rdfs:range :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#has_province
+:has_province rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :has_region ;
+              owl:inverseOf :is_province_of ;
+              rdfs:domain :Country ;
+              rdfs:range :Province .
+
+
+###  http://ssei.herokuapp.com/water#has_quality
+:has_quality rdf:type owl:ObjectProperty ;
+             rdfs:domain :Water ;
+             rdfs:range :Water_Quality .
+
+
+###  http://ssei.herokuapp.com/water#has_quality_property
+:has_quality_property rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Water_Quality ;
+                      rdfs:range :Water_Quality_Property .
+
+
+###  http://ssei.herokuapp.com/water#has_region
+:has_region rdf:type owl:ObjectProperty ;
+            rdfs:domain :Land_Mass ;
+            rdfs:range :Region .
+
+
+###  http://ssei.herokuapp.com/water#has_site
+:has_site rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :has_region ;
+          rdfs:domain :County ;
+          rdfs:range :Site .
+
+
+###  http://ssei.herokuapp.com/water#has_source
+:has_source rdf:type owl:ObjectProperty ;
+            owl:inverseOf :is_source_of ;
+            rdfs:domain :Fresh_Water ;
+            rdfs:range :Percipitation .
+
+
+###  http://ssei.herokuapp.com/water#has_state
+:has_state rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :has_region ;
+           owl:inverseOf :is_state_of ;
+           rdfs:domain :Country ;
+           rdfs:range :State .
+
+
+###  http://ssei.herokuapp.com/water#has_territory
+:has_territory rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :has_region ;
+               rdfs:domain :Country ;
+               rdfs:range :Territory .
+
+
+###  http://ssei.herokuapp.com/water#has_unit
+:has_unit rdf:type owl:ObjectProperty .
+
+
+###  http://ssei.herokuapp.com/water#involves
+:involves rdf:type owl:ObjectProperty ;
+          rdfs:domain :Water_Cycle ;
+          rdfs:range :Water .
+
+
+###  http://ssei.herokuapp.com/water#is_atmospheric_condition_of
+:is_atmospheric_condition_of rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Atomospheric_Condition ;
+                             rdfs:range :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#is_city_of
+:is_city_of rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :is_region_of ;
+            rdfs:domain :City ;
+            rdfs:range :County .
+
+
+###  http://ssei.herokuapp.com/water#is_country_of
+:is_country_of rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :is_region_of ;
+               rdfs:domain :Continent ;
+               rdfs:range :Country .
+
+
+###  http://ssei.herokuapp.com/water#is_county_of
+:is_county_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :is_region_of ;
+              rdfs:domain :County ;
+              rdfs:range :State .
+
+
+###  http://ssei.herokuapp.com/water#is_district_of
+:is_district_of rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :is_region_of ;
+                rdfs:domain :District ;
+                rdfs:range :State .
+
+
+###  http://ssei.herokuapp.com/water#is_located_in
+:is_located_in rdf:type owl:ObjectProperty ;
+               rdfs:domain :Site ;
+               rdfs:range :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#is_province_of
+:is_province_of rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :is_region_of ;
+                rdfs:domain :Province ;
+                rdfs:range :Country .
+
+
+###  http://ssei.herokuapp.com/water#is_recharged_by
+:is_recharged_by rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :recharges ;
+                 rdfs:domain :Aquifer ;
+                 rdfs:range :Infiltration .
+
+
+###  http://ssei.herokuapp.com/water#is_region_of
+:is_region_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Region ;
+              rdfs:range :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#is_site_of
+:is_site_of rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :is_region_of ;
+            rdfs:domain :Site ;
+            rdfs:range :County .
+
+
+###  http://ssei.herokuapp.com/water#is_source_of
+:is_source_of rdf:type owl:ObjectProperty ;
+              rdfs:domain :Percipitation ;
+              rdfs:range :Fresh_Water .
+
+
+###  http://ssei.herokuapp.com/water#is_state_of
+:is_state_of rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :is_region_of ;
+             rdfs:domain :State ;
+             rdfs:range :Country .
+
+
+###  http://ssei.herokuapp.com/water#is_territory_of
+:is_territory_of rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :is_region_of ;
+                 rdfs:domain :Territory ;
+                 rdfs:range :Country .
+
+
+###  http://ssei.herokuapp.com/water#recharges
+:recharges rdf:type owl:ObjectProperty ;
+           rdfs:domain :Infiltration ;
+           rdfs:range :Aquifer .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ssei.herokuapp.com/water#alpha_code
+:alpha_code rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :code ;
+            rdfs:domain :Agency ,
+                        :Land_Mass ,
+                        :Site ;
+            rdfs:range xsd:string ;
+            rdfs:isDefinedBy "alphabetic code" .
+
+
+###  http://ssei.herokuapp.com/water#alpha_site_type_code
+:alpha_site_type_code rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :alpha_code ;
+                      rdfs:domain :Agency ,
+                                  :Land_Mass ,
+                                  :Site ;
+                      rdfs:range xsd:string .
+
+
+###  http://ssei.herokuapp.com/water#alpha_state_code
+:alpha_state_code rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf :alpha_code ;
+                  rdfs:domain :Agency ,
+                              :Land_Mass ,
+                              :Site ;
+                  rdfs:range xsd:string ;
+                  rdfs:isDefinedBy "alphabetic state code" .
+
+
+###  http://ssei.herokuapp.com/water#code
+:code rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Agency ,
+                  :Land_Mass ,
+                  :Site ;
+      rdfs:range xsd:string ;
+      rdfs:isDefinedBy "code" .
+
+
+###  http://ssei.herokuapp.com/water#description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :WaterEntity ;
+             rdfs:range xsd:string .
+
+
+###  http://ssei.herokuapp.com/water#hasTotalCities
+:hasTotalCities rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :State ;
+                rdfs:range xsd:integer .
+
+
+###  http://ssei.herokuapp.com/water#hasTotalCounties
+:hasTotalCounties rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :State ;
+                  rdfs:range xsd:integer .
+
+
+###  http://ssei.herokuapp.com/water#hasTotalHydrologicalSites
+:hasTotalHydrologicalSites rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :State ;
+                           rdfs:range xsd:integer .
+
+
+###  http://ssei.herokuapp.com/water#hasTotalStates
+:hasTotalStates rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Country ;
+                rdfs:range xsd:integer .
+
+
+###  http://ssei.herokuapp.com/water#has_url
+:has_url rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://ssei.herokuapp.com/water#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :WaterEntity ;
+      rdfs:range xsd:string .
+
+
+###  http://ssei.herokuapp.com/water#numeric_code
+:numeric_code rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :code ;
+              rdfs:domain :Agency ,
+                          :Land_Mass ,
+                          :Site ;
+              rdfs:range xsd:string ;
+              rdfs:isDefinedBy "numeric code" .
+
+
+###  http://ssei.herokuapp.com/water#numeric_county_code
+:numeric_county_code rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf :numeric_code ;
+                     rdfs:domain :Agency ,
+                                 :Land_Mass ,
+                                 :Site ;
+                     rdfs:range xsd:string .
+
+
+###  http://ssei.herokuapp.com/water#numeric_state_code
+:numeric_state_code rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :numeric_code ;
+                    rdfs:domain :Agency ,
+                                :Land_Mass ,
+                                :Site ;
+                    rdfs:range xsd:string ;
+                    rdfs:isDefinedBy "numeric state code" .
+
+
+###  http://ssei.herokuapp.com/water#population
+:population rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Country ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:domain :USGS-Service ;
+                    rdfs:range xsd:anyURI .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/UO_0000190
+<http://purl.obolibrary.org/obo/UO_0000190> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/UO_0000191> .
+
+
+###  http://purl.obolibrary.org/obo/UO_0000191
+<http://purl.obolibrary.org/obo/UO_0000191> rdf:type owl:Class ;
+                                            rdfs:subClassOf :dimensionless .
+
+
+###  http://purl.obolibrary.org/obo/UO_0000196
+<http://purl.obolibrary.org/obo/UO_0000196> rdf:type owl:Class ;
+                                            rdfs:subClassOf :concentration ,
+                                                            :dimensionless .
+
+
+###  http://ssei.herokuapp.com/water#Activity-Service
+:Activity-Service rdf:type owl:Class ;
+                  rdfs:subClassOf :Water-Quality-Service ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :has_url ;
+                                    owl:hasValue "https://www.waterqualitydata.us/data/Activity/search?"^^xsd:anyURI
+                                  ] .
+
+
+###  http://ssei.herokuapp.com/water#ActivityMetric-Service
+:ActivityMetric-Service rdf:type owl:Class ;
+                        rdfs:subClassOf :Water-Quality-Service ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty :has_url ;
+                                          owl:hasValue "https://www.waterqualitydata.us/data/ActivityMetric/search?"^^xsd:anyURI
+                                        ] .
+
+
+###  http://ssei.herokuapp.com/water#Agency
+:Agency rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use
+:Aggregate_Groundwater_Use rdf:type owl:Class ;
+                           rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use
+:Aggregate_Surface_Water_Use rdf:type owl:Class ;
+                             rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment
+:Aggregate_Water_Use_Establishment rdf:type owl:Class ;
+                                   rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Animal_Saste_Lagoon
+:Animal_Saste_Lagoon rdf:type owl:Class ;
+                     rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Aquaculture
+:Aquaculture rdf:type owl:Class ;
+             rdfs:subClassOf :Water_Use ;
+             rdfs:comment "Aquaculture water use is water associated with raising creatures that live in water—such as finfish and shellfish—for food, restoration, conservation, or sport." .
+
+
+###  http://ssei.herokuapp.com/water#Aquifer
+:Aquifer rdf:type owl:Class ;
+         rdfs:subClassOf :Ground_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Atmosphere
+:Atmosphere rdf:type owl:Class ;
+            rdfs:subClassOf :Geosphere ,
+                            :Site ;
+            rdfs:comment "The atmosphere of Earth is the layer of gases, commonly known as air, that surrounds the planet Earth and is retained by Earth's gravity." .
+
+
+###  http://ssei.herokuapp.com/water#Atomospheric_Condition
+:Atomospheric_Condition rdf:type owl:Class ;
+                        rdfs:comment "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation" .
+
+
+###  http://ssei.herokuapp.com/water#Body_Of_Water
+:Body_Of_Water rdf:type owl:Class ;
+               rdfs:subClassOf :Surface .
+
+
+###  http://ssei.herokuapp.com/water#Brook
+:Brook rdf:type owl:Class ;
+       rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Canal
+:Canal rdf:type owl:Class ;
+       rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Cave
+:Cave rdf:type owl:Class ;
+      rdfs:subClassOf :Subsurface .
+
+
+###  http://ssei.herokuapp.com/water#Cistern
+:Cistern rdf:type owl:Class ;
+         rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Clouds
+:Clouds rdf:type owl:Class ;
+        rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Cloudy
+:Cloudy rdf:type owl:Class ;
+        rdfs:subClassOf :Weather .
+
+
+###  http://ssei.herokuapp.com/water#Coastal
+:Coastal rdf:type owl:Class ;
+         rdfs:subClassOf :Ocean .
+
+
+###  http://ssei.herokuapp.com/water#Cold
+:Cold rdf:type owl:Class ;
+      rdfs:subClassOf :Weather .
+
+
+###  http://ssei.herokuapp.com/water#Combined_Sewer
+:Combined_Sewer rdf:type owl:Class ;
+                rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Condensation
+:Condensation rdf:type owl:Class ;
+              rdfs:subClassOf :Water_Cycle ;
+              rdfs:comment "Condensation is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of vapourisation." .
+
+
+###  http://ssei.herokuapp.com/water#Confined_Aquifer
+:Confined_Aquifer rdf:type owl:Class ;
+                  rdfs:subClassOf :Aquifer .
+
+
+###  http://ssei.herokuapp.com/water#Continent
+:Continent rdf:type owl:Class ;
+           rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#County
+:County rdf:type owl:Class ;
+        owl:equivalentClass :District ;
+        rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Creek
+:Creek rdf:type owl:Class ;
+       rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Crust
+:Crust rdf:type owl:Class ;
+       rdfs:subClassOf :Lithosphere .
+
+
+###  http://ssei.herokuapp.com/water#Cryosphere
+:Cryosphere rdf:type owl:Class ;
+            rdfs:subClassOf :Geosphere .
+
+
+###  http://ssei.herokuapp.com/water#Daily-Values-Service
+:Daily-Values-Service rdf:type owl:Class ;
+                      rdfs:subClassOf :USGS-Service ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :has_url ;
+                                        owl:hasValue "https://www.waterservices.usgs.gov/nwis/dv/?"^^xsd:anyURI
+                                      ] .
+
+
+###  http://ssei.herokuapp.com/water#Dam
+:Dam rdf:type owl:Class ;
+     rdfs:subClassOf :Fresh_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Ditch
+:Ditch rdf:type owl:Class ;
+       rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Diversion
+:Diversion rdf:type owl:Class ;
+           rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Domestic
+:Domestic rdf:type owl:Class ;
+          rdfs:subClassOf :Water_Use ;
+          rdfs:comment "Domestic water use is water used for indoor and outdoor household purposes— all the things you do at home: drinking, preparing food, bathing, washing clothes and dishes, brushing your teeth, watering the yard and garden, and even washing the dog." .
+
+
+###  http://ssei.herokuapp.com/water#Drizzle
+:Drizzle rdf:type owl:Class ;
+         rdfs:subClassOf :Percipitation ;
+         rdfs:comment "Drizzle is a light liquid precipitation consisting of liquid water drops smaller than those of rain – generally smaller than 0.5 mm (0.02 in) in diameter." .
+
+
+###  http://ssei.herokuapp.com/water#Earth
+:Earth rdf:type owl:Class ;
+       rdfs:comment "the substance of the land surface" .
+
+
+###  http://ssei.herokuapp.com/water#Estuary
+:Estuary rdf:type owl:Class ;
+         rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Evaporation
+:Evaporation rdf:type owl:Class ;
+             rdfs:subClassOf :Water_Cycle ;
+             rdfs:comment "the process of turning from liquid into vapour." .
+
+
+###  http://ssei.herokuapp.com/water#Excavation
+:Excavation rdf:type owl:Class ;
+            rdfs:subClassOf :Land .
+
+
+###  http://ssei.herokuapp.com/water#Extensometer_well
+:Extensometer_well rdf:type owl:Class ;
+                   rdfs:subClassOf :Well .
+
+
+###  http://ssei.herokuapp.com/water#Facility
+:Facility rdf:type owl:Class ;
+          rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Field
+:Field rdf:type owl:Class ;
+       rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Fog
+:Fog rdf:type owl:Class ;
+     rdfs:subClassOf :Percipitation ;
+     rdfs:comment "Fog is a visible aerosol consisting of minute water droplets or ice crystals suspended in the air at or near the Earth's surface." .
+
+
+###  http://ssei.herokuapp.com/water#Fresh_Water
+:Fresh_Water rdf:type owl:Class ;
+             rdfs:subClassOf :Water ;
+             rdfs:comment "Fresh water (or freshwater) is any naturally occurring water except seawater and brackish water. Fresh water includes water in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, streams, and even underground water called groundwater." .
+
+
+###  http://ssei.herokuapp.com/water#Fresh_Water_Body
+:Fresh_Water_Body rdf:type owl:Class ;
+                  rdfs:subClassOf :Body_Of_Water .
+
+
+###  http://ssei.herokuapp.com/water#Geosphere
+:Geosphere rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( :Earth
+                                                      [ rdf:type owl:Class ;
+                                                        owl:unionOf ( :Atmosphere
+                                                                      :Cryosphere
+                                                                      :Hydrosphere
+                                                                      :Lithosphere
+                                                                    )
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:comment "The geosphere may be taken as the collective name for the lithosphere, the hydrosphere, the cryosphere, and the atmosphere." .
+
+
+###  http://ssei.herokuapp.com/water#Glacier
+:Glacier rdf:type owl:Class ;
+         rdfs:subClassOf :Body_Of_Water ,
+                         :Site .
+
+
+###  http://ssei.herokuapp.com/water#Golf_of_Course
+:Golf_of_Course rdf:type owl:Class ;
+                rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Ground_Water_Body
+:Ground_Water_Body rdf:type owl:Class ;
+                   rdfs:subClassOf :Fresh_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Groundwater
+:Groundwater rdf:type owl:Class ;
+             rdfs:subClassOf :Fresh_Water ;
+             owl:disjointWith :Surface_Water ;
+             rdfs:comment "Groundwater is the water present beneath Earth's surface in soil pore spaces and in the fractures of rock formations." .
+
+
+###  http://ssei.herokuapp.com/water#Groundwater-Levels-Service
+:Groundwater-Levels-Service rdf:type owl:Class ;
+                            rdfs:subClassOf :USGS-Service ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :has_url ;
+                                              owl:hasValue "https://www.waterservices.usgs.gov/nwis/gwlevels/?"^^xsd:anyURI
+                                            ] .
+
+
+###  http://ssei.herokuapp.com/water#Groundwater_Quality
+:Groundwater_Quality rdf:type owl:Class ;
+                     rdfs:subClassOf :Water_Quality .
+
+
+###  http://ssei.herokuapp.com/water#Groundwater_drain
+:Groundwater_drain rdf:type owl:Class ;
+                   rdfs:subClassOf :Subsurface .
+
+
+###  http://ssei.herokuapp.com/water#Hail
+:Hail rdf:type owl:Class ;
+      rdfs:subClassOf :Percipitation ;
+      rdfs:comment "Hail is a form of solid precipitation." .
+
+
+###  http://ssei.herokuapp.com/water#Humidity
+:Humidity rdf:type owl:Class ;
+          rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Hydroelectric_Plant
+:Hydroelectric_Plant rdf:type owl:Class ;
+                     rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Hydrologic_Unit
+:Hydrologic_Unit rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Hydrologic_Unit_Code
+:Hydrologic_Unit_Code rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Hydrosphere
+:Hydrosphere rdf:type owl:Class ;
+             rdfs:subClassOf :Geosphere .
+
+
+###  http://ssei.herokuapp.com/water#Hyporheic-zone_well
+:Hyporheic-zone_well rdf:type owl:Class ;
+                     rdfs:subClassOf :Well .
+
+
+###  http://ssei.herokuapp.com/water#Icecap
+:Icecap rdf:type owl:Class ;
+        rdfs:subClassOf :Body_Of_Water .
+
+
+###  http://ssei.herokuapp.com/water#Industrial
+:Industrial rdf:type owl:Class ;
+            rdfs:subClassOf :Water_Use ;
+            rdfs:comment "Industrial water use includes water used for such purposes as fabricating, processing, washing, diluting, cooling, or transporting a product; incorporating water into a product; or for sanitation needs within the manufacturing facility" .
+
+
+###  http://ssei.herokuapp.com/water#Infiltration
+:Infiltration rdf:type owl:Class ;
+              rdfs:subClassOf :Water_Cycle ;
+              rdfs:comment "Infiltration is the process by which water on the ground surface enters the soil. Infiltration rate in soil science is a measure of the rate at which soil is able to absorb rainfall or irrigation. It is most often measured in millimetres per hour or inches per hour." .
+
+
+###  http://ssei.herokuapp.com/water#Instantaneous-Values-Service
+:Instantaneous-Values-Service rdf:type owl:Class ;
+                              rdfs:subClassOf :USGS-Service ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :has_url ;
+                                                owl:hasValue "https://www.waterservices.usgs.gov/nwis/iv/?"^^xsd:anyURI
+                                              ] .
+
+
+###  http://ssei.herokuapp.com/water#Interconnected_wells
+:Interconnected_wells rdf:type owl:Class ;
+                      rdfs:subClassOf :Well .
+
+
+###  http://ssei.herokuapp.com/water#Irrigation
+:Irrigation rdf:type owl:Class ;
+            rdfs:subClassOf :Water_Use ;
+            rdfs:comment "Throughout the world, irrigation (water for agriculture, or growing crops) is probably the most important use of water (except for drinking and washing a smelly dog, perhaps). Estimates vary, but about 70 percent of all the world's freshwater withdrawals go towards irrigation uses (http://www.globalagriculture.org/report-topics/water.html)." .
+
+
+###  http://ssei.herokuapp.com/water#Laboratory
+:Laboratory rdf:type owl:Class ;
+            rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Lake
+:Lake rdf:type owl:Class ;
+      rdfs:subClassOf :Reservoir ,
+                      :Site .
+
+
+###  http://ssei.herokuapp.com/water#Land
+:Land rdf:type owl:Class ;
+      rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Land_Mass
+:Land_Mass rdf:type owl:Class ;
+           rdfs:subClassOf :Surface .
+
+
+###  http://ssei.herokuapp.com/water#Landfill
+:Landfill rdf:type owl:Class ;
+          rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Lithosphere
+:Lithosphere rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Geosphere
+                                                        [ rdf:type owl:Class ;
+                                                          owl:unionOf ( :Crust
+                                                                        :Mantle
+                                                                      )
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] .
+
+
+###  http://ssei.herokuapp.com/water#Livestock
+:Livestock rdf:type owl:Class ;
+           rdfs:subClassOf :Water_Use ;
+           rdfs:comment "ivestock water use is water associated with livestock watering, feedlots, dairy operations, and other on-farm needs. Livestock includes dairy cows and heifers, beef cattle and calves, sheep and lambs, goats, hogs and pigs, horses, and poultry. Other livestock water uses include cooling of facilities for the animals and animal products such as milk, dairy sanitation and wash down of facilities, animal waste-disposal systems, and incidental water losses." .
+
+
+###  http://ssei.herokuapp.com/water#Mantle
+:Mantle rdf:type owl:Class ;
+        rdfs:subClassOf :Lithosphere .
+
+
+###  http://ssei.herokuapp.com/water#Measurment
+:Measurment rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Mining
+:Mining rdf:type owl:Class ;
+        rdfs:subClassOf :Water_Use ;
+        rdfs:comment "Mining corporations need water to make bare rock give up its valuable minerals." .
+
+
+###  http://ssei.herokuapp.com/water#Mist
+:Mist rdf:type owl:Class ;
+      rdfs:subClassOf :Percipitation ;
+      rdfs:comment "Mist is a phenomenon caused by small droplets of water suspended in air." .
+
+
+###  http://ssei.herokuapp.com/water#Moisture
+:Moisture rdf:type owl:Class ;
+          rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Natural_Process
+:Natural_Process rdf:type owl:Class ;
+                 rdfs:comment "A process existing in or produced by nature (rather than by the intent of human beings)." .
+
+
+###  http://ssei.herokuapp.com/water#Ocean
+:Ocean rdf:type owl:Class ;
+       rdfs:subClassOf :Saline_Water_Body ,
+                       :Site .
+
+
+###  http://ssei.herokuapp.com/water#Outcrop
+:Outcrop rdf:type owl:Class ;
+         rdfs:subClassOf :Land .
+
+
+###  http://ssei.herokuapp.com/water#Outfall
+:Outfall rdf:type owl:Class ;
+         rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Pavement
+:Pavement rdf:type owl:Class ;
+          rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Percipitation
+:Percipitation rdf:type owl:Class ;
+               rdfs:subClassOf :Atmosphere ,
+                               :Water_Cycle ;
+               rdfs:comment "Precipitation is water released from clouds in the form of rain, freezing rain, sleet, snow, or hail." .
+
+
+###  http://ssei.herokuapp.com/water#Pond
+:Pond rdf:type owl:Class ;
+      rdfs:subClassOf :Reservoir .
+
+
+###  http://ssei.herokuapp.com/water#Pressure
+:Pressure rdf:type owl:Class ;
+          rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Province
+:Province rdf:type owl:Class ;
+          rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Public_supply
+:Public_supply rdf:type owl:Class ;
+               rdfs:subClassOf :Water_Use ;
+               rdfs:comment "Public supply refers to water withdrawn by public and private water suppliers that provide water to at least 25 people or have a minimum of 15 connections. Public-supply water is delivered to users for domestic, commercial, and industrial purposes, and also is used for public services and system losses." .
+
+
+###  http://ssei.herokuapp.com/water#Rain
+:Rain rdf:type owl:Class ;
+      rdfs:subClassOf :Percipitation ;
+      rdfs:comment "Rain is liquid water in the form of droplets that have condensed from atmospheric water vapor and then become heavy enough to fall under gravity." .
+
+
+###  http://ssei.herokuapp.com/water#Rainy
+:Rainy rdf:type owl:Class ;
+       rdfs:subClassOf :Weather .
+
+
+###  http://ssei.herokuapp.com/water#Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :Hydrologic_Unit ,
+                        :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Reservoir
+:Reservoir rdf:type owl:Class ;
+           rdfs:subClassOf :Surface_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Result-Service
+:Result-Service rdf:type owl:Class ;
+                rdfs:subClassOf :Water-Quality-Service ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :has_url ;
+                                  owl:hasValue "https://www.waterqualitydata.us/data/Result/search?"^^xsd:anyURI
+                                ] .
+
+
+###  http://ssei.herokuapp.com/water#River
+:River rdf:type owl:Class ;
+       rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Runoff
+:Runoff rdf:type owl:Class ;
+        rdfs:subClassOf :Water_Cycle ;
+        rdfs:comment "Runoff, in hydrology, quantity of water discharged in surface streams. Runoff includes not only the waters that travel over the land surface and through channels to reach a stream but also interflow, the water that infiltrates the soil surface and travels by means of gravity toward a stream channel (always above the main groundwater level) and eventually empties into the channel. Runoff also includes groundwater that is discharged into a stream; streamflow that is composed entirely of groundwater is termed base flow, or fair-weather runoff, and it occurs where a stream channel intersects the water table." .
+
+
+###  http://ssei.herokuapp.com/water#Sale_Lake
+:Sale_Lake rdf:type owl:Class ;
+           rdfs:subClassOf :Saline_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Saline_Water
+:Saline_Water rdf:type owl:Class ;
+              rdfs:subClassOf :Water ;
+              rdfs:comment "Saline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl)." .
+
+
+###  http://ssei.herokuapp.com/water#Saline_Water_Body
+:Saline_Water_Body rdf:type owl:Class ;
+                   rdfs:subClassOf :Body_Of_Water .
+
+
+###  http://ssei.herokuapp.com/water#Sea
+:Sea rdf:type owl:Class ;
+     rdfs:subClassOf :Saline_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Septic_system
+:Septic_system rdf:type owl:Class ;
+               rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Shore
+:Shore rdf:type owl:Class ;
+       rdfs:subClassOf :Land .
+
+
+###  http://ssei.herokuapp.com/water#Sinkhole
+:Sinkhole rdf:type owl:Class ;
+          rdfs:subClassOf :Ground_Water_Body ,
+                          :Land .
+
+
+###  http://ssei.herokuapp.com/water#Site
+:Site rdf:type owl:Class ;
+      rdfs:subClassOf :Surface .
+
+
+###  http://ssei.herokuapp.com/water#Site-Service
+:Site-Service rdf:type owl:Class ;
+              rdfs:subClassOf :USGS-Service ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :has_url ;
+                                owl:hasValue "https://www.waterservices.usgs.gov/nwis/site/?"^^xsd:anyURI
+                              ] .
+
+
+###  http://ssei.herokuapp.com/water#Sleet
+:Sleet rdf:type owl:Class ;
+       rdfs:subClassOf :Percipitation ;
+       rdfs:comment "Sleet is a regionally variant term for two distinct forms of precipitation: Rain and snow mixed." .
+
+
+###  http://ssei.herokuapp.com/water#Snow
+:Snow rdf:type owl:Class ;
+      rdfs:subClassOf :Percipitation ;
+      rdfs:comment "Snow refers to forms of ice crystals that precipitate from the atmosphere (usually from clouds) and undergo changes on the Earth's surface." .
+
+
+###  http://ssei.herokuapp.com/water#Soil_hole
+:Soil_hole rdf:type owl:Class ;
+           rdfs:subClassOf :Land .
+
+
+###  http://ssei.herokuapp.com/water#Spring
+:Spring rdf:type owl:Class ;
+        rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#State
+:State rdf:type owl:Class ;
+       rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Station-Service
+:Station-Service rdf:type owl:Class ;
+                 rdfs:subClassOf :Water-Quality-Service ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :has_url ;
+                                   owl:hasValue "https://www.waterqualitydata.us/data/Station/search?"^^xsd:anyURI
+                                 ] .
+
+
+###  http://ssei.herokuapp.com/water#Statistics-Service
+:Statistics-Service rdf:type owl:Class ;
+                    rdfs:subClassOf :USGS-Service ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :has_url ;
+                                      owl:hasValue "https://www.waterservices.usgs.gov/nwis/stat/?"^^xsd:anyURI
+                                    ] .
+
+
+###  http://ssei.herokuapp.com/water#Storm_sewer
+:Storm_sewer rdf:type owl:Class ;
+             rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Stream
+:Stream rdf:type owl:Class ;
+        rdfs:subClassOf :Site ,
+                        :Surface_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Streamflow
+:Streamflow rdf:type owl:Class ;
+            rdfs:subClassOf :Runoff ;
+            rdfs:comment "Streamflow, or channel runoff, is the flow of water in streams, rivers, and other channels, and is a major element of the water cycle." .
+
+
+###  http://ssei.herokuapp.com/water#Subsurface
+:Subsurface rdf:type owl:Class ;
+            rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Sunny
+:Sunny rdf:type owl:Class ;
+       rdfs:subClassOf :Weather .
+
+
+###  http://ssei.herokuapp.com/water#Surface
+:Surface rdf:type owl:Class ;
+         rdfs:subClassOf :Crust .
+
+
+###  http://ssei.herokuapp.com/water#Surface_Runoff
+:Surface_Runoff rdf:type owl:Class ;
+                rdfs:subClassOf :Runoff ;
+                rdfs:comment "Surface runoff (also known as overland flow) is the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface." .
+
+
+###  http://ssei.herokuapp.com/water#Surface_Water
+:Surface_Water rdf:type owl:Class ;
+               rdfs:subClassOf :Fresh_Water ;
+               rdfs:comment "Surface water is water on the surface of the planet such as in a river, lake, wetland, or ocean. It can be contrasted with groundwater and atmospheric water." .
+
+
+###  http://ssei.herokuapp.com/water#Surface_Water_Body
+:Surface_Water_Body rdf:type owl:Class ;
+                    rdfs:subClassOf :Fresh_Water_Body .
+
+
+###  http://ssei.herokuapp.com/water#Surface_Water_Quality
+:Surface_Water_Quality rdf:type owl:Class ;
+                       rdfs:subClassOf :Water_Quality .
+
+
+###  http://ssei.herokuapp.com/water#Swamp
+:Swamp rdf:type owl:Class ;
+       rdfs:subClassOf :Reservoir .
+
+
+###  http://ssei.herokuapp.com/water#Temperature
+:Temperature rdf:type owl:Class ;
+             rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Territory
+:Territory rdf:type owl:Class ;
+           rdfs:subClassOf :Land_Mass .
+
+
+###  http://ssei.herokuapp.com/water#Test_Hole
+:Test_Hole rdf:type owl:Class ;
+           rdfs:subClassOf :Well .
+
+
+###  http://ssei.herokuapp.com/water#Thermoelectric_Plant
+:Thermoelectric_Plant rdf:type owl:Class ;
+                      rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Thermoelectric_power
+:Thermoelectric_power rdf:type owl:Class ;
+                      rdfs:subClassOf :Water_Use ;
+                      rdfs:comment "Water for thermoelectric power is used in generating electricity with steam-driven turbine generators." .
+
+
+###  http://ssei.herokuapp.com/water#Tidal_stream
+:Tidal_stream rdf:type owl:Class ;
+              rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Transpiration
+:Transpiration rdf:type owl:Class ;
+               rdfs:subClassOf :Water_Cycle ;
+               rdfs:comment "Transpiration is the process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere." .
+
+
+###  http://ssei.herokuapp.com/water#Tributory
+:Tributory rdf:type owl:Class ;
+           rdfs:subClassOf :Stream .
+
+
+###  http://ssei.herokuapp.com/water#Tunnel
+:Tunnel rdf:type owl:Class ;
+        rdfs:subClassOf :Subsurface .
+
+
+###  http://ssei.herokuapp.com/water#USGS-Service
+:USGS-Service rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Unconfined_Aquifer
+:Unconfined_Aquifer rdf:type owl:Class ;
+                    rdfs:subClassOf :Aquifer .
+
+
+###  http://ssei.herokuapp.com/water#Unsaturated_zone
+:Unsaturated_zone rdf:type owl:Class ;
+                  rdfs:subClassOf :Subsurface .
+
+
+###  http://ssei.herokuapp.com/water#Waste_Injection_Well
+:Waste_Injection_Well rdf:type owl:Class ;
+                      rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Wastewater_Land_Application
+:Wastewater_Land_Application rdf:type owl:Class ;
+                             rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Wastewater_Sewer
+:Wastewater_Sewer rdf:type owl:Class ;
+                  rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant
+:Wastewater_Treatment_Plant rdf:type owl:Class ;
+                            rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Water
+:Water rdf:type owl:Class ;
+       rdfs:subClassOf :WaterEntity ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :has_quality ;
+                         owl:someValuesFrom :Water_Quality
+                       ] ;
+       rdfs:comment "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms." .
+
+
+###  http://ssei.herokuapp.com/water#Water-Quality-Service
+:Water-Quality-Service rdf:type owl:Class ;
+                       rdfs:subClassOf :USGS-Service ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :has_url ;
+                                         owl:hasValue "https://www.waterqualitydata.us/data/"^^xsd:anyURI
+                                       ] .
+
+
+###  http://ssei.herokuapp.com/water#WaterEntity
+:WaterEntity rdf:type owl:Class .
+
+
+###  http://ssei.herokuapp.com/water#Water_Cycle
+:Water_Cycle rdf:type owl:Class ;
+             rdfs:subClassOf :Natural_Process ;
+             rdfs:comment "Water cycle, also called hydrologic cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff." .
+
+
+###  http://ssei.herokuapp.com/water#Water_Distribution_System
+:Water_Distribution_System rdf:type owl:Class ;
+                           rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Water_Quality
+:Water_Quality rdf:type owl:Class ;
+               rdfs:subClassOf :WaterEntity ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :has_quality_property ;
+                                 owl:someValuesFrom :Water_Quality_Property
+                               ] ;
+               rdfs:comment "Water quality can be thought of as a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics" .
+
+
+###  http://ssei.herokuapp.com/water#Water_Quality_Property
+:Water_Quality_Property rdf:type owl:Class ;
+                        rdfs:subClassOf :WaterEntity ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty :has_measurment ;
+                                          owl:someValuesFrom :Measurment
+                                        ] ;
+                        rdfs:comment "Physical, chemical and bilogical properites of water" .
+
+
+###  http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant
+:Water_Supply_Treatment_Plant rdf:type owl:Class ;
+                              rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Water_Use
+:Water_Use rdf:type owl:Class ;
+           rdfs:subClassOf :WaterEntity ;
+           rdfs:comment "The water in the Nation's rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world's ecological systems, too." .
+
+
+###  http://ssei.herokuapp.com/water#Water_Use_Establishment
+:Water_Use_Establishment rdf:type owl:Class ;
+                         rdfs:subClassOf :Facility .
+
+
+###  http://ssei.herokuapp.com/water#Watershed
+:Watershed rdf:type owl:Class ;
+           rdfs:subClassOf :Land_Mass ;
+           rdfs:comment "A watershed – the land area that drains to one stream, lake or river – affects the water quality in the water body that it surrounds. Like water bodies (e.g., lakes, rivers, and streams), individual watersheds share similarities but also differ in many ways. Every inch of the United States is part of a watershed – in other words, all land drains into a lake, river, stream or other water body and directly affects its quality." .
+
+
+###  http://ssei.herokuapp.com/water#Weather
+:Weather rdf:type owl:Class ;
+         rdfs:subClassOf :Atomospheric_Condition ;
+         rdfs:comment "a physical phenomenon associated with the atmosphere" .
+
+
+###  http://ssei.herokuapp.com/water#Well
+:Well rdf:type owl:Class ;
+      rdfs:subClassOf :Ground_Water_Body ,
+                      :Site .
+
+
+###  http://ssei.herokuapp.com/water#Wetland
+:Wetland rdf:type owl:Class ;
+         rdfs:subClassOf :Site .
+
+
+###  http://ssei.herokuapp.com/water#Wind
+:Wind rdf:type owl:Class ;
+      rdfs:subClassOf :Atmosphere .
+
+
+###  http://ssei.herokuapp.com/water#Windy
+:Windy rdf:type owl:Class ;
+       rdfs:subClassOf :Weather .
+
+
+###  http://ssei.herokuapp.com/water#acceleration
+:acceleration rdf:type owl:Class ;
+              rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#area
+:area rdf:type owl:Class ;
+      rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#area_density
+:area_density rdf:type owl:Class ;
+              rdfs:subClassOf :density .
+
+
+###  http://ssei.herokuapp.com/water#catalytic_concentration
+:catalytic_concentration rdf:type owl:Class ;
+                         rdfs:subClassOf :concentration .
+
+
+###  http://ssei.herokuapp.com/water#concentration
+:concentration rdf:type owl:Class ;
+               rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#count
+:count rdf:type owl:Class ;
+       rdfs:subClassOf :dimensionless .
+
+
+###  http://ssei.herokuapp.com/water#density
+:density rdf:type owl:Class ;
+         rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#dimensionless
+:dimensionless rdf:type owl:Class ;
+               rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#electric_current
+:electric_current rdf:type owl:Class ;
+                  rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#electrical_conduction
+:electrical_conduction rdf:type owl:Class ;
+                       rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#energy
+:energy rdf:type owl:Class ;
+        rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#force
+:force rdf:type owl:Class ;
+       rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#length
+:length rdf:type owl:Class ;
+        rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#linear_density
+:linear_density rdf:type owl:Class ;
+                rdfs:subClassOf :density .
+
+
+###  http://ssei.herokuapp.com/water#mass
+:mass rdf:type owl:Class ;
+      rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#mass_density
+:mass_density rdf:type owl:Class ;
+              rdfs:subClassOf :density .
+
+
+###  http://ssei.herokuapp.com/water#molality
+:molality rdf:type owl:Class ;
+          rdfs:subClassOf :concentration .
+
+
+###  http://ssei.herokuapp.com/water#molarity
+:molarity rdf:type owl:Class ;
+          rdfs:subClassOf :concentration .
+
+
+###  http://ssei.herokuapp.com/water#normality
+:normality rdf:type owl:Class ;
+           rdfs:subClassOf :concentration .
+
+
+###  http://ssei.herokuapp.com/water#power
+:power rdf:type owl:Class ;
+       rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#pressure
+:pressure rdf:type owl:Class ;
+          rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#substance
+:substance rdf:type owl:Class ;
+           rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#temperature
+:temperature rdf:type owl:Class ;
+             rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#time
+:time rdf:type owl:Class ;
+      rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#viscosity
+:viscosity rdf:type owl:Class ;
+           rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#volume
+:volume rdf:type owl:Class ;
+        rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#volumetric_flow_rate
+:volumetric_flow_rate rdf:type owl:Class ;
+                      rdfs:subClassOf :Measurment .
+
+
+###  http://ssei.herokuapp.com/water#speed/velocity
+<http://ssei.herokuapp.com/water#speed/velocity> rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Measurment .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://ssei.herokuapp.com/water#AK001
+:AK001 rdf:type owl:NamedIndividual ,
+                :Agency ;
+       :code "AK001" ;
+       :name "Alaska Department of Transportation and Public Facilities" .
+
+
+###  http://ssei.herokuapp.com/water#AK002
+:AK002 rdf:type owl:NamedIndividual ,
+                :Agency ;
+       :code "AK002" ;
+       :name "Alaska Department of Environmental Conservation" .
+
+
+###  http://ssei.herokuapp.com/water#AK004
+:AK004 rdf:type owl:NamedIndividual ,
+                :Agency ;
+       :code "AK004" ;
+       :name "" .
+
+
+###  http://ssei.herokuapp.com/water#Alabama
+:Alabama rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "01" ;
+         :name "Alabama" ;
+         :numeric_state_code AL .
+
+
+###  http://ssei.herokuapp.com/water#Alaska
+:Alaska rdf:type owl:NamedIndividual ,
+                 :State ;
+        :alpha_state_code "02" ;
+        :name "Alaska" ;
+        :numeric_state_code AK .
+
+
+###  http://ssei.herokuapp.com/water#America
+:America rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :has_state :Alabama ,
+                    :Alaska ,
+                    :Arizona ,
+                    :Arkansas ,
+                    :Autauga ,
+                    :Baldwin ,
+                    :California ,
+                    :Colorado ,
+                    :Connecticut ,
+                    :Delaware ,
+                    :Florida ,
+                    :Georgia ,
+                    :Hawaii ,
+                    :Idaho ,
+                    :Illinois ,
+                    :Indiana ,
+                    :Iowa ,
+                    :Kansas ,
+                    :Kentucky ,
+                    :Louisiana ,
+                    :Maine ,
+                    :Maryland ,
+                    :Massachusetts ,
+                    :Michigan ,
+                    :Minnesota ,
+                    :Mississippi ,
+                    :Missouri ,
+                    :Montana ,
+                    :Nebraska ,
+                    :Nevada ,
+                    :New_Hampshire ,
+                    :New_Jersey ,
+                    :New_Mexico ,
+                    :North_Carolina ,
+                    :North_Dakota ,
+                    :Ohio ,
+                    :Oklahoma ,
+                    :Oregon ,
+                    :Pennsylvania ,
+                    :Rhode_Island ,
+                    :South_Carolina ,
+                    :South_Dakota ,
+                    :Tennessee ,
+                    :Texas ,
+                    :Utah ,
+                    :Vermont ,
+                    :Virginia ,
+                    :Washington ,
+                    :West_Virginia ,
+                    :Wisconsin ,
+                    :Wyoming ;
+         :code "US" ;
+         :hasTotalCities 311 ;
+         :hasTotalCounties 3283 ;
+         :hasTotalHydrologicalSites 1653702 ;
+         :hasTotalStates 51 ;
+         :name "United States of America" .
+
+
+###  http://ssei.herokuapp.com/water#Arizona
+:Arizona rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "04" ;
+         :name "Arizona" ;
+         :numeric_state_code AZ .
+
+
+###  http://ssei.herokuapp.com/water#Arkansas
+:Arkansas rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "05" ;
+          :name "Arkansas" ;
+          :numeric_state_code AR .
+
+
+###  http://ssei.herokuapp.com/water#Autauga
+:Autauga rdf:type owl:NamedIndividual ,
+                  :County ;
+         :name "Autauga County" ;
+         :numeric_county_code 001 ;
+         :numeric_state_code 01 .
+
+
+###  http://ssei.herokuapp.com/water#Baldwin
+:Baldwin rdf:type owl:NamedIndividual ,
+                  :County ;
+         :name "Baldwin" ;
+         :numeric_county_code 003 ;
+         :numeric_state_code 01 .
+
+
+###  http://ssei.herokuapp.com/water#Balouchistan
+:Balouchistan rdf:type owl:NamedIndividual ,
+                       :Province .
+
+
+###  http://ssei.herokuapp.com/water#California
+:California rdf:type owl:NamedIndividual ,
+                     :State ;
+            :alpha_state_code "06" ;
+            :name "California" ;
+            :numeric_state_code CA .
+
+
+###  http://ssei.herokuapp.com/water#Colorado
+:Colorado rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "08" ;
+          :name "Colorado" ;
+          :numeric_state_code CO .
+
+
+###  http://ssei.herokuapp.com/water#Connecticut
+:Connecticut rdf:type owl:NamedIndividual ,
+                      :State ;
+             :alpha_state_code "09" ;
+             :name "Connecticut" ;
+             :numeric_state_code CT .
+
+
+###  http://ssei.herokuapp.com/water#Delaware
+:Delaware rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "10" ;
+          :name "Delaware" ;
+          :numeric_state_code DE .
+
+
+###  http://ssei.herokuapp.com/water#District_of
+:District_of rdf:type owl:NamedIndividual ,
+                      :State ;
+             :alpha_state_code "Columbia" ;
+             :name "District_of" ;
+             :numeric_state_code DC .
+
+
+###  http://ssei.herokuapp.com/water#Florida
+:Florida rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "12" ;
+         :name "Florida" ;
+         :numeric_state_code FL .
+
+
+###  http://ssei.herokuapp.com/water#Georgia
+:Georgia rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "13" ;
+         :name "Georgia" ;
+         :numeric_state_code GA .
+
+
+###  http://ssei.herokuapp.com/water#Gilgit_Baltistan
+:Gilgit_Baltistan rdf:type owl:NamedIndividual ,
+                           :Province .
+
+
+###  http://ssei.herokuapp.com/water#Hawaii
+:Hawaii rdf:type owl:NamedIndividual ,
+                 :State ;
+        :alpha_state_code "15" ;
+        :name "Hawaii" ;
+        :numeric_state_code HI .
+
+
+###  http://ssei.herokuapp.com/water#Idaho
+:Idaho rdf:type owl:NamedIndividual ,
+                :State ;
+       :alpha_state_code "16" ;
+       :name "Idaho" ;
+       :numeric_state_code ID .
+
+
+###  http://ssei.herokuapp.com/water#Illinois
+:Illinois rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "17" ;
+          :name "Illinois" ;
+          :numeric_state_code IL .
+
+
+###  http://ssei.herokuapp.com/water#Indiana
+:Indiana rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "18" ;
+         :name "Indiana" ;
+         :numeric_state_code IN .
+
+
+###  http://ssei.herokuapp.com/water#Iowa
+:Iowa rdf:type owl:NamedIndividual ,
+               :State ;
+      :alpha_state_code "19" ;
+      :name "Iowa" ;
+      :numeric_state_code IA .
+
+
+###  http://ssei.herokuapp.com/water#Kansas
+:Kansas rdf:type owl:NamedIndividual ,
+                 :State ;
+        :alpha_state_code "20" ;
+        :name "Kansas" ;
+        :numeric_state_code KS .
+
+
+###  http://ssei.herokuapp.com/water#Karachi
+:Karachi rdf:type owl:NamedIndividual ,
+                  :City ;
+         :name "Karachi" .
+
+
+###  http://ssei.herokuapp.com/water#Kentucky
+:Kentucky rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "21" ;
+          :name "Kentucky" ;
+          :numeric_state_code KY .
+
+
+###  http://ssei.herokuapp.com/water#Louisiana
+:Louisiana rdf:type owl:NamedIndividual ,
+                    :State ;
+           :alpha_state_code "22" ;
+           :name "Louisiana" ;
+           :numeric_state_code LA .
+
+
+###  http://ssei.herokuapp.com/water#Maine
+:Maine rdf:type owl:NamedIndividual ,
+                :State ;
+       :alpha_state_code "23" ;
+       :name "Maine" ;
+       :numeric_state_code ME .
+
+
+###  http://ssei.herokuapp.com/water#Maryland
+:Maryland rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "24" ;
+          :name "Maryland" ;
+          :numeric_state_code MD .
+
+
+###  http://ssei.herokuapp.com/water#Massachusetts
+:Massachusetts rdf:type owl:NamedIndividual ,
+                        :State ;
+               :alpha_state_code "25" ;
+               :name "Massachusetts" ;
+               :numeric_state_code MA .
+
+
+###  http://ssei.herokuapp.com/water#Michigan
+:Michigan rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "26" ;
+          :name "Michigan" ;
+          :numeric_state_code MI .
+
+
+###  http://ssei.herokuapp.com/water#Minnesota
+:Minnesota rdf:type owl:NamedIndividual ,
+                    :State ;
+           :alpha_state_code "27" ;
+           :name "Minnesota" ;
+           :numeric_state_code MN .
+
+
+###  http://ssei.herokuapp.com/water#Mississippi
+:Mississippi rdf:type owl:NamedIndividual ,
+                      :State ;
+             :alpha_state_code "28" ;
+             :name "Mississippi" ;
+             :numeric_state_code MS .
+
+
+###  http://ssei.herokuapp.com/water#Missouri
+:Missouri rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "29" ;
+          :name "Missouri" ;
+          :numeric_state_code MO .
+
+
+###  http://ssei.herokuapp.com/water#Montana
+:Montana rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "30" ;
+         :name "Montana" ;
+         :numeric_state_code MT .
+
+
+###  http://ssei.herokuapp.com/water#Nebraska
+:Nebraska rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "31" ;
+          :name "Nebraska" ;
+          :numeric_state_code NE .
+
+
+###  http://ssei.herokuapp.com/water#Nevada
+:Nevada rdf:type owl:NamedIndividual ,
+                 :State ;
+        :alpha_state_code "32" ;
+        :name "Nevada" ;
+        :numeric_state_code NV .
+
+
+###  http://ssei.herokuapp.com/water#New_Hampshire
+:New_Hampshire rdf:type owl:NamedIndividual ,
+                        :State ;
+               :alpha_state_code "33" ;
+               :name "New_Hampshire" ;
+               :numeric_state_code NH .
+
+
+###  http://ssei.herokuapp.com/water#New_Jersey
+:New_Jersey rdf:type owl:NamedIndividual ,
+                     :State ;
+            :alpha_state_code "34" ;
+            :name "New_Jersey" ;
+            :numeric_state_code NJ .
+
+
+###  http://ssei.herokuapp.com/water#New_Mexico
+:New_Mexico rdf:type owl:NamedIndividual ,
+                     :State ;
+            :alpha_state_code "35" ;
+            :name "New_Mexico" ;
+            :numeric_state_code NM .
+
+
+###  http://ssei.herokuapp.com/water#North_Carolina
+:North_Carolina rdf:type owl:NamedIndividual ,
+                         :State ;
+                :alpha_state_code "37" ;
+                :name "North_Carolina" ;
+                :numeric_state_code NC .
+
+
+###  http://ssei.herokuapp.com/water#North_Dakota
+:North_Dakota rdf:type owl:NamedIndividual ,
+                       :State ;
+              :alpha_state_code "38" ;
+              :name "North_Dakota" ;
+              :numeric_state_code ND .
+
+
+###  http://ssei.herokuapp.com/water#Ohio
+:Ohio rdf:type owl:NamedIndividual ,
+               :State ;
+      :alpha_state_code "39" ;
+      :name "Ohio" ;
+      :numeric_state_code OH .
+
+
+###  http://ssei.herokuapp.com/water#Oklahoma
+:Oklahoma rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "40" ;
+          :name "Oklahoma" ;
+          :numeric_state_code OK .
+
+
+###  http://ssei.herokuapp.com/water#Oregon
+:Oregon rdf:type owl:NamedIndividual ,
+                 :State ;
+        :alpha_state_code "41" ;
+        :name "Oregon" ;
+        :numeric_state_code OR .
+
+
+###  http://ssei.herokuapp.com/water#Pakhtoon_Khuwah
+:Pakhtoon_Khuwah rdf:type owl:NamedIndividual ,
+                          :Province .
+
+
+###  http://ssei.herokuapp.com/water#Pakistan
+:Pakistan rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :code "PK" ;
+          :name "Islamic Repulic of Pakistan" .
+
+
+###  http://ssei.herokuapp.com/water#Pennsylvania
+:Pennsylvania rdf:type owl:NamedIndividual ,
+                       :State ;
+              :alpha_state_code "42" ;
+              :name "Pennsylvania" ;
+              :numeric_state_code PA .
+
+
+###  http://ssei.herokuapp.com/water#Punjab
+:Punjab rdf:type owl:NamedIndividual ,
+                 :Province .
+
+
+###  http://ssei.herokuapp.com/water#Rhode_Island
+:Rhode_Island rdf:type owl:NamedIndividual ,
+                       :State ;
+              :alpha_state_code "44" ;
+              :name "Rhode_Island" ;
+              :numeric_state_code RI .
+
+
+###  http://ssei.herokuapp.com/water#San_Francisco
+:San_Francisco rdf:type owl:NamedIndividual ,
+                        :City ;
+               :name "San Francisco" .
+
+
+###  http://ssei.herokuapp.com/water#Sindh
+:Sindh rdf:type owl:NamedIndividual ,
+                :Province .
+
+
+###  http://ssei.herokuapp.com/water#South_Carolina
+:South_Carolina rdf:type owl:NamedIndividual ,
+                         :State ;
+                :alpha_state_code "45" ;
+                :name "South_Carolina" ;
+                :numeric_state_code SC .
+
+
+###  http://ssei.herokuapp.com/water#South_Dakota
+:South_Dakota rdf:type owl:NamedIndividual ,
+                       :State ;
+              :alpha_state_code "46" ;
+              :name "South_Dakota" ;
+              :numeric_state_code SD .
+
+
+###  http://ssei.herokuapp.com/water#Tennessee
+:Tennessee rdf:type owl:NamedIndividual ,
+                    :State ;
+           :alpha_state_code "47" ;
+           :name "Tennessee" ;
+           :numeric_state_code TN .
+
+
+###  http://ssei.herokuapp.com/water#Texas
+:Texas rdf:type owl:NamedIndividual ,
+                :State ;
+       :alpha_state_code "48" ;
+       :name "Texas" ;
+       :numeric_state_code TX .
+
+
+###  http://ssei.herokuapp.com/water#Utah
+:Utah rdf:type owl:NamedIndividual ,
+               :State ;
+      :alpha_state_code "49" ;
+      :name "Utah" ;
+      :numeric_state_code UT .
+
+
+###  http://ssei.herokuapp.com/water#Vermont
+:Vermont rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "50" ;
+         :name "Vermont" ;
+         :numeric_state_code VT .
+
+
+###  http://ssei.herokuapp.com/water#Virginia
+:Virginia rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "51" ;
+          :name "Virginia" ;
+          :numeric_state_code VA .
+
+
+###  http://ssei.herokuapp.com/water#Washington
+:Washington rdf:type owl:NamedIndividual ,
+                     :State ;
+            :alpha_state_code "53" ;
+            :name "Washington" ;
+            :numeric_state_code WA .
+
+
+###  http://ssei.herokuapp.com/water#West_Virginia
+:West_Virginia rdf:type owl:NamedIndividual ,
+                        :State ;
+               :alpha_state_code "54" ;
+               :name "West_Virginia" ;
+               :numeric_state_code WV .
+
+
+###  http://ssei.herokuapp.com/water#Wisconsin
+:Wisconsin rdf:type owl:NamedIndividual ,
+                    :State ;
+           :alpha_state_code "55" ;
+           :name "Wisconsin" ;
+           :numeric_state_code WI .
+
+
+###  http://ssei.herokuapp.com/water#Wyoming
+:Wyoming rdf:type owl:NamedIndividual ,
+                  :State ;
+         :alpha_state_code "56" ;
+         :name "Wyoming" ;
+         :numeric_state_code WY .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://purl.obolibrary.org/obo/UO_0000196>
+                :catalytic_concentration
+                :molality
+                :molarity
+                :normality
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Activity-Service
+                :ActivityMetric-Service
+                :Result-Service
+                :Station-Service
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Daily-Values-Service
+                :Groundwater-Levels-Service
+                :Site-Service
+                :Statistics-Service
+                :Water-Quality-Service
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :area_density
+                :linear_density
+                :mass_density
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

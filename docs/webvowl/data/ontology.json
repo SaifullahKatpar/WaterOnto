@@ -1,0 +1,5518 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://ssei.herokuapp.com/water", "http://purl.obolibrary.org/obo", "http://purl.obolibrary.org/obo/uo", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://ssei.herokuapp.com/water"
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 187,
+    "objectPropertyCount" : 34,
+    "datatypePropertyCount" : 16,
+    "individualCount" : 64
+  },
+  "class" : [ {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "248",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "263",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "268",
+    "type" : "owl:Class"
+  }, {
+    "id" : "287",
+    "type" : "owl:Class"
+  }, {
+    "id" : "277",
+    "type" : "owl:Class"
+  }, {
+    "id" : "298",
+    "type" : "owl:Class"
+  }, {
+    "id" : "300",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "306",
+    "type" : "owl:Class"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "309",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "39",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "240",
+    "type" : "owl:Class"
+  }, {
+    "id" : "299",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "312",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "335",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "345",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "304",
+    "type" : "owl:Class"
+  }, {
+    "id" : "319",
+    "type" : "owl:Class"
+  }, {
+    "id" : "356",
+    "type" : "owl:Class"
+  }, {
+    "id" : "357",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "366",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "378",
+    "type" : "owl:Class"
+  }, {
+    "id" : "305",
+    "type" : "owl:Class"
+  }, {
+    "id" : "257",
+    "type" : "owl:Class"
+  }, {
+    "id" : "381",
+    "type" : "owl:Class"
+  }, {
+    "id" : "347",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "352",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "387",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "396",
+    "type" : "owl:Class"
+  }, {
+    "id" : "311",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "301",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "328",
+    "type" : "owl:Class"
+  }, {
+    "id" : "404",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "405",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "406",
+    "type" : "owl:Class"
+  }, {
+    "id" : "407",
+    "type" : "owl:Class"
+  }, {
+    "id" : "408",
+    "type" : "owl:Class"
+  }, {
+    "id" : "302",
+    "type" : "owl:Class"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "410",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "414",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "415",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "331",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "385",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "283",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "355",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "419",
+    "type" : "owl:Class"
+  }, {
+    "id" : "417",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "259",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "279",
+    "type" : "owl:Class"
+  }, {
+    "id" : "340",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "416",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "425",
+    "type" : "owl:Class"
+  }, {
+    "id" : "428",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "349",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "422",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://ssei.herokuapp.com/water#power",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "power"
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Temperature",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#mass",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mass"
+    },
+    "id" : "37",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Rainy",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rainy"
+    },
+    "id" : "41",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Natural_Process",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Process"
+    },
+    "subClasses" : [ "47" ],
+    "comment" : {
+      "undefined" : "A process existing in or produced by nature (rather than by the intent of human beings)."
+    },
+    "id" : "46"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Cycle",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Cycle"
+    },
+    "subClasses" : [ "50", "51", "52", "53", "54", "55" ],
+    "comment" : {
+      "undefined" : "Water cycle, also called hydrologic cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff."
+    },
+    "id" : "47",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Pressure",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pressure"
+    },
+    "id" : "61",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Storm_sewer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storm_sewer"
+    },
+    "id" : "102",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Animal_Saste_Lagoon",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Animal_Saste_Lagoon"
+    },
+    "id" : "22",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#District",
+    "equivalent" : [ "103" ],
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "District"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "26",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Territory",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Territory"
+    },
+    "id" : "105",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Result-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Result-Service"
+    },
+    "id" : "101",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Aquaculture",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aquaculture"
+    },
+    "comment" : {
+      "undefined" : "Aquaculture water use is water associated with raising creatures that live in water—such as finfish and shellfish—for food, restoration, conservation, or sport."
+    },
+    "id" : "133",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Cold",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cold"
+    },
+    "id" : "135",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Measurment",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Measurment"
+    },
+    "subClasses" : [ "136", "23", "137", "138", "139", "140", "141", "142", "143", "120", "144", "145", "146", "147", "148", "149", "37", "2", "150", "151" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#pressure",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "pressure"
+    },
+    "id" : "145",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hydroelectric_Plant",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydroelectric_Plant"
+    },
+    "id" : "159",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Outfall",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Outfall"
+    },
+    "id" : "160",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Quality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Quality"
+    },
+    "subClasses" : [ "76", "80" ],
+    "comment" : {
+      "undefined" : "Water quality can be thought of as a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics"
+    },
+    "id" : "77",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Unconfined_Aquifer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unconfined_Aquifer"
+    },
+    "id" : "89",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water-Quality-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water-Quality-Service"
+    },
+    "subClasses" : [ "93", "97", "101", "57" ],
+    "id" : "58",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#time",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "time"
+    },
+    "id" : "146",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Evaporation",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Evaporation"
+    },
+    "comment" : {
+      "undefined" : "the process of turning from liquid into vapour."
+    },
+    "id" : "54",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Wastewater_Land_Application",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wastewater_Land_Application"
+    },
+    "id" : "189",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Spring",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spring"
+    },
+    "id" : "87",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Continent",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Continent"
+    },
+    "id" : "20",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Waste_Injection_Well",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Waste_Injection_Well"
+    },
+    "id" : "49",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Atmosphere",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Atmosphere"
+    },
+    "subClasses" : [ "35", "220", "221", "222", "53", "223", "61" ],
+    "comment" : {
+      "undefined" : "The atmosphere of Earth is the layer of gases, commonly known as air, that surrounds the planet Earth and is retained by Earth's gravity."
+    },
+    "id" : "36",
+    "superClasses" : [ "69", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Drizzle",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drizzle"
+    },
+    "comment" : {
+      "undefined" : "Drizzle is a light liquid precipitation consisting of liquid water drops smaller than those of rain – generally smaller than 0.5 mm (0.02 in) in diameter."
+    },
+    "id" : "224",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#molality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "molality"
+    },
+    "id" : "225",
+    "superClasses" : [ "137" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Interconnected_wells",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interconnected_wells"
+    },
+    "id" : "228",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aggregate_Groundwater_Use"
+    },
+    "id" : "32",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Province",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Province"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#Balouchistan",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Balouchistan"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Punjab",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Punjab"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Pakhtoon_Khuwah",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Pakhtoon_Khuwah"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Gilgit_Baltistan",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Gilgit_Baltistan"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Sindh",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Sindh"
+      }
+    } ],
+    "id" : "235",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Saline_Water_Body",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saline_Water_Body"
+    },
+    "subClasses" : [ "236", "127", "237" ],
+    "id" : "179",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Coastal",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Coastal"
+    },
+    "id" : "126",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Daily-Values-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Daily-Values-Service"
+    },
+    "id" : "245",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#volume",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "volume"
+    },
+    "id" : "136",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#count",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "count"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Use_Establishment",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Use_Establishment"
+    },
+    "id" : "206",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Domestic",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domestic"
+    },
+    "comment" : {
+      "undefined" : "Domestic water use is water used for indoor and outdoor household purposes— all the things you do at home: drinking, preparing food, bathing, washing clothes and dishes, brushing your teeth, watering the yard and garden, and even washing the dog."
+    },
+    "id" : "248",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Tunnel",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tunnel"
+    },
+    "id" : "254",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Thermoelectric_power",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thermoelectric_power"
+    },
+    "comment" : {
+      "undefined" : "Water for thermoelectric power is used in generating electricity with steam-driven turbine generators."
+    },
+    "id" : "263",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Surface_Water",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface_Water"
+    },
+    "comment" : {
+      "undefined" : "Surface water is water on the surface of the planet such as in a river, lake, wetland, or ocean. It can be contrasted with groundwater and atmospheric water."
+    },
+    "id" : "132",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#temperature",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "temperature"
+    },
+    "id" : "141",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Crust",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Crust"
+    },
+    "subClasses" : [ "268" ],
+    "id" : "115",
+    "superClasses" : [ "113" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#State",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#Colorado",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Colorado"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Texas",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Texas"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Kansas",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Kansas"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#New_Jersey",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "New_Jersey"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Rhode_Island",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Rhode_Island"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#New_Hampshire",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "New_Hampshire"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#West_Virginia",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "West_Virginia"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Tennessee",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Tennessee"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Hawaii",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Hawaii"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Washington",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Washington"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Maryland",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Maryland"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Wisconsin",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Wisconsin"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Illinois",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Illinois"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Connecticut",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Connecticut"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Alaska",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Alaska"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Virginia",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Virginia"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Idaho",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Idaho"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Oregon",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Oregon"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Kentucky",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Kentucky"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Georgia",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Georgia"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Oklahoma",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Oklahoma"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#South_Carolina",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "South_Carolina"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Alabama",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Alabama"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#California",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "California"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Delaware",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Delaware"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Utah",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Utah"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Mississippi",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Mississippi"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Florida",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Florida"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Iowa",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Iowa"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#South_Dakota",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "South_Dakota"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#North_Carolina",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "North_Carolina"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Nevada",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Nevada"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Arizona",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Arizona"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Montana",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Montana"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Massachusetts",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Massachusetts"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Pennsylvania",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Pennsylvania"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Michigan",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Michigan"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#New_Mexico",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "New_Mexico"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Missouri",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Missouri"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Arkansas",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Arkansas"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Louisiana",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Louisiana"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#North_Dakota",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "North_Dakota"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Indiana",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Indiana"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Minnesota",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Minnesota"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Wyoming",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Wyoming"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Maine",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Maine"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Ohio",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Ohio"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Vermont",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Vermont"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#District_of",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "District_of"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Nebraska",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Nebraska"
+      }
+    } ],
+    "id" : "16",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Lake",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lake"
+    },
+    "id" : "82",
+    "superClasses" : [ "73", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Surface",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface"
+    },
+    "subClasses" : [ "175", "12", "5" ],
+    "id" : "268",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Snow",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Snow"
+    },
+    "comment" : {
+      "undefined" : "Snow refers to forms of ice crystals that precipitate from the atmosphere (usually from clouds) and undergo changes on the Earth's surface."
+    },
+    "id" : "287",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Statistics-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Statistics-Service"
+    },
+    "id" : "277",
+    "superClasses" : [ "186" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "298"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "300"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Use",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Use"
+    },
+    "subClasses" : [ "301", "248", "302", "133", "303", "263", "304", "305" ],
+    "comment" : {
+      "undefined" : "The water in the Nation's rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world's ecological systems, too."
+    },
+    "id" : "134",
+    "superClasses" : [ "44" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Surface_Runoff",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface_Runoff"
+    },
+    "comment" : {
+      "undefined" : "Surface runoff (also known as overland flow) is the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface."
+    },
+    "id" : "307",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#energy",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "energy"
+    },
+    "id" : "142",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "308",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "309",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "39",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water"
+    },
+    "subClasses" : [ "130", "311" ],
+    "comment" : {
+      "undefined" : "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms."
+    },
+    "id" : "240",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Agency",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agency"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#AK004",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "AK004"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#AK002",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "AK002"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#AK001",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "AK001"
+      }
+    } ],
+    "id" : "299"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Land",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Land"
+    },
+    "subClasses" : [ "312", "165", "168", "170", "172" ],
+    "id" : "166",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "313",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "315",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Shore",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shore"
+    },
+    "id" : "312",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "316",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "317",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Supply_Treatment_Plant"
+    },
+    "id" : "219",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Estuary",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Estuary"
+    },
+    "id" : "14",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Body_Of_Water",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Body_Of_Water"
+    },
+    "subClasses" : [ "174", "4", "163", "179" ],
+    "id" : "175",
+    "superClasses" : [ "268" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#substance",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "substance"
+    },
+    "id" : "149",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "321",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "320",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Distribution_System",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Distribution_System"
+    },
+    "id" : "193",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "322",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Excavation",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Excavation"
+    },
+    "id" : "170",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "325",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "326",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hydrosphere",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrosphere"
+    },
+    "id" : "107",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Septic_system",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Septic_system"
+    },
+    "id" : "214",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Wastewater_Sewer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wastewater_Sewer"
+    },
+    "id" : "197",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Sunny",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sunny"
+    },
+    "id" : "335",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Lithosphere",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lithosphere"
+    },
+    "subClasses" : [ "112", "115" ],
+    "intersection" : [ "69" ],
+    "attributes" : [ "intersection" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Humidity",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Humidity"
+    },
+    "id" : "220",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Test_Hole",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Test_Hole"
+    },
+    "id" : "109",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Mist",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mist"
+    },
+    "comment" : {
+      "undefined" : "Mist is a phenomenon caused by small droplets of water suspended in air."
+    },
+    "id" : "345",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Groundwater_Quality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Groundwater_Quality"
+    },
+    "id" : "76",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Mining",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mining"
+    },
+    "comment" : {
+      "undefined" : "Mining corporations need water to make bare rock give up its valuable minerals."
+    },
+    "id" : "304",
+    "superClasses" : [ "134" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "319"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "356"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "357"
+  }, {
+    "instances" : 0,
+    "union" : [ "12", "299", "5" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#City",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#San_Francisco",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "San_Francisco"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Karachi",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Karachi"
+      }
+    } ],
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Transpiration",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transpiration"
+    },
+    "comment" : {
+      "undefined" : "Transpiration is the process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere."
+    },
+    "id" : "51",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Soil_hole",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soil_hole"
+    },
+    "id" : "168",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Cryosphere",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cryosphere"
+    },
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#density",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "density"
+    },
+    "subClasses" : [ "119", "122", "124" ],
+    "id" : "120",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Ocean",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ocean"
+    },
+    "subClasses" : [ "126" ],
+    "id" : "127",
+    "superClasses" : [ "179", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Unsaturated_zone",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Unsaturated_zone"
+    },
+    "id" : "366",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Clouds",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Clouds"
+    },
+    "id" : "222",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Cloudy",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cloudy"
+    },
+    "id" : "378",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Irrigation",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Irrigation"
+    },
+    "comment" : {
+      "undefined" : "Throughout the world, irrigation (water for agriculture, or growing crops) is probably the most important use of water (except for drinking and washing a smelly dog, perhaps). Estimates vary, but about 70 percent of all the world's freshwater withdrawals go towards irrigation uses (http://www.globalagriculture.org/report-topics/water.html)."
+    },
+    "id" : "305",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Swamp",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Swamp"
+    },
+    "id" : "257",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Landfill",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Landfill"
+    },
+    "id" : "381",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Fog",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fog"
+    },
+    "comment" : {
+      "undefined" : "Fog is a visible aerosol consisting of minute water droplets or ice crystals suspended in the air at or near the Earth's surface."
+    },
+    "id" : "347",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#speed/velocity",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "speed/velocity"
+    },
+    "id" : "144",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hydrologic_Unit",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrologic_Unit"
+    },
+    "subClasses" : [ "272" ],
+    "id" : "352"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Moisture",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Moisture"
+    },
+    "id" : "221",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Percipitation",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Percipitation"
+    },
+    "subClasses" : [ "287", "355", "345", "224", "349", "347", "340" ],
+    "comment" : {
+      "undefined" : "Precipitation is water released from clouds in the form of rain, freezing rain, sleet, snow, or hail."
+    },
+    "id" : "53",
+    "superClasses" : [ "36", "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#catalytic_concentration",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "catalytic_concentration"
+    },
+    "id" : "387",
+    "superClasses" : [ "137" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aggregate_Surface_Water_Use"
+    },
+    "id" : "95",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Field",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Field"
+    },
+    "id" : "216",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Runoff",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Runoff"
+    },
+    "subClasses" : [ "328", "307" ],
+    "comment" : {
+      "undefined" : "Runoff, in hydrology, quantity of water discharged in surface streams. Runoff includes not only the waters that travel over the land surface and through channels to reach a stream but also interflow, the water that infiltrates the soil surface and travels by means of gravity toward a stream channel (always above the main groundwater level) and eventually empties into the channel. Runoff also includes groundwater that is discharged into a stream; streamflow that is composed entirely of groundwater is termed base flow, or fair-weather runoff, and it occurs where a stream channel intersects the water table."
+    },
+    "id" : "52",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Mantle",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mantle"
+    },
+    "id" : "112",
+    "superClasses" : [ "113" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#mass_density",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "mass_density"
+    },
+    "id" : "122",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Instantaneous-Values-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Instantaneous-Values-Service"
+    },
+    "id" : "396",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Saline_Water",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saline_Water"
+    },
+    "comment" : {
+      "undefined" : "Saline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl)."
+    },
+    "id" : "311",
+    "superClasses" : [ "240" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Watershed",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Watershed"
+    },
+    "comment" : {
+      "undefined" : "A watershed – the land area that drains to one stream, lake or river – affects the water quality in the water body that it surrounds. Like water bodies (e.g., lakes, rivers, and streams), individual watersheds share similarities but also differ in many ways. Every inch of the United States is part of a watershed – in other words, all land drains into a lake, river, stream or other water body and directly affects its quality."
+    },
+    "id" : "30",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#concentration",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "concentration"
+    },
+    "subClasses" : [ "331", "7", "225", "387", "385" ],
+    "id" : "137",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Livestock",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Livestock"
+    },
+    "comment" : {
+      "undefined" : "ivestock water use is water associated with livestock watering, feedlots, dairy operations, and other on-farm needs. Livestock includes dairy cows and heifers, beef cattle and calves, sheep and lambs, goats, hogs and pigs, horses, and poultry. Other livestock water uses include cooling of facilities for the animals and animal products such as milk, dairy sanitation and wash down of facilities, animal waste-disposal systems, and incidental water losses."
+    },
+    "id" : "301",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#length",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "length"
+    },
+    "id" : "148",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Well",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Well"
+    },
+    "subClasses" : [ "228", "109", "66", "71" ],
+    "id" : "60",
+    "superClasses" : [ "181", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#linear_density",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "linear_density"
+    },
+    "id" : "124",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Extensometer_well",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Extensometer_well"
+    },
+    "id" : "66",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Aquifer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aquifer"
+    },
+    "subClasses" : [ "84", "89" ],
+    "id" : "85",
+    "superClasses" : [ "181" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#dimensionless",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "dimensionless"
+    },
+    "subClasses" : [ "63", "1", "7" ],
+    "id" : "2",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#County",
+    "equivalent" : [ "26" ],
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "County"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#Baldwin",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Baldwin"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Autauga",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Autauga"
+      }
+    } ],
+    "attributes" : [ "equivalent" ],
+    "id" : "103",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aggregate_Water_Use_Establishment"
+    },
+    "id" : "99",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Streamflow",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Streamflow"
+    },
+    "comment" : {
+      "undefined" : "Streamflow, or channel runoff, is the flow of water in streams, rivers, and other channels, and is a major element of the water cycle."
+    },
+    "id" : "328",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Earth",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Earth"
+    },
+    "comment" : {
+      "undefined" : "the substance of the land surface"
+    },
+    "id" : "404"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Pavement",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pavement"
+    },
+    "id" : "212",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hydrologic_Unit_Code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrologic_Unit_Code"
+    },
+    "id" : "405"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Land_Mass",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Land_Mass"
+    },
+    "subClasses" : [ "11", "16", "20", "26", "30", "34", "103", "105", "272", "235" ],
+    "id" : "12",
+    "superClasses" : [ "268" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Ditch",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ditch"
+    },
+    "id" : "406",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Groundwater_drain",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Groundwater_drain"
+    },
+    "id" : "407",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#River",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "River"
+    },
+    "id" : "408",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Industrial",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Industrial"
+    },
+    "comment" : {
+      "undefined" : "Industrial water use includes water used for such purposes as fabricating, processing, washing, diluting, cooling, or transporting a product; incorporating water into a product; or for sanitation needs within the manufacturing facility"
+    },
+    "id" : "302",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Sea",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sea"
+    },
+    "id" : "237",
+    "superClasses" : [ "179" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Golf_of_Course",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Golf_of_Course"
+    },
+    "id" : "210",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Reservoir",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reservoir"
+    },
+    "subClasses" : [ "82", "257", "259" ],
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wastewater_Treatment_Plant"
+    },
+    "id" : "200",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#force",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "force"
+    },
+    "id" : "143",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Wind",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wind"
+    },
+    "id" : "223",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Windy",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Windy"
+    },
+    "id" : "410",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Infiltration",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Infiltration"
+    },
+    "comment" : {
+      "undefined" : "Infiltration is the process by which water on the ground surface enters the soil. Infiltration rate in soil science is a measure of the rate at which soil is able to absorb rainfall or irrigation. It is most often measured in millimetres per hour or inches per hour."
+    },
+    "id" : "50",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Station-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Station-Service"
+    },
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Creek",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creek"
+    },
+    "id" : "414",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Region",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "id" : "272",
+    "superClasses" : [ "352", "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#area",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "area"
+    },
+    "id" : "140",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Ground_Water_Body",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ground_Water_Body"
+    },
+    "subClasses" : [ "60", "85", "172" ],
+    "id" : "181",
+    "superClasses" : [ "163" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/UO_0000190",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UO_0000190"
+    },
+    "attributes" : [ "external" ],
+    "id" : "231",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/UO_0000191",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UO_0000191"
+    },
+    "subClasses" : [ "231" ],
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/UO_0000196",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UO_0000196"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "137", "2" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#WaterEntity",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WaterEntity"
+    },
+    "subClasses" : [ "134", "234", "77", "240" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Tidal_stream",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tidal_stream"
+    },
+    "id" : "415",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Facility",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Facility"
+    },
+    "subClasses" : [ "210", "212", "214", "216", "219", "197", "102", "200", "202", "204", "206", "159", "160", "193", "195", "416", "381", "417" ],
+    "id" : "91",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#normality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "normality"
+    },
+    "id" : "331",
+    "superClasses" : [ "137" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#USGS-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "USGS-Service"
+    },
+    "subClasses" : [ "283", "58", "245", "277", "396", "279" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#molarity",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "molarity"
+    },
+    "id" : "385",
+    "superClasses" : [ "137" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Cistern",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cistern"
+    },
+    "id" : "195",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#acceleration",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "acceleration"
+    },
+    "id" : "151",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Water_Quality_Property",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Water_Quality_Property"
+    },
+    "comment" : {
+      "undefined" : "Physical, chemical and bilogical properites of water"
+    },
+    "id" : "234",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Weather",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Weather"
+    },
+    "subClasses" : [ "41", "135", "335", "378", "410" ],
+    "comment" : {
+      "undefined" : "a physical phenomenon associated with the atmosphere"
+    },
+    "id" : "42",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Surface_Water_Quality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface_Water_Quality"
+    },
+    "id" : "80",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Groundwater-Levels-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Groundwater-Levels-Service"
+    },
+    "id" : "283",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Subsurface",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subsurface"
+    },
+    "subClasses" : [ "254", "407", "366", "419" ],
+    "id" : "28",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Sinkhole",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sinkhole"
+    },
+    "id" : "172",
+    "superClasses" : [ "181", "166" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Groundwater",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Groundwater"
+    },
+    "comment" : {
+      "undefined" : "Groundwater is the water present beneath Earth's surface in soil pore spaces and in the fractures of rock formations."
+    },
+    "id" : "129",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Rain",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rain"
+    },
+    "comment" : {
+      "undefined" : "Rain is liquid water in the form of droplets that have condensed from atmospheric water vapor and then become heavy enough to fall under gravity."
+    },
+    "id" : "355",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Confined_Aquifer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Confined_Aquifer"
+    },
+    "id" : "84",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Cave",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cave"
+    },
+    "id" : "419",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Combined_Sewer",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Combined_Sewer"
+    },
+    "id" : "417",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Stream",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stream"
+    },
+    "subClasses" : [ "415", "422", "425", "406", "428", "414", "408" ],
+    "id" : "9",
+    "superClasses" : [ "74", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Glacier",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glacier"
+    },
+    "id" : "4",
+    "superClasses" : [ "175", "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Pond",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pond"
+    },
+    "id" : "259",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hyporheic-zone_well",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hyporheic-zone_well"
+    },
+    "id" : "71",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Site-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site-Service"
+    },
+    "id" : "279",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Hail",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hail"
+    },
+    "comment" : {
+      "undefined" : "Hail is a form of solid precipitation."
+    },
+    "id" : "340",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Outcrop",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Outcrop"
+    },
+    "id" : "165",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Diversion",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diversion"
+    },
+    "id" : "416",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Condensation",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Condensation"
+    },
+    "comment" : {
+      "undefined" : "Condensation is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of vapourisation."
+    },
+    "id" : "55",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Sale_Lake",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sale_Lake"
+    },
+    "id" : "236",
+    "superClasses" : [ "179" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Country",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://ssei.herokuapp.com/water#America",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "America"
+      }
+    }, {
+      "iri" : "http://ssei.herokuapp.com/water#Pakistan",
+      "baseIri" : "http://ssei.herokuapp.com/water",
+      "labels" : {
+        "IRI-based" : "Pakistan"
+      }
+    } ],
+    "id" : "34",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#volumetric_flow_rate",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "volumetric_flow_rate"
+    },
+    "id" : "138",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Fresh_Water_Body",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fresh_Water_Body"
+    },
+    "subClasses" : [ "181", "74", "162" ],
+    "id" : "163",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Thermoelectric_Plant",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thermoelectric_Plant"
+    },
+    "id" : "204",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#ActivityMetric-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActivityMetric-Service"
+    },
+    "id" : "93",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Brook",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Brook"
+    },
+    "id" : "425",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Tributory",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tributory"
+    },
+    "id" : "428",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#area_density",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "area_density"
+    },
+    "id" : "119",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Atomospheric_Condition",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Atomospheric_Condition"
+    },
+    "subClasses" : [ "42" ],
+    "comment" : {
+      "undefined" : "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation"
+    },
+    "id" : "117"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Icecap",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Icecap"
+    },
+    "id" : "174",
+    "superClasses" : [ "175" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Wetland",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wetland"
+    },
+    "id" : "18",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#electrical_conduction",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "electrical_conduction"
+    },
+    "id" : "147",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#electric_current",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "electric_current"
+    },
+    "id" : "150",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Sleet",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sleet"
+    },
+    "comment" : {
+      "undefined" : "Sleet is a regionally variant term for two distinct forms of precipitation: Rain and snow mixed."
+    },
+    "id" : "349",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Laboratory",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Laboratory"
+    },
+    "id" : "202",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Canal",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canal"
+    },
+    "id" : "422",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Activity-Service",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity-Service"
+    },
+    "id" : "97",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Dam",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dam"
+    },
+    "id" : "162",
+    "superClasses" : [ "163" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Fresh_Water",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fresh_Water"
+    },
+    "subClasses" : [ "129", "132" ],
+    "comment" : {
+      "undefined" : "Fresh water (or freshwater) is any naturally occurring water except seawater and brackish water. Fresh water includes water in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, streams, and even underground water called groundwater."
+    },
+    "id" : "130",
+    "superClasses" : [ "240" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#viscosity",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "viscosity"
+    },
+    "id" : "139",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Geosphere",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Geosphere"
+    },
+    "subClasses" : [ "107", "36", "68" ],
+    "intersection" : [ "404" ],
+    "comment" : {
+      "undefined" : "The geosphere may be taken as the collective name for the lithosphere, the hydrosphere, the cryosphere, and the atmosphere."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Surface_Water_Body",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface_Water_Body"
+    },
+    "subClasses" : [ "73", "9" ],
+    "id" : "74",
+    "superClasses" : [ "163" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Public_supply",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Public_supply"
+    },
+    "comment" : {
+      "undefined" : "Public supply refers to water withdrawn by public and private water suppliers that provide water to at least 25 people or have a minimum of 15 connections. Public-supply water is delivered to users for domestic, commercial, and industrial purposes, and also is used for public services and system losses."
+    },
+    "id" : "303",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#Site",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "subClasses" : [ "82", "87", "91", "95", "99", "49", "60", "36", "4", "9", "14", "18", "22", "28", "32", "127", "166", "189" ],
+    "id" : "5",
+    "superClasses" : [ "268" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "275",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "318",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "330",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "332",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "333",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "334",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "337",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "339",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "343",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "344",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "353",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "358",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "360",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "362",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "363",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "365",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "367",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "379",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "380",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "382",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "384",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "386",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "388",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "392",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "393",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "394",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "395",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "400",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "401",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "402",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "403",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "409",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "411",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "413",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "418",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "420",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "421",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "423",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "424",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "426",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "427",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "429",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "430",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "431",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "432",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "433",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "434",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "435",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "391",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "436",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "437",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "438",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "439",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "440",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "441",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "442",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "443",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "444",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "445",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "446",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "447",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "448",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "449",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "450",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "451",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "453",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "454",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "455",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "456",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "457",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "458",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "459",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "460",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "389",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "390",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "461",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "463",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "464",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "465",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "466",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "468",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "412",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "469",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "470",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "471",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "472",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "473",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "474",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "475",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "476",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "477",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "478",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "479",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "5",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "12",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "5",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "12",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "5",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "12",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "5",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "12",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "5",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "12",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "39",
+    "subproperty" : [ "40" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#description",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "description"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "range" : "5",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "5",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "2",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "5",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "60",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "60",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "77",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "74",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "77",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "5",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "85",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "5",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "85",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "5",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "58",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "5",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "58",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "5",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "58",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_city_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "is_city_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "range" : "69",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "60",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "69",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "113",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "113",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "117",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "120",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "120",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "120",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "127",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "130",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "130",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_state",
+    "inverse" : "153",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "has_state"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_atmospheric_condition",
+    "inverse" : "156",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "has_atmospheric_condition"
+    },
+    "domain" : "36",
+    "attributes" : [ "object", "functional" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#hasTotalCities",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "hasTotalCities"
+    },
+    "domain" : "16",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "157"
+  }, {
+    "range" : "163",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "166",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "166",
+    "domain" : "168",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "166",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "166",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "175",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "175",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "175",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "175",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "163",
+    "domain" : "181",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "163",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#numeric_county_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "numeric_county_code"
+    },
+    "domain" : "184",
+    "attributes" : [ "datatype" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "187"
+  }, {
+    "range" : "91",
+    "domain" : "159",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "91",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "91",
+    "domain" : "193",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "91",
+    "domain" : "195",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "91",
+    "domain" : "197",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "91",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "91",
+    "domain" : "200",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "91",
+    "domain" : "202",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "91",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "91",
+    "domain" : "206",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_recharged_by",
+    "inverse" : "208",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "is_recharged_by"
+    },
+    "domain" : "85",
+    "attributes" : [ "object" ],
+    "id" : "207"
+  }, {
+    "range" : "91",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "91",
+    "domain" : "212",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "91",
+    "domain" : "214",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "91",
+    "domain" : "216",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_source_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "is_source_of"
+    },
+    "domain" : "53",
+    "attributes" : [ "object" ],
+    "id" : "217"
+  }, {
+    "range" : "91",
+    "domain" : "219",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#name",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "44",
+    "attributes" : [ "datatype" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_territory_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "is_territory_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "105",
+    "attributes" : [ "object" ],
+    "id" : "229"
+  }, {
+    "range" : "63",
+    "domain" : "231",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "44",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "44",
+    "domain" : "234",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "44",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "44",
+    "domain" : "240",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "179",
+    "domain" : "236",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "179",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "179",
+    "domain" : "237",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "181",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "181",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "181",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "36",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "36",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "36",
+    "domain" : "223",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "36",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "12",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "73",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "73",
+    "domain" : "257",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "73",
+    "domain" : "259",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "36",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "36",
+    "domain" : "221",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_located_in",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_located_in"
+    },
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "264"
+  }, {
+    "range" : "5",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "12",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "5",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "12",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "5",
+    "domain" : "189",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "12",
+    "domain" : "272",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "range" : "124",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_measurment",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "has_measurment"
+    },
+    "domain" : "234",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_quality_property",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "has_quality_property"
+    },
+    "domain" : "77",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "58",
+    "domain" : "277",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "58",
+    "domain" : "279",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_quality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "has_quality"
+    },
+    "domain" : "240",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "132",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "277",
+    "domain" : "283",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "279",
+    "domain" : "283",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "277",
+    "domain" : "279",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "58",
+    "domain" : "283",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "range" : "277",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "range" : "279",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "58",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "57",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "101",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "283",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "57",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "93",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "57",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "101",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_site",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "has_site"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "310"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_county",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "has_county"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "314"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "320",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "code"
+    },
+    "domain" : "319",
+    "attributes" : [ "datatype" ],
+    "id" : "318"
+  }, {
+    "range" : "122",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "122",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "52",
+    "domain" : "328",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "327"
+  }, {
+    "range" : "47",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "329"
+  }, {
+    "range" : "137",
+    "domain" : "331",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "330"
+  }, {
+    "range" : "52",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "332"
+  }, {
+    "range" : "47",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_district",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "has_district"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "334"
+  }, {
+    "range" : "47",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "range" : "47",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "337"
+  }, {
+    "range" : "46",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "range" : "53",
+    "domain" : "340",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "339"
+  }, {
+    "range" : "47",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "47",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "342"
+  }, {
+    "range" : "53",
+    "domain" : "224",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "343"
+  }, {
+    "range" : "53",
+    "domain" : "345",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "344"
+  }, {
+    "range" : "53",
+    "domain" : "347",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "346"
+  }, {
+    "range" : "53",
+    "domain" : "349",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "53",
+    "domain" : "287",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "352",
+    "domain" : "272",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "351"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#involves",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "involves"
+    },
+    "domain" : "47",
+    "attributes" : [ "object" ],
+    "id" : "353"
+  }, {
+    "range" : "53",
+    "domain" : "355",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "354"
+  }, {
+    "range" : "24",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "358"
+  }, {
+    "range" : "24",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
+  }, {
+    "range" : "24",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "360"
+  }, {
+    "range" : "24",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "361"
+  }, {
+    "range" : "24",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "362"
+  }, {
+    "range" : "24",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "363"
+  }, {
+    "range" : "24",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "364"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_province_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "is_province_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "365"
+  }, {
+    "range" : "24",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "367"
+  }, {
+    "range" : "24",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "range" : "24",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "24",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "370"
+  }, {
+    "range" : "24",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "24",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "372"
+  }, {
+    "range" : "24",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "24",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "374"
+  }, {
+    "range" : "24",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#hasTotalStates",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "hasTotalStates"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype" ],
+    "id" : "377"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_province",
+    "inverse" : "365",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "has_province"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "379"
+  }, {
+    "range" : "24",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "range" : "137",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "137",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "range" : "137",
+    "domain" : "385",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "384"
+  }, {
+    "range" : "137",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "386"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_atmospheric_condition_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "is_atmospheric_condition_of"
+    },
+    "domain" : "117",
+    "attributes" : [ "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_quality_property",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "has_quality_property"
+    },
+    "domain" : "77",
+    "attributes" : [ "object" ],
+    "id" : "388"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_region",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "272",
+    "label" : {
+      "IRI-based" : "has_region"
+    },
+    "domain" : "12",
+    "subproperty" : [ "379", "389", "390", "391", "334", "310", "314", "152" ],
+    "attributes" : [ "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#alpha_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "326",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "alphabetic code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "alpha_code"
+    },
+    "domain" : "306",
+    "attributes" : [ "datatype" ],
+    "id" : "392"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#alpha_site_type_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "325",
+    "label" : {
+      "IRI-based" : "alpha_site_type_code"
+    },
+    "domain" : "300",
+    "attributes" : [ "datatype" ],
+    "id" : "393"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_url",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "has_url"
+    },
+    "domain" : "39",
+    "attributes" : [ "datatype" ],
+    "id" : "394"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#numeric_state_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "315",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "numeric state code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numeric_state_code"
+    },
+    "domain" : "356",
+    "attributes" : [ "datatype" ],
+    "id" : "395"
+  }, {
+    "range" : "24",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "397"
+  }, {
+    "range" : "24",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "398"
+  }, {
+    "range" : "60",
+    "domain" : "228",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "399"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#affects",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "affects"
+    },
+    "domain" : "36",
+    "attributes" : [ "object" ],
+    "id" : "400"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#recharges",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "recharges"
+    },
+    "domain" : "50",
+    "attributes" : [ "object" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#hasTotalHydrologicalSites",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "317",
+    "label" : {
+      "IRI-based" : "hasTotalHydrologicalSites"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "401"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_country_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "is_country_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "402"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_measurment",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "has_measurment"
+    },
+    "domain" : "234",
+    "attributes" : [ "object" ],
+    "id" : "403"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_site_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "is_site_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "409"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#population",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "308",
+    "label" : {
+      "IRI-based" : "population"
+    },
+    "domain" : "34",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "411"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_region_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_region_of"
+    },
+    "superproperty" : [ "38" ],
+    "domain" : "272",
+    "subproperty" : [ "412", "413", "104", "229", "365", "402", "409", "153" ],
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_state_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "is_state_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_county_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_county_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "413"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#alpha_state_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "322",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "alphabetic state code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "alpha_state_code"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "418"
+  }, {
+    "range" : "9",
+    "domain" : "415",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "420"
+  }, {
+    "range" : "9",
+    "domain" : "422",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "421"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_unit",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "has_unit"
+    },
+    "domain" : "39",
+    "attributes" : [ "object" ],
+    "id" : "423"
+  }, {
+    "range" : "9",
+    "domain" : "425",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "424"
+  }, {
+    "range" : "9",
+    "domain" : "406",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "426"
+  }, {
+    "range" : "9",
+    "domain" : "428",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "427"
+  }, {
+    "range" : "9",
+    "domain" : "414",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "429"
+  }, {
+    "range" : "9",
+    "domain" : "408",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "430"
+  }, {
+    "range" : "240",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "240",
+    "domain" : "311",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "432"
+  }, {
+    "range" : "166",
+    "domain" : "312",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "433"
+  }, {
+    "range" : "134",
+    "domain" : "305",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "range" : "268",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "435"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_city",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "has_city"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "391"
+  }, {
+    "range" : "268",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "436"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_source",
+    "inverse" : "217",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "has_source"
+    },
+    "domain" : "130",
+    "attributes" : [ "object" ],
+    "id" : "437"
+  }, {
+    "range" : "134",
+    "domain" : "301",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "438"
+  }, {
+    "range" : "134",
+    "domain" : "248",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "439"
+  }, {
+    "range" : "134",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "440"
+  }, {
+    "range" : "134",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "441"
+  }, {
+    "range" : "134",
+    "domain" : "303",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "442"
+  }, {
+    "range" : "134",
+    "domain" : "263",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "range" : "134",
+    "domain" : "304",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "444"
+  }, {
+    "range" : "28",
+    "domain" : "419",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "445"
+  }, {
+    "range" : "268",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "446"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_hydrologic_unit_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "405",
+    "label" : {
+      "IRI-based" : "has_hydrologic_unit_code"
+    },
+    "domain" : "352",
+    "attributes" : [ "object" ],
+    "id" : "447"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_quality",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "has_quality"
+    },
+    "domain" : "240",
+    "attributes" : [ "object" ],
+    "id" : "448"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "449"
+  }, {
+    "range" : "42",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "450"
+  }, {
+    "range" : "42",
+    "domain" : "335",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "451"
+  }, {
+    "range" : "42",
+    "domain" : "378",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "452"
+  }, {
+    "range" : "42",
+    "domain" : "410",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "453"
+  }, {
+    "range" : "28",
+    "domain" : "254",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "454"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/uo#is_unit_of",
+    "inverse" : "423",
+    "baseIri" : "http://purl.obolibrary.org/obo/uo",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "is_unit_of"
+    },
+    "domain" : "39",
+    "attributes" : [ "object", "external" ],
+    "id" : "455"
+  }, {
+    "range" : "28",
+    "domain" : "407",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "456"
+  }, {
+    "range" : "28",
+    "domain" : "366",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "457"
+  }, {
+    "range" : "186",
+    "domain" : "396",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "458"
+  }, {
+    "range" : "186",
+    "domain" : "279",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "459"
+  }, {
+    "range" : "115",
+    "domain" : "268",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "460"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_country",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "has_country"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "389"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#has_territory",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "has_territory"
+    },
+    "superproperty" : [ "154" ],
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "390"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#numeric_code",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "313",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "numeric code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numeric_code"
+    },
+    "domain" : "357",
+    "attributes" : [ "datatype" ],
+    "id" : "461"
+  }, {
+    "range" : "91",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "462"
+  }, {
+    "range" : "91",
+    "domain" : "381",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "463"
+  }, {
+    "range" : "91",
+    "domain" : "417",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "464"
+  }, {
+    "range" : "186",
+    "domain" : "283",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "465"
+  }, {
+    "range" : "186",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "466"
+  }, {
+    "range" : "186",
+    "domain" : "245",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "467"
+  }, {
+    "range" : "186",
+    "domain" : "277",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "468"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#is_district_of",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_district_of"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://ssei.herokuapp.com/water#hasTotalCounties",
+    "baseIri" : "http://ssei.herokuapp.com/water",
+    "range" : "321",
+    "label" : {
+      "IRI-based" : "hasTotalCounties"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "469"
+  }, {
+    "range" : "385",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "470"
+  }, {
+    "range" : "331",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "471"
+  }, {
+    "range" : "225",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "472"
+  }, {
+    "range" : "385",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "473"
+  }, {
+    "range" : "331",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "474"
+  }, {
+    "range" : "385",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "475"
+  }, {
+    "range" : "331",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "476"
+  }, {
+    "range" : "331",
+    "domain" : "385",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "477"
+  }, {
+    "range" : "387",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "478"
+  }, {
+    "range" : "225",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "479"
+  } ]
+}

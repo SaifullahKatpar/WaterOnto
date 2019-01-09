@@ -1,0 +1,1760 @@
+<http://ssei.herokuapp.com/water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/uo#is_unit_of
+<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/uo#is_unit_of> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#has_unit> .
+# 
+# http://ssei.herokuapp.com/water#affects
+<http://ssei.herokuapp.com/water#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Atmosphere> .
+<http://ssei.herokuapp.com/water#affects> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Geosphere> .
+# 
+# http://ssei.herokuapp.com/water#has_atmospheric_condition
+<http://ssei.herokuapp.com/water#has_atmospheric_condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_atmospheric_condition> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#is_atmospheric_condition_of> .
+<http://ssei.herokuapp.com/water#has_atmospheric_condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ssei.herokuapp.com/water#has_atmospheric_condition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Atmosphere> .
+<http://ssei.herokuapp.com/water#has_atmospheric_condition> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Atomospheric_Condition> .
+# 
+# http://ssei.herokuapp.com/water#has_city
+<http://ssei.herokuapp.com/water#has_city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_city> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_city> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#County> .
+<http://ssei.herokuapp.com/water#has_city> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#City> .
+# 
+# http://ssei.herokuapp.com/water#has_country
+<http://ssei.herokuapp.com/water#has_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Continent> .
+<http://ssei.herokuapp.com/water#has_country> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Country> .
+# 
+# http://ssei.herokuapp.com/water#has_county
+<http://ssei.herokuapp.com/water#has_county> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_county> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_county> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#has_county> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#County> .
+# 
+# http://ssei.herokuapp.com/water#has_district
+<http://ssei.herokuapp.com/water#has_district> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_district> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_district> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#has_district> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#County> .
+# 
+# http://ssei.herokuapp.com/water#has_hydrologic_unit_code
+<http://ssei.herokuapp.com/water#has_hydrologic_unit_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_hydrologic_unit_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Hydrologic_Unit> .
+<http://ssei.herokuapp.com/water#has_hydrologic_unit_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Hydrologic_Unit_Code> .
+# 
+# http://ssei.herokuapp.com/water#has_measurment
+<http://ssei.herokuapp.com/water#has_measurment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_measurment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Water_Quality_Property> .
+<http://ssei.herokuapp.com/water#has_measurment> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#has_province
+<http://ssei.herokuapp.com/water#has_province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_province> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_province> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#is_province_of> .
+<http://ssei.herokuapp.com/water#has_province> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#has_province> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#has_quality
+<http://ssei.herokuapp.com/water#has_quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_quality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Water> .
+<http://ssei.herokuapp.com/water#has_quality> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Water_Quality> .
+# 
+# http://ssei.herokuapp.com/water#has_quality_property
+<http://ssei.herokuapp.com/water#has_quality_property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_quality_property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Water_Quality> .
+<http://ssei.herokuapp.com/water#has_quality_property> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Water_Quality_Property> .
+# 
+# http://ssei.herokuapp.com/water#has_region
+<http://ssei.herokuapp.com/water#has_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_region> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#has_region> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Region> .
+# 
+# http://ssei.herokuapp.com/water#has_site
+<http://ssei.herokuapp.com/water#has_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_site> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_site> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#County> .
+<http://ssei.herokuapp.com/water#has_site> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#has_source
+<http://ssei.herokuapp.com/water#has_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_source> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#is_source_of> .
+<http://ssei.herokuapp.com/water#has_source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Fresh_Water> .
+<http://ssei.herokuapp.com/water#has_source> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Percipitation> .
+# 
+# http://ssei.herokuapp.com/water#has_state
+<http://ssei.herokuapp.com/water#has_state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_state> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_state> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#is_state_of> .
+<http://ssei.herokuapp.com/water#has_state> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#has_state> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#State> .
+# 
+# http://ssei.herokuapp.com/water#has_territory
+<http://ssei.herokuapp.com/water#has_territory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#has_territory> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#has_region> .
+<http://ssei.herokuapp.com/water#has_territory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#has_territory> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Territory> .
+# 
+# http://ssei.herokuapp.com/water#has_unit
+<http://ssei.herokuapp.com/water#has_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://ssei.herokuapp.com/water#involves
+<http://ssei.herokuapp.com/water#involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#involves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#involves> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Water> .
+# 
+# http://ssei.herokuapp.com/water#is_atmospheric_condition_of
+<http://ssei.herokuapp.com/water#is_atmospheric_condition_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_atmospheric_condition_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Atomospheric_Condition> .
+<http://ssei.herokuapp.com/water#is_atmospheric_condition_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#is_city_of
+<http://ssei.herokuapp.com/water#is_city_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_city_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_city_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#City> .
+<http://ssei.herokuapp.com/water#is_city_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#County> .
+# 
+# http://ssei.herokuapp.com/water#is_country_of
+<http://ssei.herokuapp.com/water#is_country_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_country_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_country_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Continent> .
+<http://ssei.herokuapp.com/water#is_country_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Country> .
+# 
+# http://ssei.herokuapp.com/water#is_county_of
+<http://ssei.herokuapp.com/water#is_county_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_county_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_county_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#County> .
+<http://ssei.herokuapp.com/water#is_county_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#State> .
+# 
+# http://ssei.herokuapp.com/water#is_district_of
+<http://ssei.herokuapp.com/water#is_district_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_district_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_district_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#District> .
+<http://ssei.herokuapp.com/water#is_district_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#State> .
+# 
+# http://ssei.herokuapp.com/water#is_located_in
+<http://ssei.herokuapp.com/water#is_located_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_located_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#is_located_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#is_province_of
+<http://ssei.herokuapp.com/water#is_province_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_province_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_province_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Province> .
+<http://ssei.herokuapp.com/water#is_province_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Country> .
+# 
+# http://ssei.herokuapp.com/water#is_recharged_by
+<http://ssei.herokuapp.com/water#is_recharged_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_recharged_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://ssei.herokuapp.com/water#recharges> .
+<http://ssei.herokuapp.com/water#is_recharged_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Aquifer> .
+<http://ssei.herokuapp.com/water#is_recharged_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Infiltration> .
+# 
+# http://ssei.herokuapp.com/water#is_region_of
+<http://ssei.herokuapp.com/water#is_region_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_region_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://ssei.herokuapp.com/water#is_region_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Region> .
+<http://ssei.herokuapp.com/water#is_region_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#is_site_of
+<http://ssei.herokuapp.com/water#is_site_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_site_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_site_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#is_site_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#County> .
+# 
+# http://ssei.herokuapp.com/water#is_source_of
+<http://ssei.herokuapp.com/water#is_source_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_source_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#is_source_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Fresh_Water> .
+# 
+# http://ssei.herokuapp.com/water#is_state_of
+<http://ssei.herokuapp.com/water#is_state_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_state_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_state_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#is_state_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Country> .
+# 
+# http://ssei.herokuapp.com/water#is_territory_of
+<http://ssei.herokuapp.com/water#is_territory_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#is_territory_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#is_region_of> .
+<http://ssei.herokuapp.com/water#is_territory_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Territory> .
+<http://ssei.herokuapp.com/water#is_territory_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Country> .
+# 
+# http://ssei.herokuapp.com/water#recharges
+<http://ssei.herokuapp.com/water#recharges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ssei.herokuapp.com/water#recharges> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Infiltration> .
+<http://ssei.herokuapp.com/water#recharges> <http://www.w3.org/2000/01/rdf-schema#range> <http://ssei.herokuapp.com/water#Aquifer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://ssei.herokuapp.com/water#alpha_code
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#code> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ssei.herokuapp.com/water#alpha_code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "alphabetic code" .
+# 
+# http://ssei.herokuapp.com/water#alpha_site_type_code
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#alpha_code> .
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#alpha_site_type_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://ssei.herokuapp.com/water#alpha_state_code
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#alpha_code> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ssei.herokuapp.com/water#alpha_state_code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "alphabetic state code" .
+# 
+# http://ssei.herokuapp.com/water#code
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ssei.herokuapp.com/water#code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "code" .
+# 
+# http://ssei.herokuapp.com/water#description
+<http://ssei.herokuapp.com/water#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://ssei.herokuapp.com/water#hasTotalCities
+<http://ssei.herokuapp.com/water#hasTotalCities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#hasTotalCities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ssei.herokuapp.com/water#hasTotalCities> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#hasTotalCities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#hasTotalCounties
+<http://ssei.herokuapp.com/water#hasTotalCounties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#hasTotalCounties> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#hasTotalCounties> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#hasTotalHydrologicalSites
+<http://ssei.herokuapp.com/water#hasTotalHydrologicalSites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#hasTotalHydrologicalSites> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#hasTotalHydrologicalSites> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#hasTotalStates
+<http://ssei.herokuapp.com/water#hasTotalStates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#hasTotalStates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#hasTotalStates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#has_url
+<http://ssei.herokuapp.com/water#has_url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#has_url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://ssei.herokuapp.com/water#name
+<http://ssei.herokuapp.com/water#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://ssei.herokuapp.com/water#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://ssei.herokuapp.com/water#numeric_code
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#code> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ssei.herokuapp.com/water#numeric_code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "numeric code" .
+# 
+# http://ssei.herokuapp.com/water#numeric_county_code
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#numeric_code> .
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#numeric_county_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://ssei.herokuapp.com/water#numeric_state_code
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ssei.herokuapp.com/water#numeric_code> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ssei.herokuapp.com/water#numeric_state_code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "numeric state code" .
+# 
+# http://ssei.herokuapp.com/water#population
+<http://ssei.herokuapp.com/water#population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ssei.herokuapp.com/water#population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ssei.herokuapp.com/water#population> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.w3.org/2002/07/owl#topDataProperty
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/UO_0000190
+<http://purl.obolibrary.org/obo/UO_0000190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UO_0000190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/UO_0000191> .
+# 
+# http://purl.obolibrary.org/obo/UO_0000191
+<http://purl.obolibrary.org/obo/UO_0000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UO_0000191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#dimensionless> .
+# 
+# http://purl.obolibrary.org/obo/UO_0000196
+<http://purl.obolibrary.org/obo/UO_0000196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/UO_0000196> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#concentration> .
+<http://purl.obolibrary.org/obo/UO_0000196> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#dimensionless> .
+# 
+# http://ssei.herokuapp.com/water#Activity-Service
+<http://ssei.herokuapp.com/water#Activity-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Activity-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water-Quality-Service> .
+<http://ssei.herokuapp.com/water#Activity-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid1 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterqualitydata.us/data/Activity/search?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#ActivityMetric-Service
+<http://ssei.herokuapp.com/water#ActivityMetric-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#ActivityMetric-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water-Quality-Service> .
+<http://ssei.herokuapp.com/water#ActivityMetric-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid2 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterqualitydata.us/data/ActivityMetric/search?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Agency
+<http://ssei.herokuapp.com/water#Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use
+<http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use
+<http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment
+<http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Animal_Saste_Lagoon
+<http://ssei.herokuapp.com/water#Animal_Saste_Lagoon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Animal_Saste_Lagoon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Aquaculture
+<http://ssei.herokuapp.com/water#Aquaculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Aquaculture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Aquaculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Aquaculture water use is water associated with raising creatures that live in water—such as finfish and shellfish—for food, restoration, conservation, or sport." .
+# 
+# http://ssei.herokuapp.com/water#Aquifer
+<http://ssei.herokuapp.com/water#Aquifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Aquifer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Ground_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Atmosphere
+<http://ssei.herokuapp.com/water#Atmosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Atmosphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Geosphere> .
+<http://ssei.herokuapp.com/water#Atmosphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#Atmosphere> <http://www.w3.org/2000/01/rdf-schema#comment> "The atmosphere of Earth is the layer of gases, commonly known as air, that surrounds the planet Earth and is retained by Earth's gravity." .
+# 
+# http://ssei.herokuapp.com/water#Atomospheric_Condition
+<http://ssei.herokuapp.com/water#Atomospheric_Condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Atomospheric_Condition> <http://www.w3.org/2000/01/rdf-schema#comment> "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation" .
+# 
+# http://ssei.herokuapp.com/water#Body_Of_Water
+<http://ssei.herokuapp.com/water#Body_Of_Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Body_Of_Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Surface> .
+# 
+# http://ssei.herokuapp.com/water#Brook
+<http://ssei.herokuapp.com/water#Brook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Brook> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Canal
+<http://ssei.herokuapp.com/water#Canal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Canal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Cave
+<http://ssei.herokuapp.com/water#Cave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Cave> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Subsurface> .
+# 
+# http://ssei.herokuapp.com/water#Cistern
+<http://ssei.herokuapp.com/water#Cistern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Cistern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#City
+<http://ssei.herokuapp.com/water#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Clouds
+<http://ssei.herokuapp.com/water#Clouds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Clouds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Cloudy
+<http://ssei.herokuapp.com/water#Cloudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Cloudy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Weather> .
+# 
+# http://ssei.herokuapp.com/water#Coastal
+<http://ssei.herokuapp.com/water#Coastal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Coastal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Ocean> .
+# 
+# http://ssei.herokuapp.com/water#Cold
+<http://ssei.herokuapp.com/water#Cold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Cold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Weather> .
+# 
+# http://ssei.herokuapp.com/water#Combined_Sewer
+<http://ssei.herokuapp.com/water#Combined_Sewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Combined_Sewer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Condensation
+<http://ssei.herokuapp.com/water#Condensation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Condensation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Condensation> <http://www.w3.org/2000/01/rdf-schema#comment> "Condensation is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of vapourisation." .
+# 
+# http://ssei.herokuapp.com/water#Confined_Aquifer
+<http://ssei.herokuapp.com/water#Confined_Aquifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Confined_Aquifer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Aquifer> .
+# 
+# http://ssei.herokuapp.com/water#Continent
+<http://ssei.herokuapp.com/water#Continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Continent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Country
+<http://ssei.herokuapp.com/water#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#County
+<http://ssei.herokuapp.com/water#County> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#County> <http://www.w3.org/2002/07/owl#equivalentClass> <http://ssei.herokuapp.com/water#District> .
+<http://ssei.herokuapp.com/water#County> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Creek
+<http://ssei.herokuapp.com/water#Creek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Creek> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Crust
+<http://ssei.herokuapp.com/water#Crust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Crust> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Lithosphere> .
+# 
+# http://ssei.herokuapp.com/water#Cryosphere
+<http://ssei.herokuapp.com/water#Cryosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Cryosphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Geosphere> .
+# 
+# http://ssei.herokuapp.com/water#Daily-Values-Service
+<http://ssei.herokuapp.com/water#Daily-Values-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Daily-Values-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Daily-Values-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid3 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterservices.usgs.gov/nwis/dv/?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Dam
+<http://ssei.herokuapp.com/water#Dam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Dam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Fresh_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#District
+<http://ssei.herokuapp.com/water#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Ditch
+<http://ssei.herokuapp.com/water#Ditch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Ditch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Diversion
+<http://ssei.herokuapp.com/water#Diversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Diversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Domestic
+<http://ssei.herokuapp.com/water#Domestic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Domestic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Domestic> <http://www.w3.org/2000/01/rdf-schema#comment> "Domestic water use is water used for indoor and outdoor household purposes— all the things you do at home: drinking, preparing food, bathing, washing clothes and dishes, brushing your teeth, watering the yard and garden, and even washing the dog." .
+# 
+# http://ssei.herokuapp.com/water#Drizzle
+<http://ssei.herokuapp.com/water#Drizzle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Drizzle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Drizzle> <http://www.w3.org/2000/01/rdf-schema#comment> "Drizzle is a light liquid precipitation consisting of liquid water drops smaller than those of rain – generally smaller than 0.5 mm (0.02 in) in diameter." .
+# 
+# http://ssei.herokuapp.com/water#Earth
+<http://ssei.herokuapp.com/water#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Earth> <http://www.w3.org/2000/01/rdf-schema#comment> "the substance of the land surface" .
+# 
+# http://ssei.herokuapp.com/water#Estuary
+<http://ssei.herokuapp.com/water#Estuary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Estuary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Evaporation
+<http://ssei.herokuapp.com/water#Evaporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Evaporation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Evaporation> <http://www.w3.org/2000/01/rdf-schema#comment> "the process of turning from liquid into vapour." .
+# 
+# http://ssei.herokuapp.com/water#Excavation
+<http://ssei.herokuapp.com/water#Excavation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Excavation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land> .
+# 
+# http://ssei.herokuapp.com/water#Extensometer_well
+<http://ssei.herokuapp.com/water#Extensometer_well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Extensometer_well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Well> .
+# 
+# http://ssei.herokuapp.com/water#Facility
+<http://ssei.herokuapp.com/water#Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Field
+<http://ssei.herokuapp.com/water#Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Field> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Fog
+<http://ssei.herokuapp.com/water#Fog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Fog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Fog> <http://www.w3.org/2000/01/rdf-schema#comment> "Fog is a visible aerosol consisting of minute water droplets or ice crystals suspended in the air at or near the Earth's surface." .
+# 
+# http://ssei.herokuapp.com/water#Fresh_Water
+<http://ssei.herokuapp.com/water#Fresh_Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Fresh_Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water> .
+<http://ssei.herokuapp.com/water#Fresh_Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Fresh water (or freshwater) is any naturally occurring water except seawater and brackish water. Fresh water includes water in ice sheets, ice caps, glaciers, icebergs, bogs, ponds, lakes, rivers, streams, and even underground water called groundwater." .
+# 
+# http://ssei.herokuapp.com/water#Fresh_Water_Body
+<http://ssei.herokuapp.com/water#Fresh_Water_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Fresh_Water_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Body_Of_Water> .
+# 
+# http://ssei.herokuapp.com/water#Geosphere
+<http://ssei.herokuapp.com/water#Geosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Geosphere> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Earth> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Atmosphere> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Cryosphere> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Hydrosphere> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Lithosphere> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Geosphere> <http://www.w3.org/2000/01/rdf-schema#comment> "The geosphere may be taken as the collective name for the lithosphere, the hydrosphere, the cryosphere, and the atmosphere." .
+# 
+# http://ssei.herokuapp.com/water#Glacier
+<http://ssei.herokuapp.com/water#Glacier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Glacier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Body_Of_Water> .
+<http://ssei.herokuapp.com/water#Glacier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Golf_of_Course
+<http://ssei.herokuapp.com/water#Golf_of_Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Golf_of_Course> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Ground_Water_Body
+<http://ssei.herokuapp.com/water#Ground_Water_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Ground_Water_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Fresh_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Groundwater
+<http://ssei.herokuapp.com/water#Groundwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Groundwater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Fresh_Water> .
+<http://ssei.herokuapp.com/water#Groundwater> <http://www.w3.org/2002/07/owl#disjointWith> <http://ssei.herokuapp.com/water#Surface_Water> .
+<http://ssei.herokuapp.com/water#Groundwater> <http://www.w3.org/2000/01/rdf-schema#comment> "Groundwater is the water present beneath Earth's surface in soil pore spaces and in the fractures of rock formations." .
+# 
+# http://ssei.herokuapp.com/water#Groundwater-Levels-Service
+<http://ssei.herokuapp.com/water#Groundwater-Levels-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Groundwater-Levels-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Groundwater-Levels-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid12 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterservices.usgs.gov/nwis/gwlevels/?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Groundwater_Quality
+<http://ssei.herokuapp.com/water#Groundwater_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Groundwater_Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Quality> .
+# 
+# http://ssei.herokuapp.com/water#Groundwater_drain
+<http://ssei.herokuapp.com/water#Groundwater_drain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Groundwater_drain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Subsurface> .
+# 
+# http://ssei.herokuapp.com/water#Hail
+<http://ssei.herokuapp.com/water#Hail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Hail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Hail> <http://www.w3.org/2000/01/rdf-schema#comment> "Hail is a form of solid precipitation." .
+# 
+# http://ssei.herokuapp.com/water#Humidity
+<http://ssei.herokuapp.com/water#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Humidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Hydroelectric_Plant
+<http://ssei.herokuapp.com/water#Hydroelectric_Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Hydroelectric_Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Hydrologic_Unit
+<http://ssei.herokuapp.com/water#Hydrologic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Hydrologic_Unit_Code
+<http://ssei.herokuapp.com/water#Hydrologic_Unit_Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Hydrosphere
+<http://ssei.herokuapp.com/water#Hydrosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Hydrosphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Geosphere> .
+# 
+# http://ssei.herokuapp.com/water#Hyporheic-zone_well
+<http://ssei.herokuapp.com/water#Hyporheic-zone_well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Hyporheic-zone_well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Well> .
+# 
+# http://ssei.herokuapp.com/water#Icecap
+<http://ssei.herokuapp.com/water#Icecap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Icecap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Body_Of_Water> .
+# 
+# http://ssei.herokuapp.com/water#Industrial
+<http://ssei.herokuapp.com/water#Industrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Industrial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Industrial> <http://www.w3.org/2000/01/rdf-schema#comment> "Industrial water use includes water used for such purposes as fabricating, processing, washing, diluting, cooling, or transporting a product; incorporating water into a product; or for sanitation needs within the manufacturing facility" .
+# 
+# http://ssei.herokuapp.com/water#Infiltration
+<http://ssei.herokuapp.com/water#Infiltration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Infiltration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Infiltration> <http://www.w3.org/2000/01/rdf-schema#comment> "Infiltration is the process by which water on the ground surface enters the soil. Infiltration rate in soil science is a measure of the rate at which soil is able to absorb rainfall or irrigation. It is most often measured in millimetres per hour or inches per hour." .
+# 
+# http://ssei.herokuapp.com/water#Instantaneous-Values-Service
+<http://ssei.herokuapp.com/water#Instantaneous-Values-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Instantaneous-Values-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Instantaneous-Values-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid13 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterservices.usgs.gov/nwis/iv/?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Interconnected_wells
+<http://ssei.herokuapp.com/water#Interconnected_wells> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Interconnected_wells> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Well> .
+# 
+# http://ssei.herokuapp.com/water#Irrigation
+<http://ssei.herokuapp.com/water#Irrigation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Irrigation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Irrigation> <http://www.w3.org/2000/01/rdf-schema#comment> "Throughout the world, irrigation (water for agriculture, or growing crops) is probably the most important use of water (except for drinking and washing a smelly dog, perhaps). Estimates vary, but about 70 percent of all the world's freshwater withdrawals go towards irrigation uses (http://www.globalagriculture.org/report-topics/water.html)." .
+# 
+# http://ssei.herokuapp.com/water#Laboratory
+<http://ssei.herokuapp.com/water#Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Laboratory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Lake
+<http://ssei.herokuapp.com/water#Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Reservoir> .
+<http://ssei.herokuapp.com/water#Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Land
+<http://ssei.herokuapp.com/water#Land> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Land> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Land_Mass
+<http://ssei.herokuapp.com/water#Land_Mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Land_Mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Surface> .
+# 
+# http://ssei.herokuapp.com/water#Landfill
+<http://ssei.herokuapp.com/water#Landfill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Landfill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Lithosphere
+<http://ssei.herokuapp.com/water#Lithosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Lithosphere> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Geosphere> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/2002/07/owl#unionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Crust> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Mantle> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Livestock
+<http://ssei.herokuapp.com/water#Livestock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Livestock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Livestock> <http://www.w3.org/2000/01/rdf-schema#comment> "ivestock water use is water associated with livestock watering, feedlots, dairy operations, and other on-farm needs. Livestock includes dairy cows and heifers, beef cattle and calves, sheep and lambs, goats, hogs and pigs, horses, and poultry. Other livestock water uses include cooling of facilities for the animals and animal products such as milk, dairy sanitation and wash down of facilities, animal waste-disposal systems, and incidental water losses." .
+# 
+# http://ssei.herokuapp.com/water#Mantle
+<http://ssei.herokuapp.com/water#Mantle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Mantle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Lithosphere> .
+# 
+# http://ssei.herokuapp.com/water#Measurment
+<http://ssei.herokuapp.com/water#Measurment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Mining
+<http://ssei.herokuapp.com/water#Mining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Mining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Mining> <http://www.w3.org/2000/01/rdf-schema#comment> "Mining corporations need water to make bare rock give up its valuable minerals." .
+# 
+# http://ssei.herokuapp.com/water#Mist
+<http://ssei.herokuapp.com/water#Mist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Mist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Mist> <http://www.w3.org/2000/01/rdf-schema#comment> "Mist is a phenomenon caused by small droplets of water suspended in air." .
+# 
+# http://ssei.herokuapp.com/water#Moisture
+<http://ssei.herokuapp.com/water#Moisture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Moisture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Natural_Process
+<http://ssei.herokuapp.com/water#Natural_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Natural_Process> <http://www.w3.org/2000/01/rdf-schema#comment> "A process existing in or produced by nature (rather than by the intent of human beings)." .
+# 
+# http://ssei.herokuapp.com/water#Ocean
+<http://ssei.herokuapp.com/water#Ocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Ocean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Saline_Water_Body> .
+<http://ssei.herokuapp.com/water#Ocean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Outcrop
+<http://ssei.herokuapp.com/water#Outcrop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Outcrop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land> .
+# 
+# http://ssei.herokuapp.com/water#Outfall
+<http://ssei.herokuapp.com/water#Outfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Outfall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Pavement
+<http://ssei.herokuapp.com/water#Pavement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Pavement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Percipitation
+<http://ssei.herokuapp.com/water#Percipitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Percipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+<http://ssei.herokuapp.com/water#Percipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Percipitation> <http://www.w3.org/2000/01/rdf-schema#comment> "Precipitation is water released from clouds in the form of rain, freezing rain, sleet, snow, or hail." .
+# 
+# http://ssei.herokuapp.com/water#Pond
+<http://ssei.herokuapp.com/water#Pond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Pond> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Reservoir> .
+# 
+# http://ssei.herokuapp.com/water#Pressure
+<http://ssei.herokuapp.com/water#Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Province
+<http://ssei.herokuapp.com/water#Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Public_supply
+<http://ssei.herokuapp.com/water#Public_supply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Public_supply> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Public_supply> <http://www.w3.org/2000/01/rdf-schema#comment> "Public supply refers to water withdrawn by public and private water suppliers that provide water to at least 25 people or have a minimum of 15 connections. Public-supply water is delivered to users for domestic, commercial, and industrial purposes, and also is used for public services and system losses." .
+# 
+# http://ssei.herokuapp.com/water#Rain
+<http://ssei.herokuapp.com/water#Rain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Rain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Rain> <http://www.w3.org/2000/01/rdf-schema#comment> "Rain is liquid water in the form of droplets that have condensed from atmospheric water vapor and then become heavy enough to fall under gravity." .
+# 
+# http://ssei.herokuapp.com/water#Rainy
+<http://ssei.herokuapp.com/water#Rainy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Rainy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Weather> .
+# 
+# http://ssei.herokuapp.com/water#Region
+<http://ssei.herokuapp.com/water#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Hydrologic_Unit> .
+<http://ssei.herokuapp.com/water#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Reservoir
+<http://ssei.herokuapp.com/water#Reservoir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Reservoir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Surface_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Result-Service
+<http://ssei.herokuapp.com/water#Result-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Result-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water-Quality-Service> .
+<http://ssei.herokuapp.com/water#Result-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid20 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterqualitydata.us/data/Result/search?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#River
+<http://ssei.herokuapp.com/water#River> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#River> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Runoff
+<http://ssei.herokuapp.com/water#Runoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Runoff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Runoff> <http://www.w3.org/2000/01/rdf-schema#comment> "Runoff, in hydrology, quantity of water discharged in surface streams. Runoff includes not only the waters that travel over the land surface and through channels to reach a stream but also interflow, the water that infiltrates the soil surface and travels by means of gravity toward a stream channel (always above the main groundwater level) and eventually empties into the channel. Runoff also includes groundwater that is discharged into a stream; streamflow that is composed entirely of groundwater is termed base flow, or fair-weather runoff, and it occurs where a stream channel intersects the water table." .
+# 
+# http://ssei.herokuapp.com/water#Sale_Lake
+<http://ssei.herokuapp.com/water#Sale_Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Sale_Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Saline_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Saline_Water
+<http://ssei.herokuapp.com/water#Saline_Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Saline_Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water> .
+<http://ssei.herokuapp.com/water#Saline_Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Saline water (more commonly known as salt water) is water that contains a high concentration of dissolved salts (mainly NaCl)." .
+# 
+# http://ssei.herokuapp.com/water#Saline_Water_Body
+<http://ssei.herokuapp.com/water#Saline_Water_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Saline_Water_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Body_Of_Water> .
+# 
+# http://ssei.herokuapp.com/water#Sea
+<http://ssei.herokuapp.com/water#Sea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Sea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Saline_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Septic_system
+<http://ssei.herokuapp.com/water#Septic_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Septic_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Shore
+<http://ssei.herokuapp.com/water#Shore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Shore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land> .
+# 
+# http://ssei.herokuapp.com/water#Sinkhole
+<http://ssei.herokuapp.com/water#Sinkhole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Sinkhole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Ground_Water_Body> .
+<http://ssei.herokuapp.com/water#Sinkhole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land> .
+# 
+# http://ssei.herokuapp.com/water#Site
+<http://ssei.herokuapp.com/water#Site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Site> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Surface> .
+# 
+# http://ssei.herokuapp.com/water#Site-Service
+<http://ssei.herokuapp.com/water#Site-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Site-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Site-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterservices.usgs.gov/nwis/site/?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Sleet
+<http://ssei.herokuapp.com/water#Sleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Sleet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Sleet> <http://www.w3.org/2000/01/rdf-schema#comment> "Sleet is a regionally variant term for two distinct forms of precipitation: Rain and snow mixed." .
+# 
+# http://ssei.herokuapp.com/water#Snow
+<http://ssei.herokuapp.com/water#Snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Snow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Percipitation> .
+<http://ssei.herokuapp.com/water#Snow> <http://www.w3.org/2000/01/rdf-schema#comment> "Snow refers to forms of ice crystals that precipitate from the atmosphere (usually from clouds) and undergo changes on the Earth's surface." .
+# 
+# http://ssei.herokuapp.com/water#Soil_hole
+<http://ssei.herokuapp.com/water#Soil_hole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Soil_hole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land> .
+# 
+# http://ssei.herokuapp.com/water#Spring
+<http://ssei.herokuapp.com/water#Spring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Spring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#State
+<http://ssei.herokuapp.com/water#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Station-Service
+<http://ssei.herokuapp.com/water#Station-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Station-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water-Quality-Service> .
+<http://ssei.herokuapp.com/water#Station-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid22 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterqualitydata.us/data/Station/search?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Statistics-Service
+<http://ssei.herokuapp.com/water#Statistics-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Statistics-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Statistics-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterservices.usgs.gov/nwis/stat/?"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#Storm_sewer
+<http://ssei.herokuapp.com/water#Storm_sewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Storm_sewer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Stream
+<http://ssei.herokuapp.com/water#Stream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+<http://ssei.herokuapp.com/water#Stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Surface_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Streamflow
+<http://ssei.herokuapp.com/water#Streamflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Streamflow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Runoff> .
+<http://ssei.herokuapp.com/water#Streamflow> <http://www.w3.org/2000/01/rdf-schema#comment> "Streamflow, or channel runoff, is the flow of water in streams, rivers, and other channels, and is a major element of the water cycle." .
+# 
+# http://ssei.herokuapp.com/water#Subsurface
+<http://ssei.herokuapp.com/water#Subsurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Subsurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Sunny
+<http://ssei.herokuapp.com/water#Sunny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Sunny> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Weather> .
+# 
+# http://ssei.herokuapp.com/water#Surface
+<http://ssei.herokuapp.com/water#Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Crust> .
+# 
+# http://ssei.herokuapp.com/water#Surface_Runoff
+<http://ssei.herokuapp.com/water#Surface_Runoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Surface_Runoff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Runoff> .
+<http://ssei.herokuapp.com/water#Surface_Runoff> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface runoff (also known as overland flow) is the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface." .
+# 
+# http://ssei.herokuapp.com/water#Surface_Water
+<http://ssei.herokuapp.com/water#Surface_Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Surface_Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Fresh_Water> .
+<http://ssei.herokuapp.com/water#Surface_Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface water is water on the surface of the planet such as in a river, lake, wetland, or ocean. It can be contrasted with groundwater and atmospheric water." .
+# 
+# http://ssei.herokuapp.com/water#Surface_Water_Body
+<http://ssei.herokuapp.com/water#Surface_Water_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Surface_Water_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Fresh_Water_Body> .
+# 
+# http://ssei.herokuapp.com/water#Surface_Water_Quality
+<http://ssei.herokuapp.com/water#Surface_Water_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Surface_Water_Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Quality> .
+# 
+# http://ssei.herokuapp.com/water#Swamp
+<http://ssei.herokuapp.com/water#Swamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Swamp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Reservoir> .
+# 
+# http://ssei.herokuapp.com/water#Temperature
+<http://ssei.herokuapp.com/water#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Territory
+<http://ssei.herokuapp.com/water#Territory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Territory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+# 
+# http://ssei.herokuapp.com/water#Test_Hole
+<http://ssei.herokuapp.com/water#Test_Hole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Test_Hole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Well> .
+# 
+# http://ssei.herokuapp.com/water#Thermoelectric_Plant
+<http://ssei.herokuapp.com/water#Thermoelectric_Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Thermoelectric_Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Thermoelectric_power
+<http://ssei.herokuapp.com/water#Thermoelectric_power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Thermoelectric_power> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Use> .
+<http://ssei.herokuapp.com/water#Thermoelectric_power> <http://www.w3.org/2000/01/rdf-schema#comment> "Water for thermoelectric power is used in generating electricity with steam-driven turbine generators." .
+# 
+# http://ssei.herokuapp.com/water#Tidal_stream
+<http://ssei.herokuapp.com/water#Tidal_stream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Tidal_stream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Transpiration
+<http://ssei.herokuapp.com/water#Transpiration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Transpiration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Water_Cycle> .
+<http://ssei.herokuapp.com/water#Transpiration> <http://www.w3.org/2000/01/rdf-schema#comment> "Transpiration is the process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere." .
+# 
+# http://ssei.herokuapp.com/water#Tributory
+<http://ssei.herokuapp.com/water#Tributory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Tributory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Stream> .
+# 
+# http://ssei.herokuapp.com/water#Tunnel
+<http://ssei.herokuapp.com/water#Tunnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Tunnel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Subsurface> .
+# 
+# http://ssei.herokuapp.com/water#USGS-Service
+<http://ssei.herokuapp.com/water#USGS-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Unconfined_Aquifer
+<http://ssei.herokuapp.com/water#Unconfined_Aquifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Unconfined_Aquifer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Aquifer> .
+# 
+# http://ssei.herokuapp.com/water#Unsaturated_zone
+<http://ssei.herokuapp.com/water#Unsaturated_zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Unsaturated_zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Subsurface> .
+# 
+# http://ssei.herokuapp.com/water#Waste_Injection_Well
+<http://ssei.herokuapp.com/water#Waste_Injection_Well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Waste_Injection_Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Wastewater_Land_Application
+<http://ssei.herokuapp.com/water#Wastewater_Land_Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Wastewater_Land_Application> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Wastewater_Sewer
+<http://ssei.herokuapp.com/water#Wastewater_Sewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Wastewater_Sewer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant
+<http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Water
+<http://ssei.herokuapp.com/water#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_quality> .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.com/water#Water_Quality> .
+<http://ssei.herokuapp.com/water#Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms." .
+# 
+# http://ssei.herokuapp.com/water#Water-Quality-Service
+<http://ssei.herokuapp.com/water#Water-Quality-Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water-Quality-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#USGS-Service> .
+<http://ssei.herokuapp.com/water#Water-Quality-Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_url> .
+_:genid25 <http://www.w3.org/2002/07/owl#hasValue> "https://www.waterqualitydata.us/data/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://ssei.herokuapp.com/water#WaterEntity
+<http://ssei.herokuapp.com/water#WaterEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://ssei.herokuapp.com/water#Water_Cycle
+<http://ssei.herokuapp.com/water#Water_Cycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Cycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Natural_Process> .
+<http://ssei.herokuapp.com/water#Water_Cycle> <http://www.w3.org/2000/01/rdf-schema#comment> "Water cycle, also called hydrologic cycle, cycle that involves the continuous circulation of water in the Earth-atmosphere system. Of the many processes involved in the water cycle, the most important are evaporation, transpiration, condensation, precipitation, and runoff." .
+# 
+# http://ssei.herokuapp.com/water#Water_Distribution_System
+<http://ssei.herokuapp.com/water#Water_Distribution_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Distribution_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Water_Quality
+<http://ssei.herokuapp.com/water#Water_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#Water_Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_quality_property> .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.com/water#Water_Quality_Property> .
+<http://ssei.herokuapp.com/water#Water_Quality> <http://www.w3.org/2000/01/rdf-schema#comment> "Water quality can be thought of as a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics" .
+# 
+# http://ssei.herokuapp.com/water#Water_Quality_Property
+<http://ssei.herokuapp.com/water#Water_Quality_Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Quality_Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#Water_Quality_Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://ssei.herokuapp.com/water#has_measurment> .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.com/water#Measurment> .
+<http://ssei.herokuapp.com/water#Water_Quality_Property> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical, chemical and bilogical properites of water" .
+# 
+# http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant
+<http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Water_Use
+<http://ssei.herokuapp.com/water#Water_Use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Use> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#WaterEntity> .
+<http://ssei.herokuapp.com/water#Water_Use> <http://www.w3.org/2000/01/rdf-schema#comment> "The water in the Nation's rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world's ecological systems, too." .
+# 
+# http://ssei.herokuapp.com/water#Water_Use_Establishment
+<http://ssei.herokuapp.com/water#Water_Use_Establishment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Water_Use_Establishment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Facility> .
+# 
+# http://ssei.herokuapp.com/water#Watershed
+<http://ssei.herokuapp.com/water#Watershed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Watershed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Land_Mass> .
+<http://ssei.herokuapp.com/water#Watershed> <http://www.w3.org/2000/01/rdf-schema#comment> "A watershed – the land area that drains to one stream, lake or river – affects the water quality in the water body that it surrounds. Like water bodies (e.g., lakes, rivers, and streams), individual watersheds share similarities but also differ in many ways. Every inch of the United States is part of a watershed – in other words, all land drains into a lake, river, stream or other water body and directly affects its quality." .
+# 
+# http://ssei.herokuapp.com/water#Weather
+<http://ssei.herokuapp.com/water#Weather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Weather> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atomospheric_Condition> .
+<http://ssei.herokuapp.com/water#Weather> <http://www.w3.org/2000/01/rdf-schema#comment> "a physical phenomenon associated with the atmosphere" .
+# 
+# http://ssei.herokuapp.com/water#Well
+<http://ssei.herokuapp.com/water#Well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Ground_Water_Body> .
+<http://ssei.herokuapp.com/water#Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Wetland
+<http://ssei.herokuapp.com/water#Wetland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Wetland> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Site> .
+# 
+# http://ssei.herokuapp.com/water#Wind
+<http://ssei.herokuapp.com/water#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Wind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Atmosphere> .
+# 
+# http://ssei.herokuapp.com/water#Windy
+<http://ssei.herokuapp.com/water#Windy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#Windy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Weather> .
+# 
+# http://ssei.herokuapp.com/water#acceleration
+<http://ssei.herokuapp.com/water#acceleration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#acceleration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#area
+<http://ssei.herokuapp.com/water#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#area_density
+<http://ssei.herokuapp.com/water#area_density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#area_density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#density> .
+# 
+# http://ssei.herokuapp.com/water#catalytic_concentration
+<http://ssei.herokuapp.com/water#catalytic_concentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#catalytic_concentration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#concentration> .
+# 
+# http://ssei.herokuapp.com/water#concentration
+<http://ssei.herokuapp.com/water#concentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#concentration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#count
+<http://ssei.herokuapp.com/water#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#count> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#dimensionless> .
+# 
+# http://ssei.herokuapp.com/water#density
+<http://ssei.herokuapp.com/water#density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#dimensionless
+<http://ssei.herokuapp.com/water#dimensionless> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#dimensionless> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#electric_current
+<http://ssei.herokuapp.com/water#electric_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#electric_current> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#electrical_conduction
+<http://ssei.herokuapp.com/water#electrical_conduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#electrical_conduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#energy
+<http://ssei.herokuapp.com/water#energy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#energy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#force
+<http://ssei.herokuapp.com/water#force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#force> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#length
+<http://ssei.herokuapp.com/water#length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#length> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#linear_density
+<http://ssei.herokuapp.com/water#linear_density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#linear_density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#density> .
+# 
+# http://ssei.herokuapp.com/water#mass
+<http://ssei.herokuapp.com/water#mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#mass_density
+<http://ssei.herokuapp.com/water#mass_density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#mass_density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#density> .
+# 
+# http://ssei.herokuapp.com/water#molality
+<http://ssei.herokuapp.com/water#molality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#molality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#concentration> .
+# 
+# http://ssei.herokuapp.com/water#molarity
+<http://ssei.herokuapp.com/water#molarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#molarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#concentration> .
+# 
+# http://ssei.herokuapp.com/water#normality
+<http://ssei.herokuapp.com/water#normality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#normality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#concentration> .
+# 
+# http://ssei.herokuapp.com/water#power
+<http://ssei.herokuapp.com/water#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#power> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#pressure
+<http://ssei.herokuapp.com/water#pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#substance
+<http://ssei.herokuapp.com/water#substance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#substance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#temperature
+<http://ssei.herokuapp.com/water#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#time
+<http://ssei.herokuapp.com/water#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#viscosity
+<http://ssei.herokuapp.com/water#viscosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#viscosity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#volume
+<http://ssei.herokuapp.com/water#volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#volumetric_flow_rate
+<http://ssei.herokuapp.com/water#volumetric_flow_rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#volumetric_flow_rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# http://ssei.herokuapp.com/water#speed/velocity
+<http://ssei.herokuapp.com/water#speed/velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ssei.herokuapp.com/water#speed/velocity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ssei.herokuapp.com/water#Measurment> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://ssei.herokuapp.com/water#AK001
+<http://ssei.herokuapp.com/water#AK001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#AK001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#AK001> <http://ssei.herokuapp.com/water#code> "AK001" .
+<http://ssei.herokuapp.com/water#AK001> <http://ssei.herokuapp.com/water#name> "Alaska Department of Transportation and Public Facilities" .
+# 
+# http://ssei.herokuapp.com/water#AK002
+<http://ssei.herokuapp.com/water#AK002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#AK002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#AK002> <http://ssei.herokuapp.com/water#code> "AK002" .
+<http://ssei.herokuapp.com/water#AK002> <http://ssei.herokuapp.com/water#name> "Alaska Department of Environmental Conservation" .
+# 
+# http://ssei.herokuapp.com/water#AK004
+<http://ssei.herokuapp.com/water#AK004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#AK004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Agency> .
+<http://ssei.herokuapp.com/water#AK004> <http://ssei.herokuapp.com/water#code> "AK004" .
+<http://ssei.herokuapp.com/water#AK004> <http://ssei.herokuapp.com/water#name> "" .
+# 
+# http://ssei.herokuapp.com/water#Alabama
+<http://ssei.herokuapp.com/water#Alabama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Alabama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#alpha_state_code> "01" .
+<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#name> "Alabama" .
+<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#numeric_state_code> "AL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Alaska
+<http://ssei.herokuapp.com/water#Alaska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Alaska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#alpha_state_code> "02" .
+<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#name> "Alaska" .
+<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#numeric_state_code> "AK"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#America
+<http://ssei.herokuapp.com/water#America> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#America> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Alabama> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Alaska> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Arizona> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Arkansas> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Autauga> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Baldwin> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#California> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Colorado> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Connecticut> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Delaware> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Florida> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Georgia> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Hawaii> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Idaho> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Illinois> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Indiana> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Iowa> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Kansas> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Kentucky> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Louisiana> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Maine> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Maryland> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Massachusetts> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Michigan> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Minnesota> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Mississippi> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Missouri> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Montana> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Nebraska> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Nevada> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#New_Hampshire> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#New_Jersey> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#New_Mexico> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#North_Carolina> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#North_Dakota> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Ohio> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Oklahoma> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Oregon> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Pennsylvania> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Rhode_Island> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#South_Carolina> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#South_Dakota> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Tennessee> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Texas> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Utah> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Vermont> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Virginia> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Washington> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#West_Virginia> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Wisconsin> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Wyoming> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#code> "US" .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#hasTotalCities> "311"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#hasTotalCounties> "3283"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#hasTotalHydrologicalSites> "1653702"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#hasTotalStates> "51"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#name> "United States of America" .
+# 
+# http://ssei.herokuapp.com/water#Arizona
+<http://ssei.herokuapp.com/water#Arizona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Arizona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#alpha_state_code> "04" .
+<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#name> "Arizona" .
+<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#numeric_state_code> "AZ"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Arkansas
+<http://ssei.herokuapp.com/water#Arkansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Arkansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#alpha_state_code> "05" .
+<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#name> "Arkansas" .
+<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#numeric_state_code> "AR"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Autauga
+<http://ssei.herokuapp.com/water#Autauga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Autauga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#County> .
+<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#name> "Autauga County" .
+<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#numeric_county_code> "001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#numeric_state_code> "01"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Baldwin
+<http://ssei.herokuapp.com/water#Baldwin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Baldwin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#County> .
+<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#name> "Baldwin" .
+<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#numeric_county_code> "003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#numeric_state_code> "01"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Balouchistan
+<http://ssei.herokuapp.com/water#Balouchistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Balouchistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#California
+<http://ssei.herokuapp.com/water#California> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#California> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#alpha_state_code> "06" .
+<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#name> "California" .
+<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#numeric_state_code> "CA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Colorado
+<http://ssei.herokuapp.com/water#Colorado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Colorado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#alpha_state_code> "08" .
+<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#name> "Colorado" .
+<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#numeric_state_code> "CO"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Connecticut
+<http://ssei.herokuapp.com/water#Connecticut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Connecticut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#alpha_state_code> "09" .
+<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#name> "Connecticut" .
+<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#numeric_state_code> "CT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Delaware
+<http://ssei.herokuapp.com/water#Delaware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Delaware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#alpha_state_code> "10" .
+<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#name> "Delaware" .
+<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#numeric_state_code> "DE"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#District_of
+<http://ssei.herokuapp.com/water#District_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#District_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#alpha_state_code> "Columbia" .
+<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#name> "District_of" .
+<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#numeric_state_code> "DC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Florida
+<http://ssei.herokuapp.com/water#Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#alpha_state_code> "12" .
+<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#name> "Florida" .
+<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#numeric_state_code> "FL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Georgia
+<http://ssei.herokuapp.com/water#Georgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Georgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#alpha_state_code> "13" .
+<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#name> "Georgia" .
+<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#numeric_state_code> "GA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Gilgit_Baltistan
+<http://ssei.herokuapp.com/water#Gilgit_Baltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Gilgit_Baltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#Hawaii
+<http://ssei.herokuapp.com/water#Hawaii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Hawaii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#alpha_state_code> "15" .
+<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#name> "Hawaii" .
+<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#numeric_state_code> "HI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Idaho
+<http://ssei.herokuapp.com/water#Idaho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Idaho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#alpha_state_code> "16" .
+<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#name> "Idaho" .
+<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#numeric_state_code> "ID"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Illinois
+<http://ssei.herokuapp.com/water#Illinois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Illinois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#alpha_state_code> "17" .
+<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#name> "Illinois" .
+<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#numeric_state_code> "IL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Indiana
+<http://ssei.herokuapp.com/water#Indiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Indiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#alpha_state_code> "18" .
+<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#name> "Indiana" .
+<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#numeric_state_code> "IN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Iowa
+<http://ssei.herokuapp.com/water#Iowa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Iowa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#alpha_state_code> "19" .
+<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#name> "Iowa" .
+<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#numeric_state_code> "IA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Kansas
+<http://ssei.herokuapp.com/water#Kansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Kansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#alpha_state_code> "20" .
+<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#name> "Kansas" .
+<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#numeric_state_code> "KS"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Karachi
+<http://ssei.herokuapp.com/water#Karachi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Karachi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#City> .
+<http://ssei.herokuapp.com/water#Karachi> <http://ssei.herokuapp.com/water#name> "Karachi" .
+# 
+# http://ssei.herokuapp.com/water#Kentucky
+<http://ssei.herokuapp.com/water#Kentucky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Kentucky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#alpha_state_code> "21" .
+<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#name> "Kentucky" .
+<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#numeric_state_code> "KY"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Louisiana
+<http://ssei.herokuapp.com/water#Louisiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Louisiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#alpha_state_code> "22" .
+<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#name> "Louisiana" .
+<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#numeric_state_code> "LA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Maine
+<http://ssei.herokuapp.com/water#Maine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Maine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#alpha_state_code> "23" .
+<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#name> "Maine" .
+<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#numeric_state_code> "ME"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Maryland
+<http://ssei.herokuapp.com/water#Maryland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Maryland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#alpha_state_code> "24" .
+<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#name> "Maryland" .
+<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#numeric_state_code> "MD"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Massachusetts
+<http://ssei.herokuapp.com/water#Massachusetts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#alpha_state_code> "25" .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#name> "Massachusetts" .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#numeric_state_code> "MA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Michigan
+<http://ssei.herokuapp.com/water#Michigan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Michigan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#alpha_state_code> "26" .
+<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#name> "Michigan" .
+<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#numeric_state_code> "MI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Minnesota
+<http://ssei.herokuapp.com/water#Minnesota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Minnesota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#alpha_state_code> "27" .
+<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#name> "Minnesota" .
+<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#numeric_state_code> "MN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Mississippi
+<http://ssei.herokuapp.com/water#Mississippi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Mississippi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#alpha_state_code> "28" .
+<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#name> "Mississippi" .
+<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#numeric_state_code> "MS"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Missouri
+<http://ssei.herokuapp.com/water#Missouri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Missouri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#alpha_state_code> "29" .
+<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#name> "Missouri" .
+<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#numeric_state_code> "MO"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Montana
+<http://ssei.herokuapp.com/water#Montana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Montana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#alpha_state_code> "30" .
+<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#name> "Montana" .
+<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#numeric_state_code> "MT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Nebraska
+<http://ssei.herokuapp.com/water#Nebraska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Nebraska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#alpha_state_code> "31" .
+<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#name> "Nebraska" .
+<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#numeric_state_code> "NE"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Nevada
+<http://ssei.herokuapp.com/water#Nevada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Nevada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#alpha_state_code> "32" .
+<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#name> "Nevada" .
+<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#numeric_state_code> "NV"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#New_Hampshire
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#alpha_state_code> "33" .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#name> "New_Hampshire" .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#numeric_state_code> "NH"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#New_Jersey
+<http://ssei.herokuapp.com/water#New_Jersey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#alpha_state_code> "34" .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#name> "New_Jersey" .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#numeric_state_code> "NJ"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#New_Mexico
+<http://ssei.herokuapp.com/water#New_Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#alpha_state_code> "35" .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#name> "New_Mexico" .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#numeric_state_code> "NM"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#North_Carolina
+<http://ssei.herokuapp.com/water#North_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "37" .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#name> "North_Carolina" .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "NC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#North_Dakota
+<http://ssei.herokuapp.com/water#North_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "38" .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#name> "North_Dakota" .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "ND"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Ohio
+<http://ssei.herokuapp.com/water#Ohio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Ohio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#alpha_state_code> "39" .
+<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#name> "Ohio" .
+<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#numeric_state_code> "OH"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Oklahoma
+<http://ssei.herokuapp.com/water#Oklahoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#alpha_state_code> "40" .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#name> "Oklahoma" .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#numeric_state_code> "OK"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Oregon
+<http://ssei.herokuapp.com/water#Oregon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Oregon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#alpha_state_code> "41" .
+<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#name> "Oregon" .
+<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#numeric_state_code> "OR"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Pakhtoon_Khuwah
+<http://ssei.herokuapp.com/water#Pakhtoon_Khuwah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Pakhtoon_Khuwah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#Pakistan
+<http://ssei.herokuapp.com/water#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Country> .
+<http://ssei.herokuapp.com/water#Pakistan> <http://ssei.herokuapp.com/water#code> "PK" .
+<http://ssei.herokuapp.com/water#Pakistan> <http://ssei.herokuapp.com/water#name> "Islamic Repulic of Pakistan" .
+# 
+# http://ssei.herokuapp.com/water#Pennsylvania
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#alpha_state_code> "42" .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#name> "Pennsylvania" .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#numeric_state_code> "PA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Punjab
+<http://ssei.herokuapp.com/water#Punjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Punjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#Rhode_Island
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#alpha_state_code> "44" .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#name> "Rhode_Island" .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#numeric_state_code> "RI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#San_Francisco
+<http://ssei.herokuapp.com/water#San_Francisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#San_Francisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#City> .
+<http://ssei.herokuapp.com/water#San_Francisco> <http://ssei.herokuapp.com/water#name> "San Francisco" .
+# 
+# http://ssei.herokuapp.com/water#Sindh
+<http://ssei.herokuapp.com/water#Sindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Sindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+# 
+# http://ssei.herokuapp.com/water#South_Carolina
+<http://ssei.herokuapp.com/water#South_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "45" .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#name> "South_Carolina" .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "SC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#South_Dakota
+<http://ssei.herokuapp.com/water#South_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "46" .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#name> "South_Dakota" .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "SD"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Tennessee
+<http://ssei.herokuapp.com/water#Tennessee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Tennessee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#alpha_state_code> "47" .
+<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#name> "Tennessee" .
+<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#numeric_state_code> "TN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Texas
+<http://ssei.herokuapp.com/water#Texas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Texas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#alpha_state_code> "48" .
+<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#name> "Texas" .
+<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#numeric_state_code> "TX"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Utah
+<http://ssei.herokuapp.com/water#Utah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Utah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#alpha_state_code> "49" .
+<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#name> "Utah" .
+<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#numeric_state_code> "UT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Vermont
+<http://ssei.herokuapp.com/water#Vermont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Vermont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#alpha_state_code> "50" .
+<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#name> "Vermont" .
+<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#numeric_state_code> "VT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Virginia
+<http://ssei.herokuapp.com/water#Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "51" .
+<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#name> "Virginia" .
+<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "VA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Washington
+<http://ssei.herokuapp.com/water#Washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#alpha_state_code> "53" .
+<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#name> "Washington" .
+<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#numeric_state_code> "WA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#West_Virginia
+<http://ssei.herokuapp.com/water#West_Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "54" .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#name> "West_Virginia" .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "WV"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Wisconsin
+<http://ssei.herokuapp.com/water#Wisconsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#alpha_state_code> "55" .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#name> "Wisconsin" .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#numeric_state_code> "WI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#Wyoming
+<http://ssei.herokuapp.com/water#Wyoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#Wyoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#alpha_state_code> "56" .
+<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#name> "Wyoming" .
+<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#numeric_state_code> "WY"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid28 <http://www.w3.org/2002/07/owl#members> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/UO_0000196> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#catalytic_concentration> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#molality> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#molarity> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#normality> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid34 <http://www.w3.org/2002/07/owl#members> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Activity-Service> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#ActivityMetric-Service> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Result-Service> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Station-Service> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid39 <http://www.w3.org/2002/07/owl#members> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Daily-Values-Service> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Groundwater-Levels-Service> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Site-Service> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Statistics-Service> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#Water-Quality-Service> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid45 <http://www.w3.org/2002/07/owl#members> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#area_density> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#linear_density> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ssei.herokuapp.com/water#mass_density> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
