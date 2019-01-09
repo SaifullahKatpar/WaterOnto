@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="duplicate:http://jena.hpl.hp.com/testing/reasoners/owl" uri="Work/Code%20Examples/jena-examples-master/jena-examples-master/src/main/resources/data/inference/abox.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="duplicate:http://jena.hpl.hp.com/testing/reasoners/owl" uri="Work/Code%20Examples/jena-examples-master/jena-examples-master/src/main/resources/data/inference/tbox.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://purl.obolibrary.org/obo/geo/geo.owl" uri="Work/CS-VIII/SW-2018/Ontologies/Existing/geo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://purl.obolibrary.org/obo/geo/us-fl-county-geography.owl" uri="Work/CS-VIII/SW-2018/Ontologies/Existing/us-fl-county-geography.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://purl.obolibrary.org/obo/uo.owl" uri="Work/CS-VIII/SW-2018/Semantic%20Web%20Project/OWL%20Ontology/uo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="apache-jena-3.9.0/src-examples/jena-examples/target/classes/data/pizza.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.eswc2006.org/technologies/ontology" uri="apache-jena-3.9.0/src-examples/data/eswc-2006-09-21.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/igomez/ontologies/2013/11/untitled-ontology-6" uri="Work/CS-VIII/SW-2018/Ontologies/Existing/OntoWAWO+.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-53" uri="Work/CS-VIII/SW-2018/Ontologies/New/SNS/SNS.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-88" uri="Work/CS-VIII/SW-2018/Ontologies/New/FHKB.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-90" uri="Work/CS-VIII/SW-2018/Semantic%20Web%20Project/OWL%20Ontology/news.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/user/ontologies/2018/8/untitled-ontology-5" uri="Work/CS-VIII/SW-2018/Ontologies/New/Pizza/MyPizza.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18" uri="water.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.w3.org/2002/07/owl" uri="Work/FYP/sseienv/Lib/site-packages/owlready2/owlready_ontology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="http://www.xfront.com/owl/ontologies/camera/" uri="apache-jena-3.9.0/src-examples/data/camera.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://purl.obolibrary.org/obo/uo.owl" uri="Work/CS-VIII/SW-2018/Ontologies/Existing/units.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://purl.obolibrary.org/obo/uo.owl" uri="Work/CS-VIII/SW-2018/Ontologies/Existing/uo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="apache-jena-3.9.0/src-examples/jena-examples/src/main/resources/data/pizza.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-53" uri="Work/FYP/SNS.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-90" uri="Work/CS-VIII/SW-2018/Semantic%20Web%20Project/NewsDocs/ontology.xml"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-90" uri="Work/news_project/venv/newsproject/newsportal/static/ontology/news.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/10/untitled-ontology-90" uri="Work/news_project/venv/newsproject/static/ontology/news.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18" uri="Work/FYP/ssei_material/Implementation/irrigation_ontology/Irrigtion_Ontology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18" uri="Work/FYP/sseienv/ssei_project/uploads/ontologies/water.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="shadowed:http://www.w3.org/2002/07/owl" uri="Work/news_project/venv/Lib/site-packages/owlready2/owlready_ontology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="urn:x-hp-jena:test1" uri="apache-jena-3.9.0/src-examples/data/test1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544546797193" name="urn:x-hp-jena:test2" uri="apache-jena-3.9.0/src-examples/data/test2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1546924887991" name="http://www.semanticweb.org/user/ontologies/2018/9/untitled-ontology-18" uri="water.owl"/>
     </group>
 </catalog>
