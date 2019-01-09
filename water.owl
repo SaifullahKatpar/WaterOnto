@@ -2324,6 +2324,14 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#Balouchistan -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Balouchistan">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#Province"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#California -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#California">
@@ -2368,6 +2376,14 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Georgia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Gilgit_Baltistan -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Gilgit_Baltistan">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#Province"/>
     </owl:NamedIndividual>
     
 
@@ -2588,6 +2604,14 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#Pakhtoon_Khuwah -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pakhtoon_Khuwah">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#Province"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Pennsylvania -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pennsylvania">
@@ -2596,10 +2620,26 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#Punjab -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Punjab">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#Province"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Rhode_Island -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Rhode_Island">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Sindh -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Sindh">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#Province"/>
     </owl:NamedIndividual>
     
 
