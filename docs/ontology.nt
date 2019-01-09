@@ -1227,16 +1227,16 @@ _:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.
 # http://ssei.herokuapp.com/water#Alabama
 <http://ssei.herokuapp.com/water#Alabama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Alabama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#alpha_state_code> "01" .
+<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#alpha_state_code> "AL" .
 <http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#name> "Alabama" .
-<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#numeric_state_code> "AL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Alabama> <http://ssei.herokuapp.com/water#numeric_state_code> "01"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Alaska
 <http://ssei.herokuapp.com/water#Alaska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Alaska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#alpha_state_code> "02" .
+<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#alpha_state_code> "AK" .
 <http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#name> "Alaska" .
-<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#numeric_state_code> "AK"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Alaska> <http://ssei.herokuapp.com/water#numeric_state_code> "02"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#America
 <http://ssei.herokuapp.com/water#America> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1246,7 +1246,9 @@ _:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Arizona> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Arkansas> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Autauga> .
+<http://ssei.herokuapp.com/water#Autauga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Baldwin> .
+<http://ssei.herokuapp.com/water#Baldwin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#California> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Colorado> .
 <http://ssei.herokuapp.com/water#America> <http://ssei.herokuapp.com/water#has_state> <http://ssei.herokuapp.com/water#Connecticut> .
@@ -1302,388 +1304,349 @@ _:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://ssei.herokuapp.
 # http://ssei.herokuapp.com/water#Arizona
 <http://ssei.herokuapp.com/water#Arizona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Arizona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#alpha_state_code> "04" .
+<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#alpha_state_code> "AZ" .
 <http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#name> "Arizona" .
-<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#numeric_state_code> "AZ"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Arizona> <http://ssei.herokuapp.com/water#numeric_state_code> "04"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Arkansas
 <http://ssei.herokuapp.com/water#Arkansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Arkansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#alpha_state_code> "05" .
+<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#alpha_state_code> "AR" .
 <http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#name> "Arkansas" .
-<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#numeric_state_code> "AR"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Arkansas> <http://ssei.herokuapp.com/water#numeric_state_code> "05"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Autauga
-<http://ssei.herokuapp.com/water#Autauga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Autauga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#County> .
-<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#name> "Autauga County" .
-<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#numeric_county_code> "001"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ssei.herokuapp.com/water#Autauga> <http://ssei.herokuapp.com/water#numeric_state_code> "01"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Baldwin
-<http://ssei.herokuapp.com/water#Baldwin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Baldwin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#County> .
-<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#name> "Baldwin" .
-<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#numeric_county_code> "003"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ssei.herokuapp.com/water#Baldwin> <http://ssei.herokuapp.com/water#numeric_state_code> "01"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#Balouchistan
-<http://ssei.herokuapp.com/water#Balouchistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Balouchistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
 # 
 # http://ssei.herokuapp.com/water#California
 <http://ssei.herokuapp.com/water#California> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#California> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#alpha_state_code> "06" .
+<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#alpha_state_code> "CA" .
 <http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#name> "California" .
-<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#numeric_state_code> "CA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#California> <http://ssei.herokuapp.com/water#numeric_state_code> "06"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Colorado
 <http://ssei.herokuapp.com/water#Colorado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Colorado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#alpha_state_code> "08" .
+<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#alpha_state_code> "CO" .
 <http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#name> "Colorado" .
-<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#numeric_state_code> "CO"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Colorado> <http://ssei.herokuapp.com/water#numeric_state_code> "08"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Connecticut
 <http://ssei.herokuapp.com/water#Connecticut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Connecticut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#alpha_state_code> "09" .
+<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#alpha_state_code> "CT" .
 <http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#name> "Connecticut" .
-<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#numeric_state_code> "CT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Connecticut> <http://ssei.herokuapp.com/water#numeric_state_code> "09"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Delaware
 <http://ssei.herokuapp.com/water#Delaware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Delaware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#alpha_state_code> "10" .
+<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#alpha_state_code> "DE" .
 <http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#name> "Delaware" .
-<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#numeric_state_code> "DE"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Delaware> <http://ssei.herokuapp.com/water#numeric_state_code> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
-# http://ssei.herokuapp.com/water#District_of
-<http://ssei.herokuapp.com/water#District_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#District_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#alpha_state_code> "Columbia" .
-<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#name> "District_of" .
-<http://ssei.herokuapp.com/water#District_of> <http://ssei.herokuapp.com/water#numeric_state_code> "DC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# http://ssei.herokuapp.com/water#District_of_Columbia
+<http://ssei.herokuapp.com/water#District_of_Columbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#District_of_Columbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#District_of_Columbia> <http://ssei.herokuapp.com/water#alpha_state_code> "DC" .
+<http://ssei.herokuapp.com/water#District_of_Columbia> <http://ssei.herokuapp.com/water#name> "District_of_Columbia" .
+<http://ssei.herokuapp.com/water#District_of_Columbia> <http://ssei.herokuapp.com/water#numeric_state_code> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Florida
 <http://ssei.herokuapp.com/water#Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Florida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#alpha_state_code> "12" .
+<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#alpha_state_code> "FL" .
 <http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#name> "Florida" .
-<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#numeric_state_code> "FL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Florida> <http://ssei.herokuapp.com/water#numeric_state_code> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Georgia
 <http://ssei.herokuapp.com/water#Georgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Georgia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#alpha_state_code> "13" .
+<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#alpha_state_code> "GA" .
 <http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#name> "Georgia" .
-<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#numeric_state_code> "GA"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#Gilgit_Baltistan
-<http://ssei.herokuapp.com/water#Gilgit_Baltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Gilgit_Baltistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+<http://ssei.herokuapp.com/water#Georgia> <http://ssei.herokuapp.com/water#numeric_state_code> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Hawaii
 <http://ssei.herokuapp.com/water#Hawaii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Hawaii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#alpha_state_code> "15" .
+<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#alpha_state_code> "HI" .
 <http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#name> "Hawaii" .
-<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#numeric_state_code> "HI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Hawaii> <http://ssei.herokuapp.com/water#numeric_state_code> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Idaho
 <http://ssei.herokuapp.com/water#Idaho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Idaho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#alpha_state_code> "16" .
+<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#alpha_state_code> "ID" .
 <http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#name> "Idaho" .
-<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#numeric_state_code> "ID"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Idaho> <http://ssei.herokuapp.com/water#numeric_state_code> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Illinois
 <http://ssei.herokuapp.com/water#Illinois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Illinois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#alpha_state_code> "17" .
+<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#alpha_state_code> "IL" .
 <http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#name> "Illinois" .
-<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#numeric_state_code> "IL"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Illinois> <http://ssei.herokuapp.com/water#numeric_state_code> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Indiana
 <http://ssei.herokuapp.com/water#Indiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Indiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#alpha_state_code> "18" .
+<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#alpha_state_code> "IN" .
 <http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#name> "Indiana" .
-<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#numeric_state_code> "IN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Indiana> <http://ssei.herokuapp.com/water#numeric_state_code> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Iowa
 <http://ssei.herokuapp.com/water#Iowa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Iowa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#alpha_state_code> "19" .
+<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#alpha_state_code> "IA" .
 <http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#name> "Iowa" .
-<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#numeric_state_code> "IA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Iowa> <http://ssei.herokuapp.com/water#numeric_state_code> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Kansas
 <http://ssei.herokuapp.com/water#Kansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Kansas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#alpha_state_code> "20" .
+<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#alpha_state_code> "KS" .
 <http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#name> "Kansas" .
-<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#numeric_state_code> "KS"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#Karachi
-<http://ssei.herokuapp.com/water#Karachi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Karachi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#City> .
-<http://ssei.herokuapp.com/water#Karachi> <http://ssei.herokuapp.com/water#name> "Karachi" .
+<http://ssei.herokuapp.com/water#Kansas> <http://ssei.herokuapp.com/water#numeric_state_code> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Kentucky
 <http://ssei.herokuapp.com/water#Kentucky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Kentucky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#alpha_state_code> "21" .
+<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#alpha_state_code> "KY" .
 <http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#name> "Kentucky" .
-<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#numeric_state_code> "KY"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Kentucky> <http://ssei.herokuapp.com/water#numeric_state_code> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Louisiana
 <http://ssei.herokuapp.com/water#Louisiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Louisiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#alpha_state_code> "22" .
+<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#alpha_state_code> "LA" .
 <http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#name> "Louisiana" .
-<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#numeric_state_code> "LA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Louisiana> <http://ssei.herokuapp.com/water#numeric_state_code> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Maine
 <http://ssei.herokuapp.com/water#Maine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Maine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#alpha_state_code> "23" .
+<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#alpha_state_code> "ME" .
 <http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#name> "Maine" .
-<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#numeric_state_code> "ME"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Maine> <http://ssei.herokuapp.com/water#numeric_state_code> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Maryland
 <http://ssei.herokuapp.com/water#Maryland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Maryland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#alpha_state_code> "24" .
+<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#alpha_state_code> "MD" .
 <http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#name> "Maryland" .
-<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#numeric_state_code> "MD"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Maryland> <http://ssei.herokuapp.com/water#numeric_state_code> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Massachusetts
 <http://ssei.herokuapp.com/water#Massachusetts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Massachusetts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#alpha_state_code> "25" .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#alpha_state_code> "MA" .
 <http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#name> "Massachusetts" .
-<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#numeric_state_code> "MA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Massachusetts> <http://ssei.herokuapp.com/water#numeric_state_code> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Michigan
 <http://ssei.herokuapp.com/water#Michigan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Michigan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#alpha_state_code> "26" .
+<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#alpha_state_code> "MI" .
 <http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#name> "Michigan" .
-<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#numeric_state_code> "MI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Michigan> <http://ssei.herokuapp.com/water#numeric_state_code> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Minnesota
 <http://ssei.herokuapp.com/water#Minnesota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Minnesota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#alpha_state_code> "27" .
+<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#alpha_state_code> "MN" .
 <http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#name> "Minnesota" .
-<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#numeric_state_code> "MN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Minnesota> <http://ssei.herokuapp.com/water#numeric_state_code> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Mississippi
 <http://ssei.herokuapp.com/water#Mississippi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Mississippi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#alpha_state_code> "28" .
+<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#alpha_state_code> "MS" .
 <http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#name> "Mississippi" .
-<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#numeric_state_code> "MS"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Mississippi> <http://ssei.herokuapp.com/water#numeric_state_code> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Missouri
 <http://ssei.herokuapp.com/water#Missouri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Missouri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#alpha_state_code> "29" .
+<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#alpha_state_code> "MO" .
 <http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#name> "Missouri" .
-<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#numeric_state_code> "MO"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Missouri> <http://ssei.herokuapp.com/water#numeric_state_code> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Montana
 <http://ssei.herokuapp.com/water#Montana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Montana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#alpha_state_code> "30" .
+<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#alpha_state_code> "MT" .
 <http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#name> "Montana" .
-<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#numeric_state_code> "MT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Montana> <http://ssei.herokuapp.com/water#numeric_state_code> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Nebraska
 <http://ssei.herokuapp.com/water#Nebraska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Nebraska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#alpha_state_code> "31" .
+<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#alpha_state_code> "NE" .
 <http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#name> "Nebraska" .
-<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#numeric_state_code> "NE"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Nebraska> <http://ssei.herokuapp.com/water#numeric_state_code> "31"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Nevada
 <http://ssei.herokuapp.com/water#Nevada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Nevada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#alpha_state_code> "32" .
+<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#alpha_state_code> "NV" .
 <http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#name> "Nevada" .
-<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#numeric_state_code> "NV"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Nevada> <http://ssei.herokuapp.com/water#numeric_state_code> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#New_Hampshire
 <http://ssei.herokuapp.com/water#New_Hampshire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#New_Hampshire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#alpha_state_code> "33" .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#alpha_state_code> "NH" .
 <http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#name> "New_Hampshire" .
-<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#numeric_state_code> "NH"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#New_Hampshire> <http://ssei.herokuapp.com/water#numeric_state_code> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#New_Jersey
 <http://ssei.herokuapp.com/water#New_Jersey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#New_Jersey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#alpha_state_code> "34" .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#alpha_state_code> "NJ" .
 <http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#name> "New_Jersey" .
-<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#numeric_state_code> "NJ"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#New_Jersey> <http://ssei.herokuapp.com/water#numeric_state_code> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#New_Mexico
 <http://ssei.herokuapp.com/water#New_Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#New_Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#alpha_state_code> "35" .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#alpha_state_code> "NM" .
 <http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#name> "New_Mexico" .
-<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#numeric_state_code> "NM"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#New_Mexico> <http://ssei.herokuapp.com/water#numeric_state_code> "35"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://ssei.herokuapp.com/water#New_York
+<http://ssei.herokuapp.com/water#New_York> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://ssei.herokuapp.com/water#New_York> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
+<http://ssei.herokuapp.com/water#New_York> <http://ssei.herokuapp.com/water#alpha_state_code> "NY" .
+<http://ssei.herokuapp.com/water#New_York> <http://ssei.herokuapp.com/water#name> "New_York" .
+<http://ssei.herokuapp.com/water#New_York> <http://ssei.herokuapp.com/water#numeric_state_code> "36"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#North_Carolina
 <http://ssei.herokuapp.com/water#North_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#North_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "37" .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "NC" .
 <http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#name> "North_Carolina" .
-<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "NC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#North_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "37"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#North_Dakota
 <http://ssei.herokuapp.com/water#North_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#North_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "38" .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "ND" .
 <http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#name> "North_Dakota" .
-<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "ND"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#North_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "38"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Ohio
 <http://ssei.herokuapp.com/water#Ohio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Ohio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#alpha_state_code> "39" .
+<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#alpha_state_code> "OH" .
 <http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#name> "Ohio" .
-<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#numeric_state_code> "OH"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Ohio> <http://ssei.herokuapp.com/water#numeric_state_code> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Oklahoma
 <http://ssei.herokuapp.com/water#Oklahoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Oklahoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#alpha_state_code> "40" .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#alpha_state_code> "OK" .
 <http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#name> "Oklahoma" .
-<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#numeric_state_code> "OK"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Oklahoma> <http://ssei.herokuapp.com/water#numeric_state_code> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Oregon
 <http://ssei.herokuapp.com/water#Oregon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Oregon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#alpha_state_code> "41" .
+<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#alpha_state_code> "OR" .
 <http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#name> "Oregon" .
-<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#numeric_state_code> "OR"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#Pakhtoon_Khuwah
-<http://ssei.herokuapp.com/water#Pakhtoon_Khuwah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Pakhtoon_Khuwah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
-# 
-# http://ssei.herokuapp.com/water#Pakistan
-<http://ssei.herokuapp.com/water#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Pakistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Country> .
-<http://ssei.herokuapp.com/water#Pakistan> <http://ssei.herokuapp.com/water#code> "PK" .
-<http://ssei.herokuapp.com/water#Pakistan> <http://ssei.herokuapp.com/water#name> "Islamic Repulic of Pakistan" .
+<http://ssei.herokuapp.com/water#Oregon> <http://ssei.herokuapp.com/water#numeric_state_code> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Pennsylvania
 <http://ssei.herokuapp.com/water#Pennsylvania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Pennsylvania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#alpha_state_code> "42" .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#alpha_state_code> "PA" .
 <http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#name> "Pennsylvania" .
-<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#numeric_state_code> "PA"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#Punjab
-<http://ssei.herokuapp.com/water#Punjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Punjab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+<http://ssei.herokuapp.com/water#Pennsylvania> <http://ssei.herokuapp.com/water#numeric_state_code> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Rhode_Island
 <http://ssei.herokuapp.com/water#Rhode_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Rhode_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#alpha_state_code> "44" .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#alpha_state_code> "RI" .
 <http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#name> "Rhode_Island" .
-<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#numeric_state_code> "RI"^^<http://www.w3.org/2001/XMLSchema#integer> .
-# 
-# http://ssei.herokuapp.com/water#San_Francisco
-<http://ssei.herokuapp.com/water#San_Francisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#San_Francisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#City> .
-<http://ssei.herokuapp.com/water#San_Francisco> <http://ssei.herokuapp.com/water#name> "San Francisco" .
-# 
-# http://ssei.herokuapp.com/water#Sindh
-<http://ssei.herokuapp.com/water#Sindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://ssei.herokuapp.com/water#Sindh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#Province> .
+<http://ssei.herokuapp.com/water#Rhode_Island> <http://ssei.herokuapp.com/water#numeric_state_code> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#South_Carolina
 <http://ssei.herokuapp.com/water#South_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#South_Carolina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "45" .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#alpha_state_code> "SC" .
 <http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#name> "South_Carolina" .
-<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "SC"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#South_Carolina> <http://ssei.herokuapp.com/water#numeric_state_code> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#South_Dakota
 <http://ssei.herokuapp.com/water#South_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#South_Dakota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "46" .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#alpha_state_code> "SD" .
 <http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#name> "South_Dakota" .
-<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "SD"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#South_Dakota> <http://ssei.herokuapp.com/water#numeric_state_code> "46"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Tennessee
 <http://ssei.herokuapp.com/water#Tennessee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Tennessee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#alpha_state_code> "47" .
+<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#alpha_state_code> "TN" .
 <http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#name> "Tennessee" .
-<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#numeric_state_code> "TN"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Tennessee> <http://ssei.herokuapp.com/water#numeric_state_code> "47"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Texas
 <http://ssei.herokuapp.com/water#Texas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Texas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#alpha_state_code> "48" .
+<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#alpha_state_code> "TX" .
 <http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#name> "Texas" .
-<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#numeric_state_code> "TX"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Texas> <http://ssei.herokuapp.com/water#numeric_state_code> "48"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Utah
 <http://ssei.herokuapp.com/water#Utah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Utah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#alpha_state_code> "49" .
+<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#alpha_state_code> "UT" .
 <http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#name> "Utah" .
-<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#numeric_state_code> "UT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Utah> <http://ssei.herokuapp.com/water#numeric_state_code> "49"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Vermont
 <http://ssei.herokuapp.com/water#Vermont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Vermont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#alpha_state_code> "50" .
+<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#alpha_state_code> "VT" .
 <http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#name> "Vermont" .
-<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#numeric_state_code> "VT"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Vermont> <http://ssei.herokuapp.com/water#numeric_state_code> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Virginia
 <http://ssei.herokuapp.com/water#Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "51" .
+<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "VA" .
 <http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#name> "Virginia" .
-<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "VA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "51"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Washington
 <http://ssei.herokuapp.com/water#Washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#alpha_state_code> "53" .
+<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#alpha_state_code> "WA" .
 <http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#name> "Washington" .
-<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#numeric_state_code> "WA"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Washington> <http://ssei.herokuapp.com/water#numeric_state_code> "53"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#West_Virginia
 <http://ssei.herokuapp.com/water#West_Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#West_Virginia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "54" .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#alpha_state_code> "WV" .
 <http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#name> "West_Virginia" .
-<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "WV"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#West_Virginia> <http://ssei.herokuapp.com/water#numeric_state_code> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Wisconsin
 <http://ssei.herokuapp.com/water#Wisconsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Wisconsin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#alpha_state_code> "55" .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#alpha_state_code> "WI" .
 <http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#name> "Wisconsin" .
-<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#numeric_state_code> "WI"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Wisconsin> <http://ssei.herokuapp.com/water#numeric_state_code> "55"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://ssei.herokuapp.com/water#Wyoming
 <http://ssei.herokuapp.com/water#Wyoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://ssei.herokuapp.com/water#Wyoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ssei.herokuapp.com/water#State> .
-<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#alpha_state_code> "56" .
+<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#alpha_state_code> "WY" .
 <http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#name> "Wyoming" .
-<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#numeric_state_code> "WY"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ssei.herokuapp.com/water#Wyoming> <http://ssei.herokuapp.com/water#numeric_state_code> "56"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # 
 # 

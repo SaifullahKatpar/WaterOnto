@@ -1435,17 +1435,17 @@ owl:topDataProperty rdfs:domain :USGS-Service ;
 ###  http://ssei.herokuapp.com/water#Alabama
 :Alabama rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "01" ;
+         :alpha_state_code "AL" ;
          :name "Alabama" ;
-         :numeric_state_code AL .
+         :numeric_state_code 01 .
 
 
 ###  http://ssei.herokuapp.com/water#Alaska
 :Alaska rdf:type owl:NamedIndividual ,
                  :State ;
-        :alpha_state_code "02" ;
+        :alpha_state_code "AK" ;
         :name "Alaska" ;
-        :numeric_state_code AK .
+        :numeric_state_code 02 .
 
 
 ###  http://ssei.herokuapp.com/water#America
@@ -1513,445 +1513,401 @@ owl:topDataProperty rdfs:domain :USGS-Service ;
 ###  http://ssei.herokuapp.com/water#Arizona
 :Arizona rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "04" ;
+         :alpha_state_code "AZ" ;
          :name "Arizona" ;
-         :numeric_state_code AZ .
+         :numeric_state_code 04 .
 
 
 ###  http://ssei.herokuapp.com/water#Arkansas
 :Arkansas rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "05" ;
+          :alpha_state_code "AR" ;
           :name "Arkansas" ;
-          :numeric_state_code AR .
+          :numeric_state_code 05 .
 
 
 ###  http://ssei.herokuapp.com/water#Autauga
-:Autauga rdf:type owl:NamedIndividual ,
-                  :County ;
-         :name "Autauga County" ;
-         :numeric_county_code 001 ;
-         :numeric_state_code 01 .
+:Autauga rdf:type owl:NamedIndividual .
 
 
 ###  http://ssei.herokuapp.com/water#Baldwin
-:Baldwin rdf:type owl:NamedIndividual ,
-                  :County ;
-         :name "Baldwin" ;
-         :numeric_county_code 003 ;
-         :numeric_state_code 01 .
-
-
-###  http://ssei.herokuapp.com/water#Balouchistan
-:Balouchistan rdf:type owl:NamedIndividual ,
-                       :Province .
+:Baldwin rdf:type owl:NamedIndividual .
 
 
 ###  http://ssei.herokuapp.com/water#California
 :California rdf:type owl:NamedIndividual ,
                      :State ;
-            :alpha_state_code "06" ;
+            :alpha_state_code "CA" ;
             :name "California" ;
-            :numeric_state_code CA .
+            :numeric_state_code 06 .
 
 
 ###  http://ssei.herokuapp.com/water#Colorado
 :Colorado rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "08" ;
+          :alpha_state_code "CO" ;
           :name "Colorado" ;
-          :numeric_state_code CO .
+          :numeric_state_code 08 .
 
 
 ###  http://ssei.herokuapp.com/water#Connecticut
 :Connecticut rdf:type owl:NamedIndividual ,
                       :State ;
-             :alpha_state_code "09" ;
+             :alpha_state_code "CT" ;
              :name "Connecticut" ;
-             :numeric_state_code CT .
+             :numeric_state_code 09 .
 
 
 ###  http://ssei.herokuapp.com/water#Delaware
 :Delaware rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "10" ;
+          :alpha_state_code "DE" ;
           :name "Delaware" ;
-          :numeric_state_code DE .
+          :numeric_state_code 10 .
 
 
-###  http://ssei.herokuapp.com/water#District_of
-:District_of rdf:type owl:NamedIndividual ,
-                      :State ;
-             :alpha_state_code "Columbia" ;
-             :name "District_of" ;
-             :numeric_state_code DC .
+###  http://ssei.herokuapp.com/water#District_of_Columbia
+:District_of_Columbia rdf:type owl:NamedIndividual ,
+                               :State ;
+                      :alpha_state_code "DC" ;
+                      :name "District_of_Columbia" ;
+                      :numeric_state_code 11 .
 
 
 ###  http://ssei.herokuapp.com/water#Florida
 :Florida rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "12" ;
+         :alpha_state_code "FL" ;
          :name "Florida" ;
-         :numeric_state_code FL .
+         :numeric_state_code 12 .
 
 
 ###  http://ssei.herokuapp.com/water#Georgia
 :Georgia rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "13" ;
+         :alpha_state_code "GA" ;
          :name "Georgia" ;
-         :numeric_state_code GA .
-
-
-###  http://ssei.herokuapp.com/water#Gilgit_Baltistan
-:Gilgit_Baltistan rdf:type owl:NamedIndividual ,
-                           :Province .
+         :numeric_state_code 13 .
 
 
 ###  http://ssei.herokuapp.com/water#Hawaii
 :Hawaii rdf:type owl:NamedIndividual ,
                  :State ;
-        :alpha_state_code "15" ;
+        :alpha_state_code "HI" ;
         :name "Hawaii" ;
-        :numeric_state_code HI .
+        :numeric_state_code 15 .
 
 
 ###  http://ssei.herokuapp.com/water#Idaho
 :Idaho rdf:type owl:NamedIndividual ,
                 :State ;
-       :alpha_state_code "16" ;
+       :alpha_state_code "ID" ;
        :name "Idaho" ;
-       :numeric_state_code ID .
+       :numeric_state_code 16 .
 
 
 ###  http://ssei.herokuapp.com/water#Illinois
 :Illinois rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "17" ;
+          :alpha_state_code "IL" ;
           :name "Illinois" ;
-          :numeric_state_code IL .
+          :numeric_state_code 17 .
 
 
 ###  http://ssei.herokuapp.com/water#Indiana
 :Indiana rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "18" ;
+         :alpha_state_code "IN" ;
          :name "Indiana" ;
-         :numeric_state_code IN .
+         :numeric_state_code 18 .
 
 
 ###  http://ssei.herokuapp.com/water#Iowa
 :Iowa rdf:type owl:NamedIndividual ,
                :State ;
-      :alpha_state_code "19" ;
+      :alpha_state_code "IA" ;
       :name "Iowa" ;
-      :numeric_state_code IA .
+      :numeric_state_code 19 .
 
 
 ###  http://ssei.herokuapp.com/water#Kansas
 :Kansas rdf:type owl:NamedIndividual ,
                  :State ;
-        :alpha_state_code "20" ;
+        :alpha_state_code "KS" ;
         :name "Kansas" ;
-        :numeric_state_code KS .
-
-
-###  http://ssei.herokuapp.com/water#Karachi
-:Karachi rdf:type owl:NamedIndividual ,
-                  :City ;
-         :name "Karachi" .
+        :numeric_state_code 20 .
 
 
 ###  http://ssei.herokuapp.com/water#Kentucky
 :Kentucky rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "21" ;
+          :alpha_state_code "KY" ;
           :name "Kentucky" ;
-          :numeric_state_code KY .
+          :numeric_state_code 21 .
 
 
 ###  http://ssei.herokuapp.com/water#Louisiana
 :Louisiana rdf:type owl:NamedIndividual ,
                     :State ;
-           :alpha_state_code "22" ;
+           :alpha_state_code "LA" ;
            :name "Louisiana" ;
-           :numeric_state_code LA .
+           :numeric_state_code 22 .
 
 
 ###  http://ssei.herokuapp.com/water#Maine
 :Maine rdf:type owl:NamedIndividual ,
                 :State ;
-       :alpha_state_code "23" ;
+       :alpha_state_code "ME" ;
        :name "Maine" ;
-       :numeric_state_code ME .
+       :numeric_state_code 23 .
 
 
 ###  http://ssei.herokuapp.com/water#Maryland
 :Maryland rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "24" ;
+          :alpha_state_code "MD" ;
           :name "Maryland" ;
-          :numeric_state_code MD .
+          :numeric_state_code 24 .
 
 
 ###  http://ssei.herokuapp.com/water#Massachusetts
 :Massachusetts rdf:type owl:NamedIndividual ,
                         :State ;
-               :alpha_state_code "25" ;
+               :alpha_state_code "MA" ;
                :name "Massachusetts" ;
-               :numeric_state_code MA .
+               :numeric_state_code 25 .
 
 
 ###  http://ssei.herokuapp.com/water#Michigan
 :Michigan rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "26" ;
+          :alpha_state_code "MI" ;
           :name "Michigan" ;
-          :numeric_state_code MI .
+          :numeric_state_code 26 .
 
 
 ###  http://ssei.herokuapp.com/water#Minnesota
 :Minnesota rdf:type owl:NamedIndividual ,
                     :State ;
-           :alpha_state_code "27" ;
+           :alpha_state_code "MN" ;
            :name "Minnesota" ;
-           :numeric_state_code MN .
+           :numeric_state_code 27 .
 
 
 ###  http://ssei.herokuapp.com/water#Mississippi
 :Mississippi rdf:type owl:NamedIndividual ,
                       :State ;
-             :alpha_state_code "28" ;
+             :alpha_state_code "MS" ;
              :name "Mississippi" ;
-             :numeric_state_code MS .
+             :numeric_state_code 28 .
 
 
 ###  http://ssei.herokuapp.com/water#Missouri
 :Missouri rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "29" ;
+          :alpha_state_code "MO" ;
           :name "Missouri" ;
-          :numeric_state_code MO .
+          :numeric_state_code 29 .
 
 
 ###  http://ssei.herokuapp.com/water#Montana
 :Montana rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "30" ;
+         :alpha_state_code "MT" ;
          :name "Montana" ;
-         :numeric_state_code MT .
+         :numeric_state_code 30 .
 
 
 ###  http://ssei.herokuapp.com/water#Nebraska
 :Nebraska rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "31" ;
+          :alpha_state_code "NE" ;
           :name "Nebraska" ;
-          :numeric_state_code NE .
+          :numeric_state_code 31 .
 
 
 ###  http://ssei.herokuapp.com/water#Nevada
 :Nevada rdf:type owl:NamedIndividual ,
                  :State ;
-        :alpha_state_code "32" ;
+        :alpha_state_code "NV" ;
         :name "Nevada" ;
-        :numeric_state_code NV .
+        :numeric_state_code 32 .
 
 
 ###  http://ssei.herokuapp.com/water#New_Hampshire
 :New_Hampshire rdf:type owl:NamedIndividual ,
                         :State ;
-               :alpha_state_code "33" ;
+               :alpha_state_code "NH" ;
                :name "New_Hampshire" ;
-               :numeric_state_code NH .
+               :numeric_state_code 33 .
 
 
 ###  http://ssei.herokuapp.com/water#New_Jersey
 :New_Jersey rdf:type owl:NamedIndividual ,
                      :State ;
-            :alpha_state_code "34" ;
+            :alpha_state_code "NJ" ;
             :name "New_Jersey" ;
-            :numeric_state_code NJ .
+            :numeric_state_code 34 .
 
 
 ###  http://ssei.herokuapp.com/water#New_Mexico
 :New_Mexico rdf:type owl:NamedIndividual ,
                      :State ;
-            :alpha_state_code "35" ;
+            :alpha_state_code "NM" ;
             :name "New_Mexico" ;
-            :numeric_state_code NM .
+            :numeric_state_code 35 .
+
+
+###  http://ssei.herokuapp.com/water#New_York
+:New_York rdf:type owl:NamedIndividual ,
+                   :State ;
+          :alpha_state_code "NY" ;
+          :name "New_York" ;
+          :numeric_state_code 36 .
 
 
 ###  http://ssei.herokuapp.com/water#North_Carolina
 :North_Carolina rdf:type owl:NamedIndividual ,
                          :State ;
-                :alpha_state_code "37" ;
+                :alpha_state_code "NC" ;
                 :name "North_Carolina" ;
-                :numeric_state_code NC .
+                :numeric_state_code 37 .
 
 
 ###  http://ssei.herokuapp.com/water#North_Dakota
 :North_Dakota rdf:type owl:NamedIndividual ,
                        :State ;
-              :alpha_state_code "38" ;
+              :alpha_state_code "ND" ;
               :name "North_Dakota" ;
-              :numeric_state_code ND .
+              :numeric_state_code 38 .
 
 
 ###  http://ssei.herokuapp.com/water#Ohio
 :Ohio rdf:type owl:NamedIndividual ,
                :State ;
-      :alpha_state_code "39" ;
+      :alpha_state_code "OH" ;
       :name "Ohio" ;
-      :numeric_state_code OH .
+      :numeric_state_code 39 .
 
 
 ###  http://ssei.herokuapp.com/water#Oklahoma
 :Oklahoma rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "40" ;
+          :alpha_state_code "OK" ;
           :name "Oklahoma" ;
-          :numeric_state_code OK .
+          :numeric_state_code 40 .
 
 
 ###  http://ssei.herokuapp.com/water#Oregon
 :Oregon rdf:type owl:NamedIndividual ,
                  :State ;
-        :alpha_state_code "41" ;
+        :alpha_state_code "OR" ;
         :name "Oregon" ;
-        :numeric_state_code OR .
-
-
-###  http://ssei.herokuapp.com/water#Pakhtoon_Khuwah
-:Pakhtoon_Khuwah rdf:type owl:NamedIndividual ,
-                          :Province .
-
-
-###  http://ssei.herokuapp.com/water#Pakistan
-:Pakistan rdf:type owl:NamedIndividual ,
-                   :Country ;
-          :code "PK" ;
-          :name "Islamic Repulic of Pakistan" .
+        :numeric_state_code 41 .
 
 
 ###  http://ssei.herokuapp.com/water#Pennsylvania
 :Pennsylvania rdf:type owl:NamedIndividual ,
                        :State ;
-              :alpha_state_code "42" ;
+              :alpha_state_code "PA" ;
               :name "Pennsylvania" ;
-              :numeric_state_code PA .
-
-
-###  http://ssei.herokuapp.com/water#Punjab
-:Punjab rdf:type owl:NamedIndividual ,
-                 :Province .
+              :numeric_state_code 42 .
 
 
 ###  http://ssei.herokuapp.com/water#Rhode_Island
 :Rhode_Island rdf:type owl:NamedIndividual ,
                        :State ;
-              :alpha_state_code "44" ;
+              :alpha_state_code "RI" ;
               :name "Rhode_Island" ;
-              :numeric_state_code RI .
-
-
-###  http://ssei.herokuapp.com/water#San_Francisco
-:San_Francisco rdf:type owl:NamedIndividual ,
-                        :City ;
-               :name "San Francisco" .
-
-
-###  http://ssei.herokuapp.com/water#Sindh
-:Sindh rdf:type owl:NamedIndividual ,
-                :Province .
+              :numeric_state_code 44 .
 
 
 ###  http://ssei.herokuapp.com/water#South_Carolina
 :South_Carolina rdf:type owl:NamedIndividual ,
                          :State ;
-                :alpha_state_code "45" ;
+                :alpha_state_code "SC" ;
                 :name "South_Carolina" ;
-                :numeric_state_code SC .
+                :numeric_state_code 45 .
 
 
 ###  http://ssei.herokuapp.com/water#South_Dakota
 :South_Dakota rdf:type owl:NamedIndividual ,
                        :State ;
-              :alpha_state_code "46" ;
+              :alpha_state_code "SD" ;
               :name "South_Dakota" ;
-              :numeric_state_code SD .
+              :numeric_state_code 46 .
 
 
 ###  http://ssei.herokuapp.com/water#Tennessee
 :Tennessee rdf:type owl:NamedIndividual ,
                     :State ;
-           :alpha_state_code "47" ;
+           :alpha_state_code "TN" ;
            :name "Tennessee" ;
-           :numeric_state_code TN .
+           :numeric_state_code 47 .
 
 
 ###  http://ssei.herokuapp.com/water#Texas
 :Texas rdf:type owl:NamedIndividual ,
                 :State ;
-       :alpha_state_code "48" ;
+       :alpha_state_code "TX" ;
        :name "Texas" ;
-       :numeric_state_code TX .
+       :numeric_state_code 48 .
 
 
 ###  http://ssei.herokuapp.com/water#Utah
 :Utah rdf:type owl:NamedIndividual ,
                :State ;
-      :alpha_state_code "49" ;
+      :alpha_state_code "UT" ;
       :name "Utah" ;
-      :numeric_state_code UT .
+      :numeric_state_code 49 .
 
 
 ###  http://ssei.herokuapp.com/water#Vermont
 :Vermont rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "50" ;
+         :alpha_state_code "VT" ;
          :name "Vermont" ;
-         :numeric_state_code VT .
+         :numeric_state_code 50 .
 
 
 ###  http://ssei.herokuapp.com/water#Virginia
 :Virginia rdf:type owl:NamedIndividual ,
                    :State ;
-          :alpha_state_code "51" ;
+          :alpha_state_code "VA" ;
           :name "Virginia" ;
-          :numeric_state_code VA .
+          :numeric_state_code 51 .
 
 
 ###  http://ssei.herokuapp.com/water#Washington
 :Washington rdf:type owl:NamedIndividual ,
                      :State ;
-            :alpha_state_code "53" ;
+            :alpha_state_code "WA" ;
             :name "Washington" ;
-            :numeric_state_code WA .
+            :numeric_state_code 53 .
 
 
 ###  http://ssei.herokuapp.com/water#West_Virginia
 :West_Virginia rdf:type owl:NamedIndividual ,
                         :State ;
-               :alpha_state_code "54" ;
+               :alpha_state_code "WV" ;
                :name "West_Virginia" ;
-               :numeric_state_code WV .
+               :numeric_state_code 54 .
 
 
 ###  http://ssei.herokuapp.com/water#Wisconsin
 :Wisconsin rdf:type owl:NamedIndividual ,
                     :State ;
-           :alpha_state_code "55" ;
+           :alpha_state_code "WI" ;
            :name "Wisconsin" ;
-           :numeric_state_code WI .
+           :numeric_state_code 55 .
 
 
 ###  http://ssei.herokuapp.com/water#Wyoming
 :Wyoming rdf:type owl:NamedIndividual ,
                   :State ;
-         :alpha_state_code "56" ;
+         :alpha_state_code "WY" ;
          :name "Wyoming" ;
-         :numeric_state_code WY .
+         :numeric_state_code 56 .
 
 
 #################################################################

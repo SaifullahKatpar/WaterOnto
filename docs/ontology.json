@@ -324,27 +324,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Alabama",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "01"
+    "@value" : "AL"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Alabama"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "AL"
+    "@value" : "01"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Alaska",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "02"
+    "@value" : "AK"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Alaska"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "AK"
+    "@value" : "02"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#America",
@@ -499,27 +499,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Arizona",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "04"
+    "@value" : "AZ"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Arizona"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "AZ"
+    "@value" : "04"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Arkansas",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "05"
+    "@value" : "AR"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Arkansas"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "AR"
+    "@value" : "05"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Atmosphere",
@@ -540,35 +540,10 @@
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Autauga",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#County" ],
-  "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "Autauga County"
-  } ],
-  "http://ssei.herokuapp.com/water#numeric_county_code" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "001"
-  } ],
-  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "01"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Baldwin",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#County" ],
-  "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "Baldwin"
-  } ],
-  "http://ssei.herokuapp.com/water#numeric_county_code" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "003"
-  } ],
-  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "01"
-  } ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Balouchistan",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -585,14 +560,14 @@
   "@id" : "http://ssei.herokuapp.com/water#California",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "06"
+    "@value" : "CA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "California"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "CA"
+    "@value" : "06"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Canal",
@@ -646,14 +621,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Colorado",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "08"
+    "@value" : "CO"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Colorado"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "CO"
+    "@value" : "08"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Combined_Sewer",
@@ -680,14 +655,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Connecticut",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "09"
+    "@value" : "CT"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Connecticut"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "CT"
+    "@value" : "09"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Continent",
@@ -746,14 +721,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Delaware",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "10"
+    "@value" : "DE"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Delaware"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "DE"
+    "@value" : "10"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#District",
@@ -762,17 +737,17 @@
     "@id" : "http://ssei.herokuapp.com/water#Land_Mass"
   } ]
 }, {
-  "@id" : "http://ssei.herokuapp.com/water#District_of",
+  "@id" : "http://ssei.herokuapp.com/water#District_of_Columbia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "Columbia"
+    "@value" : "DC"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "District_of"
+    "@value" : "District_of_Columbia"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "DC"
+    "@value" : "11"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Ditch",
@@ -853,14 +828,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Florida",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "12"
+    "@value" : "FL"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Florida"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "FL"
+    "@value" : "12"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Fog",
@@ -890,14 +865,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Georgia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "13"
+    "@value" : "GA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Georgia"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "GA"
+    "@value" : "13"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Geosphere",
@@ -908,9 +883,6 @@
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid4"
   } ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Gilgit_Baltistan",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Glacier",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -976,14 +948,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Hawaii",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "15"
+    "@value" : "HI"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Hawaii"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "HI"
+    "@value" : "15"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Humidity",
@@ -1025,40 +997,40 @@
   "@id" : "http://ssei.herokuapp.com/water#Idaho",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "16"
+    "@value" : "ID"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Idaho"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "ID"
+    "@value" : "16"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Illinois",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "17"
+    "@value" : "IL"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Illinois"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "IL"
+    "@value" : "17"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Indiana",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "18"
+    "@value" : "IN"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Indiana"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "IN"
+    "@value" : "18"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Industrial",
@@ -1096,14 +1068,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Iowa",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "19"
+    "@value" : "IA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Iowa"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "IA"
+    "@value" : "19"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Irrigation",
@@ -1118,33 +1090,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Kansas",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "20"
+    "@value" : "KS"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Kansas"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "KS"
-  } ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Karachi",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#City" ],
-  "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "Karachi"
+    "@value" : "20"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Kentucky",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "21"
+    "@value" : "KY"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Kentucky"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "KY"
+    "@value" : "21"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Laboratory",
@@ -1197,27 +1163,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Louisiana",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "22"
+    "@value" : "LA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Louisiana"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "LA"
+    "@value" : "22"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Maine",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "23"
+    "@value" : "ME"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Maine"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "ME"
+    "@value" : "23"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Mantle",
@@ -1229,27 +1195,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Maryland",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "24"
+    "@value" : "MD"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Maryland"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MD"
+    "@value" : "24"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Massachusetts",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "25"
+    "@value" : "MA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Massachusetts"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MA"
+    "@value" : "25"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Measurment",
@@ -1258,14 +1224,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Michigan",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "26"
+    "@value" : "MI"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Michigan"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MI"
+    "@value" : "26"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Mining",
@@ -1280,40 +1246,40 @@
   "@id" : "http://ssei.herokuapp.com/water#Minnesota",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "27"
+    "@value" : "MN"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Minnesota"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MN"
+    "@value" : "27"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Mississippi",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "28"
+    "@value" : "MS"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Mississippi"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MS"
+    "@value" : "28"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Missouri",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "29"
+    "@value" : "MO"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Missouri"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MO"
+    "@value" : "29"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Mist",
@@ -1334,14 +1300,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Montana",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "30"
+    "@value" : "MT"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Montana"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "MT"
+    "@value" : "30"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Natural_Process",
@@ -1353,92 +1319,105 @@
   "@id" : "http://ssei.herokuapp.com/water#Nebraska",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "31"
+    "@value" : "NE"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Nebraska"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NE"
+    "@value" : "31"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Nevada",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "32"
+    "@value" : "NV"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Nevada"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NV"
+    "@value" : "32"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#New_Hampshire",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "33"
+    "@value" : "NH"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "New_Hampshire"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NH"
+    "@value" : "33"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#New_Jersey",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "34"
+    "@value" : "NJ"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "New_Jersey"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NJ"
+    "@value" : "34"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#New_Mexico",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "35"
+    "@value" : "NM"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "New_Mexico"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NM"
+    "@value" : "35"
+  } ]
+}, {
+  "@id" : "http://ssei.herokuapp.com/water#New_York",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
+  "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
+    "@value" : "NY"
+  } ],
+  "http://ssei.herokuapp.com/water#name" : [ {
+    "@value" : "New_York"
+  } ],
+  "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#North_Carolina",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "37"
+    "@value" : "NC"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "North_Carolina"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "NC"
+    "@value" : "37"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#North_Dakota",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "38"
+    "@value" : "ND"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "North_Dakota"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "ND"
+    "@value" : "38"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Ocean",
@@ -1452,40 +1431,40 @@
   "@id" : "http://ssei.herokuapp.com/water#Ohio",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "39"
+    "@value" : "OH"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Ohio"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "OH"
+    "@value" : "39"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Oklahoma",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "40"
+    "@value" : "OK"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Oklahoma"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "OK"
+    "@value" : "40"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Oregon",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "41"
+    "@value" : "OR"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Oregon"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "OR"
+    "@value" : "41"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Outcrop",
@@ -1500,18 +1479,6 @@
     "@id" : "http://ssei.herokuapp.com/water#Facility"
   } ]
 }, {
-  "@id" : "http://ssei.herokuapp.com/water#Pakhtoon_Khuwah",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Pakistan",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Country" ],
-  "http://ssei.herokuapp.com/water#code" : [ {
-    "@value" : "PK"
-  } ],
-  "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "Islamic Repulic of Pakistan"
-  } ]
-}, {
   "@id" : "http://ssei.herokuapp.com/water#Pavement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -1521,14 +1488,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Pennsylvania",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "42"
+    "@value" : "PA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Pennsylvania"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "PA"
+    "@value" : "42"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Percipitation",
@@ -1568,9 +1535,6 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ssei.herokuapp.com/water#Water_Use"
   } ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Punjab",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Rain",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1612,14 +1576,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Rhode_Island",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "44"
+    "@value" : "RI"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Rhode_Island"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "RI"
+    "@value" : "44"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#River",
@@ -1658,12 +1622,6 @@
     "@id" : "http://ssei.herokuapp.com/water#Body_Of_Water"
   } ]
 }, {
-  "@id" : "http://ssei.herokuapp.com/water#San_Francisco",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#City" ],
-  "http://ssei.herokuapp.com/water#name" : [ {
-    "@value" : "San Francisco"
-  } ]
-}, {
   "@id" : "http://ssei.herokuapp.com/water#Sea",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -1681,9 +1639,6 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ssei.herokuapp.com/water#Land"
   } ]
-}, {
-  "@id" : "http://ssei.herokuapp.com/water#Sindh",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#Province" ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Sinkhole",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1734,27 +1689,27 @@
   "@id" : "http://ssei.herokuapp.com/water#South_Carolina",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "45"
+    "@value" : "SC"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "South_Carolina"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "SC"
+    "@value" : "45"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#South_Dakota",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "46"
+    "@value" : "SD"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "South_Dakota"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "SD"
+    "@value" : "46"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Spring",
@@ -1871,14 +1826,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Tennessee",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "47"
+    "@value" : "TN"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Tennessee"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "TN"
+    "@value" : "47"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Territory",
@@ -1896,14 +1851,14 @@
   "@id" : "http://ssei.herokuapp.com/water#Texas",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "48"
+    "@value" : "TX"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Texas"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "TX"
+    "@value" : "48"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Thermoelectric_Plant",
@@ -1966,53 +1921,53 @@
   "@id" : "http://ssei.herokuapp.com/water#Utah",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "49"
+    "@value" : "UT"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Utah"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "UT"
+    "@value" : "49"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Vermont",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "50"
+    "@value" : "VT"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Vermont"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "VT"
+    "@value" : "50"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Virginia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "51"
+    "@value" : "VA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Virginia"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "VA"
+    "@value" : "51"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Washington",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "53"
+    "@value" : "WA"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Washington"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "WA"
+    "@value" : "53"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Waste_Injection_Well",
@@ -2148,14 +2103,14 @@
   "@id" : "http://ssei.herokuapp.com/water#West_Virginia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "54"
+    "@value" : "WV"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "West_Virginia"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "WV"
+    "@value" : "54"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Wetland",
@@ -2179,27 +2134,27 @@
   "@id" : "http://ssei.herokuapp.com/water#Wisconsin",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "55"
+    "@value" : "WI"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Wisconsin"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "WI"
+    "@value" : "55"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#Wyoming",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ssei.herokuapp.com/water#State" ],
   "http://ssei.herokuapp.com/water#alpha_state_code" : [ {
-    "@value" : "56"
+    "@value" : "WY"
   } ],
   "http://ssei.herokuapp.com/water#name" : [ {
     "@value" : "Wyoming"
   } ],
   "http://ssei.herokuapp.com/water#numeric_state_code" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-    "@value" : "WY"
+    "@value" : "56"
   } ]
 }, {
   "@id" : "http://ssei.herokuapp.com/water#acceleration",

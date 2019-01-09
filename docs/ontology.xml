@@ -2456,9 +2456,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alabama">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>01</alpha_state_code>
+        <alpha_state_code>AL</alpha_state_code>
         <name>Alabama</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">AL</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2468,9 +2468,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alaska">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>02</alpha_state_code>
+        <alpha_state_code>AK</alpha_state_code>
         <name>Alaska</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">AK</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2546,9 +2546,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arizona">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>04</alpha_state_code>
+        <alpha_state_code>AZ</alpha_state_code>
         <name>Arizona</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">AZ</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2558,9 +2558,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arkansas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>05</alpha_state_code>
+        <alpha_state_code>AR</alpha_state_code>
         <name>Arkansas</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">AR</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2568,33 +2568,14 @@
     <!-- http://ssei.herokuapp.com/water#Autauga -->
 
 
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Autauga">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#County"/>
-        <name>Autauga County</name>
-        <numeric_county_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">001</numeric_county_code>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</numeric_state_code>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Autauga"/>
     
 
 
     <!-- http://ssei.herokuapp.com/water#Baldwin -->
 
 
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Baldwin">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#County"/>
-        <name>Baldwin</name>
-        <numeric_county_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">003</numeric_county_code>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Balouchistan -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Balouchistan">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Province"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Baldwin"/>
     
 
 
@@ -2603,9 +2584,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#California">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>06</alpha_state_code>
+        <alpha_state_code>CA</alpha_state_code>
         <name>California</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">CA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2615,9 +2596,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Colorado">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>08</alpha_state_code>
+        <alpha_state_code>CO</alpha_state_code>
         <name>Colorado</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">CO</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2627,9 +2608,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Connecticut">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>09</alpha_state_code>
+        <alpha_state_code>CT</alpha_state_code>
         <name>Connecticut</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">CT</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2639,21 +2620,21 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Delaware">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>10</alpha_state_code>
+        <alpha_state_code>DE</alpha_state_code>
         <name>Delaware</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">DE</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</numeric_state_code>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://ssei.herokuapp.com/water#District_of -->
+    <!-- http://ssei.herokuapp.com/water#District_of_Columbia -->
 
 
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#District_of">
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#District_of_Columbia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>Columbia</alpha_state_code>
-        <name>District_of</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">DC</numeric_state_code>
+        <alpha_state_code>DC</alpha_state_code>
+        <name>District_of_Columbia</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2663,9 +2644,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Florida">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>12</alpha_state_code>
+        <alpha_state_code>FL</alpha_state_code>
         <name>Florida</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">FL</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2675,18 +2656,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Georgia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>13</alpha_state_code>
+        <alpha_state_code>GA</alpha_state_code>
         <name>Georgia</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">GA</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Gilgit_Baltistan -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Gilgit_Baltistan">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Province"/>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2696,9 +2668,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Hawaii">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>15</alpha_state_code>
+        <alpha_state_code>HI</alpha_state_code>
         <name>Hawaii</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">HI</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2708,9 +2680,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Idaho">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>16</alpha_state_code>
+        <alpha_state_code>ID</alpha_state_code>
         <name>Idaho</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">ID</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2720,9 +2692,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Illinois">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>17</alpha_state_code>
+        <alpha_state_code>IL</alpha_state_code>
         <name>Illinois</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">IL</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2732,9 +2704,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Indiana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>18</alpha_state_code>
+        <alpha_state_code>IN</alpha_state_code>
         <name>Indiana</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">IN</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2744,9 +2716,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Iowa">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>19</alpha_state_code>
+        <alpha_state_code>IA</alpha_state_code>
         <name>Iowa</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">IA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2756,19 +2728,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kansas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>20</alpha_state_code>
+        <alpha_state_code>KS</alpha_state_code>
         <name>Kansas</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">KS</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Karachi -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Karachi">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#City"/>
-        <name>Karachi</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2778,9 +2740,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kentucky">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>21</alpha_state_code>
+        <alpha_state_code>KY</alpha_state_code>
         <name>Kentucky</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">KY</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2790,9 +2752,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Louisiana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>22</alpha_state_code>
+        <alpha_state_code>LA</alpha_state_code>
         <name>Louisiana</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">LA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2802,9 +2764,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maine">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>23</alpha_state_code>
+        <alpha_state_code>ME</alpha_state_code>
         <name>Maine</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">ME</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2814,9 +2776,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maryland">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>24</alpha_state_code>
+        <alpha_state_code>MD</alpha_state_code>
         <name>Maryland</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MD</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2826,9 +2788,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Massachusetts">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>25</alpha_state_code>
+        <alpha_state_code>MA</alpha_state_code>
         <name>Massachusetts</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2838,9 +2800,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Michigan">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>26</alpha_state_code>
+        <alpha_state_code>MI</alpha_state_code>
         <name>Michigan</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MI</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2850,9 +2812,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Minnesota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>27</alpha_state_code>
+        <alpha_state_code>MN</alpha_state_code>
         <name>Minnesota</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MN</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2862,9 +2824,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Mississippi">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>28</alpha_state_code>
+        <alpha_state_code>MS</alpha_state_code>
         <name>Mississippi</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MS</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2874,9 +2836,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Missouri">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>29</alpha_state_code>
+        <alpha_state_code>MO</alpha_state_code>
         <name>Missouri</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MO</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2886,9 +2848,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Montana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>30</alpha_state_code>
+        <alpha_state_code>MT</alpha_state_code>
         <name>Montana</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">MT</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2898,9 +2860,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nebraska">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>31</alpha_state_code>
+        <alpha_state_code>NE</alpha_state_code>
         <name>Nebraska</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NE</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2910,9 +2872,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nevada">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>32</alpha_state_code>
+        <alpha_state_code>NV</alpha_state_code>
         <name>Nevada</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NV</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2922,9 +2884,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Hampshire">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>33</alpha_state_code>
+        <alpha_state_code>NH</alpha_state_code>
         <name>New_Hampshire</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NH</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2934,9 +2896,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Jersey">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>34</alpha_state_code>
+        <alpha_state_code>NJ</alpha_state_code>
         <name>New_Jersey</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NJ</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2946,9 +2908,21 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Mexico">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>35</alpha_state_code>
+        <alpha_state_code>NM</alpha_state_code>
         <name>New_Mexico</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NM</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</numeric_state_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#New_York -->
+
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_York">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
+        <alpha_state_code>NY</alpha_state_code>
+        <name>New_York</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2958,9 +2932,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Carolina">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>37</alpha_state_code>
+        <alpha_state_code>NC</alpha_state_code>
         <name>North_Carolina</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">NC</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2970,9 +2944,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Dakota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>38</alpha_state_code>
+        <alpha_state_code>ND</alpha_state_code>
         <name>North_Dakota</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">ND</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2982,9 +2956,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Ohio">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>39</alpha_state_code>
+        <alpha_state_code>OH</alpha_state_code>
         <name>Ohio</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">OH</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -2994,9 +2968,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oklahoma">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>40</alpha_state_code>
+        <alpha_state_code>OK</alpha_state_code>
         <name>Oklahoma</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">OK</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3006,29 +2980,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oregon">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>41</alpha_state_code>
+        <alpha_state_code>OR</alpha_state_code>
         <name>Oregon</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">OR</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Pakhtoon_Khuwah -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pakhtoon_Khuwah">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Province"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Pakistan -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pakistan">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Country"/>
-        <code>PK</code>
-        <name>Islamic Repulic of Pakistan</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3038,18 +2992,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pennsylvania">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>42</alpha_state_code>
+        <alpha_state_code>PA</alpha_state_code>
         <name>Pennsylvania</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">PA</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Punjab -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Punjab">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Province"/>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3059,28 +3004,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Rhode_Island">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>44</alpha_state_code>
+        <alpha_state_code>RI</alpha_state_code>
         <name>Rhode_Island</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">RI</numeric_state_code>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#San_Francisco -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#San_Francisco">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#City"/>
-        <name>San Francisco</name>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Sindh -->
-
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Sindh">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Province"/>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3090,9 +3016,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Carolina">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>45</alpha_state_code>
+        <alpha_state_code>SC</alpha_state_code>
         <name>South_Carolina</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">SC</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3102,9 +3028,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Dakota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>46</alpha_state_code>
+        <alpha_state_code>SD</alpha_state_code>
         <name>South_Dakota</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">SD</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3114,9 +3040,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Tennessee">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>47</alpha_state_code>
+        <alpha_state_code>TN</alpha_state_code>
         <name>Tennessee</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">TN</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3126,9 +3052,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Texas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>48</alpha_state_code>
+        <alpha_state_code>TX</alpha_state_code>
         <name>Texas</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">TX</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3138,9 +3064,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Utah">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>49</alpha_state_code>
+        <alpha_state_code>UT</alpha_state_code>
         <name>Utah</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">UT</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3150,9 +3076,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Vermont">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>50</alpha_state_code>
+        <alpha_state_code>VT</alpha_state_code>
         <name>Vermont</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">VT</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3162,9 +3088,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Virginia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>51</alpha_state_code>
+        <alpha_state_code>VA</alpha_state_code>
         <name>Virginia</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">VA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3174,9 +3100,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Washington">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>53</alpha_state_code>
+        <alpha_state_code>WA</alpha_state_code>
         <name>Washington</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">WA</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3186,9 +3112,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#West_Virginia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>54</alpha_state_code>
+        <alpha_state_code>WV</alpha_state_code>
         <name>West_Virginia</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">WV</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3198,9 +3124,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wisconsin">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>55</alpha_state_code>
+        <alpha_state_code>WI</alpha_state_code>
         <name>Wisconsin</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">WI</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</numeric_state_code>
     </owl:NamedIndividual>
     
 
@@ -3210,9 +3136,9 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wyoming">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <alpha_state_code>56</alpha_state_code>
+        <alpha_state_code>WY</alpha_state_code>
         <name>Wyoming</name>
-        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">WY</numeric_state_code>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</numeric_state_code>
     </owl:NamedIndividual>
     
 
