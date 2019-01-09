@@ -563,9 +563,7 @@
 
     <!-- http://ssei.herokuapp.com/ontologies/1#Agency -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Agency">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Agency"/>
     
 
 
@@ -631,7 +629,6 @@
     <!-- http://ssei.herokuapp.com/ontologies/1#Atomospheric_Condition -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Atomospheric_Condition">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation</rdfs:comment>
     </owl:Class>
     
@@ -844,7 +841,6 @@
     <!-- http://ssei.herokuapp.com/ontologies/1#Earth -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Earth">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the substance of the land surface</rdfs:comment>
     </owl:Class>
     
@@ -1026,17 +1022,13 @@
 
     <!-- http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit"/>
     
 
 
     <!-- http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit_Code -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit_Code">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Hydrologic_Unit_Code"/>
     
 
 
@@ -1179,9 +1171,7 @@
 
     <!-- http://ssei.herokuapp.com/ontologies/1#Measurment -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Measurment">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Measurment"/>
     
 
 
@@ -1214,7 +1204,6 @@
     <!-- http://ssei.herokuapp.com/ontologies/1#Natural_Process -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/ontologies/1#Natural_Process">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process existing in or produced by nature (rather than by the intent of human beings).</rdfs:comment>
     </owl:Class>
     
@@ -2315,6 +2304,390 @@
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/ontologies/1#San_Francisco">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#City"/>
         <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</ontologies:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Arizona -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arizona">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Arkansas -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arkansas">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#California -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#California">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Colorado -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Colorado">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Connecticut -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Connecticut">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Delaware -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Delaware">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Florida -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Florida">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Georgia -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Georgia">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Hawaii">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Idaho -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Idaho">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Illinois -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Illinois">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Indiana -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Indiana">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Iowa -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Iowa">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Kansas -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kansas">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Kentucky -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kentucky">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Louisiana -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Louisiana">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Maine -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maine">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Maryland -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maryland">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Massachusetts -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Massachusetts">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Michigan -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Michigan">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Minnesota -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Minnesota">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Mississippi -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Mississippi">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Missouri -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Missouri">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Montana -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Montana">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Nebraska -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nebraska">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Nevada -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nevada">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Hampshire -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Hampshire">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Jersey -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Jersey">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Mexico">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#New_York -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_York">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#North_Carolina -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Carolina">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#North_Dakota -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Dakota">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Ohio -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Ohio">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Oklahoma -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oklahoma">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Oregon -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oregon">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Pennsylvania -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pennsylvania">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Rhode_Island -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Rhode_Island">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#South_Carolina -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Carolina">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#South_Dakota -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Dakota">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Tennessee -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Tennessee">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Texas -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Texas">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Utah -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Utah">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Vermont -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Vermont">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Virginia -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Virginia">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Washington -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Washington">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#West_Virginia -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#West_Virginia">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Wisconsin -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wisconsin">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Wyoming -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wyoming">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/ontologies/1#State"/>
     </owl:NamedIndividual>
     
 
