@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ssei.herokuapp.com/usgs#"
+     xml:base="http://ssei.herokuapp.com/usgs"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://ssei.herokuapp.com/usgs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Activity-Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Activity-Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#Water_Quality_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#ActivityMetric-Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#ActivityMetric-Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#Water_Quality_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Daily_Values_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Daily_Values_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Groundwater_Levels_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Groundwater_Levels_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Instantaneous_Values_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Instantaneous_Values_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Result-Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Result-Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#Water_Quality_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Site_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Site_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Station-Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Station-Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#Water_Quality_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Statistics_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Statistics_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#USGS_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    
+
+
+    <!-- http://ssei.herokuapp.com/usgs#Water_Quality_Service -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/usgs#Water_Quality_Service">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/usgs#USGS_Service"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Activity-Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#ActivityMetric-Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Result-Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Station-Service"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Daily_Values_Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Groundwater_Levels_Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Instantaneous_Values_Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Site_Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Statistics_Service"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/usgs#Water_Quality_Service"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

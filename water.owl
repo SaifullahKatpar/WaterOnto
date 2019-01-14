@@ -341,6 +341,16 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#undergoes -->
+
+    <owl:ObjectProperty rdf:about="http://ssei.herokuapp.com/water#undergoes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#Water"/>
+        <rdfs:range rdf:resource="http://ssei.herokuapp.com/water#Natural_Process"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -405,7 +415,7 @@
     <!-- http://ssei.herokuapp.com/water#description -->
 
     <owl:DatatypeProperty rdf:about="http://ssei.herokuapp.com/water#description">
-        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -460,7 +470,7 @@
 
     <owl:DatatypeProperty rdf:about="http://ssei.herokuapp.com/water#name">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -517,7 +527,6 @@
     <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
-        <rdfs:domain rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </rdf:Description>
     
@@ -555,34 +564,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#concentration"/>
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#dimensionless"/>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Activity-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Activity-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water-Quality-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterqualitydata.us/data/Activity/search?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#ActivityMetric-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#ActivityMetric-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water-Quality-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterqualitydata.us/data/ActivityMetric/search?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -814,20 +795,6 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Daily-Values-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Daily-Values-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterservices.usgs.gov/nwis/dv/?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://ssei.herokuapp.com/water#Dam -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Dam">
@@ -1019,20 +986,6 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Groundwater-Levels-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Groundwater-Levels-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterservices.usgs.gov/nwis/gwlevels/?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://ssei.herokuapp.com/water#Groundwater_Quality -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Groundwater_Quality">
@@ -1124,20 +1077,6 @@
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Infiltration">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water_Cycle"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infiltration is the process by which water on the ground surface enters the soil. Infiltration rate in soil science is a measure of the rate at which soil is able to absorb rainfall or irrigation. It is most often measured in millimetres per hour or inches per hour.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Instantaneous-Values-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Instantaneous-Values-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterservices.usgs.gov/nwis/iv/?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1387,20 +1326,6 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Result-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Result-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water-Quality-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterqualitydata.us/data/Result/search?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://ssei.herokuapp.com/water#River -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#River">
@@ -1484,20 +1409,6 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Site-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Site-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterservices.usgs.gov/nwis/site/?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://ssei.herokuapp.com/water#Sleet -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Sleet">
@@ -1536,34 +1447,6 @@
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#State">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Land_Mass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Station-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Station-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water-Quality-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterqualitydata.us/data/Station/search?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Statistics-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Statistics-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterservices.usgs.gov/nwis/stat/?</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1734,12 +1617,6 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#USGS-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#USGS-Service"/>
-    
-
-
     <!-- http://ssei.herokuapp.com/water#Unconfined_Aquifer -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Unconfined_Aquifer">
@@ -1791,35 +1668,21 @@
     <!-- http://ssei.herokuapp.com/water#Water -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_quality"/>
                 <owl:someValuesFrom rdf:resource="http://ssei.herokuapp.com/water#Water_Quality"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth&apos;s streams, lakes, and oceans, and the fluids of most living organisms.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#Water-Quality-Service -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water-Quality-Service">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#USGS-Service"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_url"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.waterqualitydata.us/data/</owl:hasValue>
+                <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#undergoes"/>
+                <owl:someValuesFrom rdf:resource="http://ssei.herokuapp.com/water#Water_Cycle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth&apos;s streams, lakes, and oceans, and the fluids of most living organisms.</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- http://ssei.herokuapp.com/water#WaterEntity -->
-
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#WaterEntity"/>
     
 
 
@@ -1840,10 +1703,16 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#Water_Entity -->
+
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water_Entity"/>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Water_Quality -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water_Quality">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_quality_property"/>
@@ -1858,7 +1727,7 @@
     <!-- http://ssei.herokuapp.com/water#Water_Quality_Property -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water_Quality_Property">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://ssei.herokuapp.com/water#has_measurment"/>
@@ -1881,7 +1750,7 @@
     <!-- http://ssei.herokuapp.com/water#Water_Use -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Water_Use">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#WaterEntity"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Water_Entity"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The water in the Nation&apos;s rivers, lakes, reservoirs, and underground aquifers are vitally important to our everyday life. These water bodies supply the water to serve the needs of every human and for the world&apos;s ecological systems, too.</rdfs:comment>
     </owl:Class>
     
@@ -2185,8 +2054,8 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AK001">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Agency"/>
-        <ontologies:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK001</ontologies:code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska Department of Transportation and Public Facilities</ontologies:name>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK001</code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska Department of Transportation and Public Facilities</name>
     </owl:NamedIndividual>
     
 
@@ -2195,8 +2064,8 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AK002">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Agency"/>
-        <ontologies:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK002</ontologies:code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska Department of Environmental Conservation</ontologies:name>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK002</code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska Department of Environmental Conservation</name>
     </owl:NamedIndividual>
     
 
@@ -2205,588 +2074,648 @@
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AK004">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Agency"/>
-        <ontologies:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK004</ontologies:code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ontologies:name>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK004</code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></name>
     </owl:NamedIndividual>
     
 
+
+    <!-- http://ssei.herokuapp.com/water#Alabama -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alabama">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alabama</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</numeric_state_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Alaska -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alaska">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02</numeric_state_code>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://ssei.herokuapp.com/water#America -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#America">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Country"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Alabama"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Alaska"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Arizona"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Arkansas"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Autauga"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Baldwin"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#California"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Colorado"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Connecticut"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Delaware"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Florida"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Georgia"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Hawaii"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Idaho"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Illinois"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Indiana"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Iowa"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Kansas"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Kentucky"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Louisiana"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Maine"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Maryland"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Massachusetts"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Michigan"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Minnesota"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Mississippi"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Missouri"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Montana"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Nebraska"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Nevada"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#New_Hampshire"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#New_Jersey"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#New_Mexico"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#North_Carolina"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#North_Dakota"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Ohio"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Oklahoma"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Oregon"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Pennsylvania"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Rhode_Island"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#South_Carolina"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#South_Dakota"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Tennessee"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Texas"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Utah"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Vermont"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Virginia"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Washington"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#West_Virginia"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Wisconsin"/>
-        <ontologies:has_state rdf:resource="http://ssei.herokuapp.com/water#Wyoming"/>
-        <ontologies:code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US</ontologies:code>
-        <ontologies:hasTotalCities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311</ontologies:hasTotalCities>
-        <ontologies:hasTotalCounties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3283</ontologies:hasTotalCounties>
-        <ontologies:hasTotalHydrologicalSites rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1653702</ontologies:hasTotalHydrologicalSites>
-        <ontologies:hasTotalStates rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</ontologies:hasTotalStates>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States of America</ontologies:name>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Alabama"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Alaska"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Arizona"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Arkansas"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Autauga"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Baldwin"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#California"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Colorado"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Connecticut"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Delaware"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Florida"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Georgia"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Hawaii"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Idaho"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Illinois"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Indiana"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Iowa"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Kansas"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Kentucky"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Louisiana"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Maine"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Maryland"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Massachusetts"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Michigan"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Minnesota"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Mississippi"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Missouri"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Montana"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Nebraska"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Nevada"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#New_Hampshire"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#New_Jersey"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#New_Mexico"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#North_Carolina"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#North_Dakota"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Ohio"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Oklahoma"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Oregon"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Pennsylvania"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Rhode_Island"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#South_Carolina"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#South_Dakota"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Tennessee"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Texas"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Utah"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Vermont"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Virginia"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Washington"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#West_Virginia"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Wisconsin"/>
+        <has_state rdf:resource="http://ssei.herokuapp.com/water#Wyoming"/>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US</code>
+        <hasTotalCities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311</hasTotalCities>
+        <hasTotalCounties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3283</hasTotalCounties>
+        <hasTotalHydrologicalSites rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1653702</hasTotalHydrologicalSites>
+        <hasTotalStates rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</hasTotalStates>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States of America</name>
     </owl:NamedIndividual>
     
 
 
-        <!-- http://ssei.herokuapp.com/water#Alabama -->
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alabama">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alabama</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</ontologies:numeric_state_code>
-    </owl:NamedIndividual>
-
-    
-        <!-- http://ssei.herokuapp.com/water#Alaska -->
-
-    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Alaska">
-        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alaska</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02</ontologies:numeric_state_code>
-    </owl:NamedIndividual>
-
-    
-        <!-- http://ssei.herokuapp.com/water#Arizona -->
+    <!-- http://ssei.herokuapp.com/water#Arizona -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arizona">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arizona</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZ</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arizona</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Arkansas -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Arkansas -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Arkansas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arkansas</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arkansas</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#California -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Autauga -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Autauga"/>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#Baldwin -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Baldwin"/>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#California -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#California">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Colorado -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Colorado -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Colorado">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorado</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colorado</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Connecticut -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Connecticut -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Connecticut">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connecticut</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connecticut</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">09</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Delaware -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Delaware -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Delaware">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delaware</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delaware</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#District_of_Columbia -->
+
+
+    <!-- http://ssei.herokuapp.com/water#District_of_Columbia -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#District_of_Columbia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">District_of_Columbia</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">District_of_Columbia</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Florida -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Florida -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Florida">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FL</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florida</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FL</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florida</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Georgia -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Georgia -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Georgia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgia</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgia</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Hawaii -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Hawaii -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Hawaii">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HI</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaii</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HI</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaii</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Idaho -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Idaho -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Idaho">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idaho</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idaho</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Illinois -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Illinois -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Illinois">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illinois</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illinois</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Indiana -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Indiana -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Indiana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IN</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indiana</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IN</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indiana</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Iowa -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Iowa -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Iowa">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iowa</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iowa</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Kansas -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Kansas -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kansas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KS</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kansas</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KS</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kansas</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Kentucky -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Kentucky -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Kentucky">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KY</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kentucky</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KY</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kentucky</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Louisiana -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Louisiana -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Louisiana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louisiana</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louisiana</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Maine -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Maine -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maine">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ME</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ME</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maine</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Maryland -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Maryland -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Maryland">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MD</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryland</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MD</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maryland</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Massachusetts -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Massachusetts -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Massachusetts">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massachusetts</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massachusetts</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Michigan -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Michigan -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Michigan">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michigan</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MI</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michigan</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Minnesota -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Minnesota -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Minnesota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MN</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minnesota</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MN</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minnesota</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Mississippi -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Mississippi -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Mississippi">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mississippi</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mississippi</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Missouri -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Missouri -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Missouri">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Missouri</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Missouri</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Montana -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Montana -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Montana">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MT</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montana</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MT</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montana</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Nebraska -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Nebraska -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nebraska">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NE</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nebraska</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NE</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nebraska</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Nevada -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Nevada -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Nevada">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NV</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nevada</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NV</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nevada</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#New_Hampshire -->
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Hampshire -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Hampshire">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NH</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Hampshire</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NH</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Hampshire</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#New_Jersey -->
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Jersey -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Jersey">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NJ</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Jersey</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NJ</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Jersey</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#New_Mexico -->
+
+
+    <!-- http://ssei.herokuapp.com/water#New_Mexico -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_Mexico">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Mexico</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NM</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Mexico</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#New_York -->
+
+
+    <!-- http://ssei.herokuapp.com/water#New_York -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#New_York">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NY</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_York</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NY</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_York</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#North_Carolina -->
+
+
+    <!-- http://ssei.herokuapp.com/water#North_Carolina -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Carolina">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_Carolina</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_Carolina</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#North_Dakota -->
+
+
+    <!-- http://ssei.herokuapp.com/water#North_Dakota -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#North_Dakota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ND</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_Dakota</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ND</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_Dakota</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Ohio -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Ohio -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Ohio">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OH</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohio</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OH</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohio</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Oklahoma -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Oklahoma -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oklahoma">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OK</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oklahoma</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OK</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oklahoma</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Oregon -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Oregon -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Oregon">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OR</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregon</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OR</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oregon</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Pennsylvania -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Pennsylvania -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Pennsylvania">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennsylvania</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennsylvania</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Rhode_Island -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Rhode_Island -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Rhode_Island">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RI</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhode_Island</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RI</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhode_Island</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#South_Carolina -->
+
+
+    <!-- http://ssei.herokuapp.com/water#South_Carolina -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Carolina">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SC</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South_Carolina</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SC</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South_Carolina</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#South_Dakota -->
+
+
+    <!-- http://ssei.herokuapp.com/water#South_Dakota -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#South_Dakota">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SD</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South_Dakota</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SD</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South_Dakota</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Tennessee -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Tennessee -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Tennessee">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TN</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennessee</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TN</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennessee</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Texas -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Texas -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Texas">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TX</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TX</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Utah -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Utah -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Utah">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UT</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utah</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UT</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utah</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Vermont -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Vermont -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Vermont">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VT</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermont</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VT</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermont</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Virginia -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Virginia -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Virginia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virginia</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virginia</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Washington -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Washington -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Washington">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WA</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WA</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#West_Virginia -->
+
+
+    <!-- http://ssei.herokuapp.com/water#West_Virginia -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#West_Virginia">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WV</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West_Virginia</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WV</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West_Virginia</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Wisconsin -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Wisconsin -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wisconsin">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WI</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wisconsin</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WI</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wisconsin</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</numeric_state_code>
     </owl:NamedIndividual>
-
     
-        <!-- http://ssei.herokuapp.com/water#Wyoming -->
+
+
+    <!-- http://ssei.herokuapp.com/water#Wyoming -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Wyoming">
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#State"/>
-        <ontologies:alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WY</ontologies:alpha_state_code>
-        <ontologies:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wyoming</ontologies:name>
-        <ontologies:numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ontologies:numeric_state_code>
+        <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WY</alpha_state_code>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wyoming</name>
+        <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</numeric_state_code>
     </owl:NamedIndividual>
-
-        
+    
 
 
     <!-- 
@@ -2805,25 +2734,6 @@
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#molality"/>
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#molarity"/>
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#normality"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Activity-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#ActivityMetric-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Result-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Station-Service"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Daily-Values-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Groundwater-Levels-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Site-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Statistics-Service"/>
-            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Water-Quality-Service"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
