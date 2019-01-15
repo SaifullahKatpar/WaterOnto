@@ -609,10 +609,10 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Animal_Saste_Lagoon -->
+    <!-- http://ssei.herokuapp.com/water#Animal_Waste_Lagoon -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Animal_Saste_Lagoon">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Site"/>
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Animal_Waste_Lagoon">
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
 
@@ -979,9 +979,9 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Golf_of_Course -->
+    <!-- http://ssei.herokuapp.com/water#Golf_Course -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Golf_of_Course">
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Golf_Course">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
@@ -1398,9 +1398,9 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Septic_system -->
+    <!-- http://ssei.herokuapp.com/water#Septic_System -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Septic_system">
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Septic_System">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
@@ -1449,9 +1449,9 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Soil_hole -->
+    <!-- http://ssei.herokuapp.com/water#Soil_Hole -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Soil_hole">
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Soil_Hole">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Land"/>
     </owl:Class>
     
@@ -1473,9 +1473,9 @@
     
 
 
-    <!-- http://ssei.herokuapp.com/water#Storm_sewer -->
+    <!-- http://ssei.herokuapp.com/water#Storm_Sewer -->
 
-    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Storm_sewer">
+    <owl:Class rdf:about="http://ssei.herokuapp.com/water#Storm_Sewer">
         <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
@@ -1658,7 +1658,7 @@
     <!-- http://ssei.herokuapp.com/water#Waste_Injection_Well -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Waste_Injection_Well">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Site"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
 
@@ -1666,7 +1666,7 @@
     <!-- http://ssei.herokuapp.com/water#Wastewater_Land_Application -->
 
     <owl:Class rdf:about="http://ssei.herokuapp.com/water#Wastewater_Land_Application">
-        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Site"/>
+        <rdfs:subClassOf rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
     </owl:Class>
     
 
@@ -2075,6 +2075,15 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#AG -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AG">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Aggregate_Groundwater_Use"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#AK001 -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AK001">
@@ -2101,6 +2110,26 @@
         <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Agency"/>
         <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AK004</code>
         <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#AS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Aggregate_Surface_Water_Use"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AS</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Aggregate Surface-Water Diversion/Return site represents an aggregate of specific sites where surface water is diverted or returned which is defined by a geographic area or some other common characteristic. An aggregate surface-water site type is used when it is not possible or practical to describe the specific sites as diversions, outfalls, or land application sites, or when water-use information is only available for the aggregate. Aggregate sites that span multiple counties should be coded with 000 as the county code, or an aggregate site can be created for each county.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#AW -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#AW">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Aggregate_Water_Use_Establishment"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AW</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Aggregate Water-Use Establishment represents an aggregate class of water-using establishments or individuals that are associated with a specific geographic location and water-use category, such as all the industrial users located within a county or all self-supplied domestic users in a county. The aggregate class of water-using establishments is identified using the national water-use category code and optionally classified using the Standard Industrial Classification System Code (SIC code) or North American Classification System Code (NAICS code). An aggregate water-use establishment site type is used when specific information needed to create sites for the individual facilities or users is not available or when it is not desirable to store the site-specific information in the database. Data entry rules that apply to water-use establishments also apply to aggregate water-use establishments. Aggregate sites that span multiple counties should be coded with 000 as the county code, or an aggregate site can be created for each county.</description>
     </owl:NamedIndividual>
     
 
@@ -2281,6 +2310,217 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#ES -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#ES">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Estuary"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coastal inlet of the sea or ocean; esp. the mouth of a river, where tide water normally mixes with stream water (modified, Webster). Salinity in estuaries typically ranges from 1 to 25 Practical Salinity Units (psu), as compared oceanic values around 35-psu. See also: tidal stream and coastal.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Facility"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-ambient location where environmental measurements are expected to be strongly influenced by current or previous activities of humans. Sites identified with a &quot;facility&quot; primary site type must be further classified with one of the applicable secondary site types.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-AWL -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-AWL">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Animal_Waste_Lagoon"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-AWL</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A facility for storage and/or biological treatment of wastes from livestock operations. Animal-waste lagoons are earthen structures ranging from pits to large ponds, and contain manure which has been diluted with building washwater, rainfall, and surface runoff. In treatment lagoons, the waste becomes partially liquefied and stabilized by bacterial action before the waste is disposed of on the land and the water is discharged or re-used.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-CI -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-CI">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Cistern"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-CI</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An artificial, non-pressurized reservoir filled by gravity flow and used for water storage. The reservoir may be located above, at, or below ground level. The water may be supplied from diversion of precipitation, surface, or groundwater sources.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-CS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-CS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Combined_Sewer"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-CS</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-DV -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-DV">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Diversion"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-DV</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-FON -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-FON">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Field"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-FON</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-GC -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-GC">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Golf_Course"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-GC</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-HP -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-HP">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Hydroelectric_Plant"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-HP</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-LF -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-LF">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Landfill"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-LF</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-OF -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-OF">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Outfall"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-OF</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-PV -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-PV">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Pavement"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-PV</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-QC -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-QC">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Laboratory"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-QC</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-SEW -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-SEW">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Wastewater_Sewer"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-SEW</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-SPS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-SPS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Septic_System"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-SPS</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-STS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-STS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Storm_Sewer"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-STS</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-TEP -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-TEP">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Thermoelectric_Plant"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-TEP</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WDS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WDS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Water_Distribution_System"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WDS</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WIW -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WIW">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Waste_Injection_Well"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WIW</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WTP -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WTP">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Water_Supply_Treatment_Plant"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WTP</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WU -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WU">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Water_Use_Establishment"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WU</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WWD -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WWD">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Wastewater_Land_Application"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WWD</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#FA-WWTP -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#FA-WWTP">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Wastewater_Treatment_Plant"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA-WWTP</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Florida -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Florida">
@@ -2288,6 +2528,60 @@
         <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FL</alpha_state_code>
         <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florida</name>
         <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</numeric_state_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GL -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GL">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Glacier"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GL</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GW -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GW">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Well"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GW</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GW-EX -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GW-EX">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Extensometer_well"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GW-EX</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GW-HZ -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GW-HZ">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Hyporheic-zone_well"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GW-HZ</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GW-IW -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GW-IW">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Interconnected_wells"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GW-IW</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#GW-TH -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#GW-TH">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Test_Hole"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GW-TH</alpha_site_type_code>
     </owl:NamedIndividual>
     
 
@@ -2376,6 +2670,69 @@
         <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KY</alpha_state_code>
         <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kentucky</name>
         <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</numeric_state_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Land"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA-EX -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA-EX">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Excavation"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-EX</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA-OU -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA-OU">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Outcrop"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-OU</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA-SH -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA-SH">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Soil_Hole"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-SH</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA-SNK -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA-SNK">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Sinkhole"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-SNK</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LA-SR -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LA-SR">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Shore"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-SR</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#LK -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#LK">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Lake"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LK</alpha_site_type_code>
     </owl:NamedIndividual>
     
 
@@ -2567,6 +2924,24 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#OC -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#OC">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Ocean"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#OC-CO -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#OC-CO">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Coastal"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC-CO</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Ohio -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Ohio">
@@ -2618,6 +2993,97 @@
         <alpha_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RI</alpha_state_code>
         <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhode_Island</name>
         <numeric_state_code rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</numeric_state_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SB -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SB">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Subsurface"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SB-CV -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SB-CV">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Cave"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB-CV</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SB-GWD -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SB-GWD">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Groundwater_drain"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB-GWD</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SB-TSM -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SB-TSM">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Tunnel"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB-TSM</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SB-UZ -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SB-UZ">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Unsaturated_zone"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SB-UZ</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#SP -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#SP">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Spring"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#ST -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#ST">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Stream"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST</alpha_site_type_code>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Aggregate Groundwater Withdrawal/Return site represents an aggregate of specific sites whe groundwater is withdrawn or returned which is defined by a geographic area or some other common characteristic. An aggregate groundwatergroundwater site type is used when it is not possible or practical to describe the specific sites as springs or as any type of well including &apos;multiple wells&apos;, or when water-use information is only available for the aggregate. Aggregate sites that span multiple counties should be coded with 000 as the county code, or an aggregate site can be created for each county.</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#ST-CA -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#ST-CA">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Canal"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-CA</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#ST-DCH -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#ST-DCH">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Ditch"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-DCH</alpha_site_type_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ssei.herokuapp.com/water#ST-TS -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#ST-TS">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Tidal_stream"/>
+        <alpha_site_type_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-TS</alpha_site_type_code>
     </owl:NamedIndividual>
     
 
@@ -2699,6 +3165,14 @@
     
 
 
+    <!-- http://ssei.herokuapp.com/water#WE -->
+
+    <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#WE">
+        <rdf:type rdf:resource="http://ssei.herokuapp.com/water#Wetland"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ssei.herokuapp.com/water#Washington -->
 
     <owl:NamedIndividual rdf:about="http://ssei.herokuapp.com/water#Washington">
@@ -2759,6 +3233,16 @@
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#molality"/>
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#molarity"/>
             <rdf:Description rdf:about="http://ssei.herokuapp.com/water#normality"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Extensometer_well"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Hyporheic-zone_well"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Interconnected_wells"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Test_Hole"/>
+            <rdf:Description rdf:about="http://ssei.herokuapp.com/water#Waste_Injection_Well"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
